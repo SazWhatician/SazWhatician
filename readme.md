@@ -107,9 +107,7 @@
 
 <!-- DAILY DEV WISDOM GENERATOR -->
 <div align="center">
-  <a href="https://github.com/SazWhatician">
-    <img src="https://readme-quotes-real.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" />
-  </a>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote" width="80%" />
 </div>
 
 <br />
