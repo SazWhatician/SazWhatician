@@ -1,7 +1,7 @@
 <!--
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║    SASWAT MOHANTY  ·  GITHUB PROFILE  ·  v5.0 "CYBERNETIC ULTRAVIOLET"       ║
-║    → Real-Time Telemetry · Interactive ASCII Avatar · Milestone Trophies     ║
+║    SASWAT MOHANTY  ·  GITHUB PROFILE  ·  v5.1 "CYBERNETIC ULTRAVIOLET"       ║
+║    → Real-Time Telemetry · Checkpoint Progression · Live Star Badges         ║
 ║    → 60 FPS Motion · Multi-Agent AI · Silky UX Systems                       ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 -->
@@ -124,29 +124,33 @@
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- CHECKPOINT 03 · IDENTITY MATRIX & INTERACTIVE ASCII AVATAR          -->
+<!-- CHECKPOINT 03 · IDENTITY MATRIX & BIO-DOSSIER                       -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 ## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"/> 👾 `CHECKPOINT 03` · Identity Matrix & Bio-Dossier `// > whoami`
 
 <table>
 <tr>
-<td width="42%" align="center" valign="middle">
-
-<!-- INTERACTIVE HOVER ANIMATED ASCII AVATAR -->
-<a href="https://github.com/SazWhatician">
-  <img src="ascii_avatar.svg" width="370" alt="Saswat Mohanty Interactive ASCII Avatar"/>
-</a>
+<td width="36%" align="center" valign="middle">
 
 <br/>
-<sub><i>👆 <b>Hover over the Bio-Avatar</b> to activate laser scanline &amp; matrix shift</i></sub>
+
+<!-- ORIGINAL PORTRAIT PHOTO WITH CYBER BORDER -->
+<a href="https://github.com/SazWhatician">
+  <img src="saswatt.jpeg" width="260" alt="Saswat Mohanty" style="border-radius: 20px; border: 2px solid #A855F7;"/>
+</a>
+
 <br/><br/>
 
-<img src="https://img.shields.io/badge/he%2Fhim-IST%20·%20UTC%2B5%3A30-A855F7?style=flat-square&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/Architecture-Autonomous_Agents-22D3EE?style=flat-square&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/Saswat_Mohanty-AI_Engineer-A855F7?style=for-the-badge&labelColor=0D1117"/>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/he%2Fhim-IST%20·%20UTC%2B5%3A30-22D3EE?style=flat-square&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/Focus-Multi--Agent_%2B_SSE-F472B6?style=flat-square&labelColor=0D1117"/>
 
 </td>
-<td width="58%" valign="top">
+<td width="64%" valign="top">
 
 ```typescript
 const saswat: AIEngineer = {
@@ -356,25 +360,116 @@ const saswat: AIEngineer = {
 <!-- CHECKPOINT 07 · PINNED ARTIFACTS & REPOSITORIES                     -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"/> 📦 `CHECKPOINT 07` · Pinned Artifacts & Repositories `// > ls projects/ --pinned`
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"/> 📦 `CHECKPOINT 07` · Pinned Artifacts & Production Ships `// > ls projects/ --pinned`
 
 <div align="center">
 
-<a href="https://github.com/SazWhatician/HRMSXYZ">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=SazWhatician&repo=HRMSXYZ&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=22D3EE&text_color=E2E8F0" width="49%"/>
-</a>
-<a href="https://github.com/SazWhatician/PNEUFINAL">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=SazWhatician&repo=PNEUFINAL&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=22D3EE&text_color=E2E8F0" width="49%"/>
-</a>
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🌌 [`Polaris`](https://github.com/SazWhatician/Polaris)
+<sub>**Grounded AI Academic & Research Platform**</sub><br/>
+<sub>Autonomous multi-agent orchestration, SSE streaming answers, grounded citations &amp; rich interactive chat canvas.</sub>
 
 <br/><br/>
 
-<a href="https://github.com/SazWhatician/ProjectML">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=SazWhatician&repo=ProjectML&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=22D3EE&text_color=E2E8F0" width="49%"/>
+<a href="https://github.com/SazWhatician/Polaris">
+  <img src="https://img.shields.io/github/stars/SazWhatician/Polaris?style=flat-square&logo=github&color=A855F7&labelColor=0D1117"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square"/>
 </a>
-<a href="https://github.com/SazWhatician/SazWhatician">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=SazWhatician&repo=SazWhatician&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=22D3EE&text_color=E2E8F0" width="49%"/>
+
+</td>
+<td width="50%" valign="top">
+
+### 🩺 [`Dr.Debug`](https://github.com/SazWhatician/Dr.Debug)
+<sub>**Intelligent Automated Bug Hunter & Agentic Debugger**</sub><br/>
+<sub>Diagnostic runtime inspection, static code telemetry, automated RCA reports &amp; patch synthesis.</sub>
+
+<br/><br/>
+
+<a href="https://github.com/SazWhatician/Dr.Debug">
+  <img src="https://img.shields.io/github/stars/SazWhatician/Dr.Debug?style=flat-square&logo=github&color=22D3EE&labelColor=0D1117"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AI_Agent-8E44AD?style=flat-square&logo=google&logoColor=white"/>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
 </a>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 🤖 [`page-agent`](https://github.com/SazWhatician/page-agent)
+<sub>**JavaScript In-Page GUI Agent Runtimes**</sub><br/>
+<sub>Control dynamic web interfaces, execute DOM actions, and automate workflows with natural language.</sub>
+
+<br/><br/>
+
+<a href="https://github.com/SazWhatician/page-agent">
+  <img src="https://img.shields.io/github/stars/SazWhatician/page-agent?style=flat-square&logo=github&color=F472B6&labelColor=0D1117"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/GUI_Agents-7B2CBF?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Automation-22D3EE?style=flat-square"/>
+</a>
+
+</td>
+<td width="50%" valign="top">
+
+### 🪐 [`nextjs-nights-shader`](https://github.com/SazWhatician/nextjs-nights-shader)
+<sub>**WebGPU Galaxy Shader & Real-Time Three.js TSL**</sub><br/>
+<sub>Silky 60 FPS WebGPURenderer cosmic simulations, fluid motion, and custom vertex shaders.</sub>
+
+<br/><br/>
+
+<a href="https://github.com/SazWhatician/nextjs-nights-shader">
+  <img src="https://img.shields.io/github/stars/SazWhatician/nextjs-nights-shader?style=flat-square&logo=github&color=A855F7&labelColor=0D1117"/>
+  <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white"/>
+  <img src="https://img.shields.io/badge/WebGPU-005A9C?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
+</a>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
+### 🫁 [`PNUE-RECOG`](https://github.com/SazWhatician/PNUE-RECOG)
+<sub>**Deep Learning Computer Vision Diagnostic Pipeline**</sub><br/>
+<sub>High-accuracy medical imagery neural network with ensemble feature extraction &amp; heatmap visualizer.</sub>
+
+<br/><br/>
+
+<a href="https://github.com/SazWhatician/PNUE-RECOG">
+  <img src="https://img.shields.io/github/stars/SazWhatician/PNUE-RECOG?style=flat-square&logo=github&color=22D3EE&labelColor=0D1117"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white"/>
+</a>
+
+</td>
+<td width="50%" valign="top">
+
+### 👁️ [`Face-Recognition-Model`](https://github.com/SazWhatician/Face-Recognition-Model)
+<sub>**Biometric Vision & Facial Embedding Pipeline**</sub><br/>
+<sub>Real-time face detection, high-dimensional vector embeddings, and ultra-fast cosine similarity matching.</sub>
+
+<br/><br/>
+
+<a href="https://github.com/SazWhatician/Face-Recognition-Model">
+  <img src="https://img.shields.io/github/stars/SazWhatician/Face-Recognition-Model?style=flat-square&logo=github&color=F472B6&labelColor=0D1117"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Computer_Vision-7B2CBF?style=flat-square"/>
+</a>
+
+</td>
+</tr>
+</table>
 
 </div>
 
