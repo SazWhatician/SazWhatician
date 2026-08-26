@@ -1,12 +1,12 @@
 <!--
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║    SASWAT MOHANTY  ·  GITHUB PROFILE  ·  v4.0 "ULTRAVIOLET"                 ║
-║    → Save as README.md in SazWhatician/SazWhatician repo                    ║
-║    → Also commit saswatt.jpeg to that repo root                             ║
+║    SASWAT MOHANTY  ·  GITHUB PROFILE  ·  v5.0 "CYBERNETIC ULTRAVIOLET"       ║
+║    → Real-Time Telemetry · Interactive ASCII Avatar · Milestone Trophies     ║
+║    → 60 FPS Motion · Multi-Agent AI · Silky UX Systems                       ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 -->
 
-<!-- ╭──────── TOP METRICS ────────╮ -->
+<!-- ╭──────── TOP TELEMETRY BEACONS ────────╮ -->
 <div align="right">
   <img src="https://komarev.com/ghpvc/?username=SazWhatician&label=PROFILE+VIEWS&color=A855F7&style=for-the-badge" alt="views"/>
   <img src="https://img.shields.io/github/followers/SazWhatician?label=FOLLOWERS&style=for-the-badge&color=7B2CBF&labelColor=0D1117"/>
@@ -16,8 +16,7 @@
 <div align="center">
 
 <!-- ╭──────── MATRIX BOOT SEQUENCE ────────╮ -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=120&lines=%5BSYSTEM%5D+BOOT+SEQUENCE+...+%5BOK%5D;%5BAGENTS%5D+Multi-agent+subsystem+online+...+%5BOK%5D;%5BSTACK%5D+LangGraph+%C2%B7+Claude+%C2%B7+Gemini+...+%5BOK%5D;%5BSTATUS%5D+All+systems+nominal.+Welcome%2C+SazWhatician." alt="boot"/>
-
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=120&lines=%5BSYSTEM%5D+BOOT+SEQUENCE+...+%5BOK%5D;%5BTELEMETRY%5D+GitHub+Commit+Stream+Synchronized...+%5BOK%5D;%5BAGENTS%5D+LangGraph+%C2%B7+Claude+%C2%B7+Gemini+Fleet+...+%5BONLINE%5D;%5BSTATUS%5D+All+checkpoints+active.+Welcome%2C+SazWhatician." alt="boot"/>
 
 </div>
 
@@ -30,7 +29,7 @@
 
 <!-- ╭──────── TYPING ANIMATION ────────╮ -->
 <a href="https://github.com/SazWhatician">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&pause=900&color=A855F7&center=true&vcenter=true&multiline=true&repeat=true&width=840&height=110&lines=%3E+init+autonomous_agent_architect();%3E+Wiring+LangGraph+%C2%B7+Claude+%C2%B7+Gemini+%C2%B7+Vercel+AI+SDK;%3E+Sculpting+fluid+UX+with+React+%2B+GSAP+%2B+Three.js;%3E+%22Ship+it+clean.+Ship+it+fast.+Ship+it+now.%22" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&pause=900&color=A855F7&center=true&vcenter=true&multiline=true&repeat=true&width=840&height=110&lines=%3E+init+autonomous_agent_architect();%3E+Telemetry+First%3A+Live+Commit+Stats+%26+Waveforms;%3E+Wiring+LangGraph+%C2%B7+Claude+%C2%B7+Gemini+%C2%B7+Vercel+AI+SDK;%3E+Sculpting+fluid+UX+with+React+%2B+GSAP+%2B+Three.js;%3E+%22Ship+it+clean.+Ship+it+fast.+Ship+it+now.%22" alt="Typing SVG"/>
 </a>
 
 <br/><br/>
@@ -43,7 +42,7 @@
 
 <br/><br/>
 
-<!-- ╭──────── CONNECT RAIL ────────╮ -->
+<!-- ╭──────── CONNECT QUICK-BAR ────────╮ -->
 <a href="https://www.linkedin.com/in/saswat-mohanty-0a4549331/">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117"/>
 </a>
@@ -66,46 +65,88 @@
 
 <br/>
 
-## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"/> `01` · Handshake  `// > whoami`
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- CHECKPOINT 01 · BATTLE TELEMETRY & COMMIT STATS                     -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
-<table>
-<tr>
-<td width="37%" align="center" valign="top">
+## <img src="https://media.giphy.com/media/W3QKEujo8vztC/giphy.gif" width="28"/> 🚩 `CHECKPOINT 01` · Battle Telemetry & Commit Stats `// > git log --telemetry`
 
-<br/>
+<div align="center">
 
-<img src="saswatt.jpeg" width="215" alt="Saswat Mohanty"/>
+<!-- LIVE CONTRIBUTION WAVEFORM -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=SazWhatician&theme=react-dark&bg_color=0D1117&color=A855F7&line=22D3EE&point=F472B6&area=true&hide_border=true&custom_title=Saswat%27s%20Live%20Contribution%20Waveform" width="100%"/>
 
 <br/><br/>
 
-```
-    ░░▒▓███████████▓▒░░    
-  ░▒████████████████████▒░  
- ░████████████████████████░ 
- █████▓░░░░░░░░░░░░░▓█████  
- █████░░░░░░░░░░░░░░░█████  
- █████░╔══════╗╔══════╗░█████
- █████░║  ◉   ║║  ◉   ║░█████
- █████░╚══════╝╚══════╝░█████
- █████░░░░  ▽  ░░░░░░░░█████  
- █████░░░╰────────────╯░█████  
- █████░░░░░░░░░░░░░░░░░█████  
- █████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█████  
-  ▀████████████████████████▀  
-    ░░░▓████████████▓░░░      
-  ████████████████████████    
- ████▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓████   
-████▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓████   
- ████▒▓▒▓▒▓▒▓▒▓▒▓▒▓▒▓████   
-  ▀████████████████████▀     
-```
+<!-- PRIMARY COMMIT STATS & STREAK -->
+<img src="https://github-readme-stats.vercel.app/api?username=SazWhatician&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=22D3EE&text_color=E2E8F0&ring_color=F472B6" width="49%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=SazWhatician&theme=tokyonight&hide_border=true&background=0D1117&stroke=A855F7&ring=A855F7&fire=F472B6&currStreakLabel=22D3EE&sideNums=E2E8F0&currStreakNum=E2E8F0&dates=E2E8F0&sideLabels=A855F7" width="49%"/>
+
+<br/><br/>
+
+<!-- LANGUAGES & PROFILE SUMMARY -->
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SazWhatician&layout=compact&langs_count=10&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&text_color=E2E8F0" width="42%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SazWhatician&theme=tokyonight" width="56%"/>
+
+<br/><br/>
+
+<!-- DEEP DIVE ANALYTICS -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SazWhatician&theme=tokyonight" width="32%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SazWhatician&theme=tokyonight" width="32%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=SazWhatician&theme=tokyonight&utcOffset=5.5" width="32%"/>
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 <br/>
 
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- CHECKPOINT 02 · TROPHY VAULT & CHECKPOINT ACHIEVEMENTS              -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
+## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="28"/> 🏆 `CHECKPOINT 02` · Trophy Vault & Checkpoint Badges `// > ls trophies/ --gold-first`
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/%F0%9F%8F%86_TROPHIES-RANK_SSS_TIER-FFD700?style=for-the-badge&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/%E2%AD%90_TIER-LEGENDARY_ENGINEER-A855F7?style=for-the-badge&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/%F0%9F%94%A5_STREAK-ACTIVE_CHECKPOINT-22D3EE?style=for-the-badge&labelColor=0D1117"/>
+
+<br/><br/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=SazWhatician&theme=tokyonight&no-bg=true&no-frame=true&column=4&margin-w=16&margin-h=16&rank=SSS,SS,S,AAA,AA,A,B" width="92%"/>
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- CHECKPOINT 03 · IDENTITY MATRIX & INTERACTIVE ASCII AVATAR          -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
+## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"/> 👾 `CHECKPOINT 03` · Identity Matrix & Bio-Dossier `// > whoami`
+
+<table>
+<tr>
+<td width="42%" align="center" valign="middle">
+
+<!-- INTERACTIVE HOVER ANIMATED ASCII AVATAR -->
+<a href="https://github.com/SazWhatician">
+  <img src="ascii_avatar.svg" width="370" alt="Saswat Mohanty Interactive ASCII Avatar"/>
+</a>
+
+<br/>
+<sub><i>👆 <b>Hover over the Bio-Avatar</b> to activate laser scanline &amp; matrix shift</i></sub>
+<br/><br/>
+
 <img src="https://img.shields.io/badge/he%2Fhim-IST%20·%20UTC%2B5%3A30-A855F7?style=flat-square&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/Architecture-Autonomous_Agents-22D3EE?style=flat-square&labelColor=0D1117"/>
 
 </td>
-<td width="63%" valign="top">
+<td width="58%" valign="top">
 
 ```typescript
 const saswat: AIEngineer = {
@@ -155,7 +196,82 @@ const saswat: AIEngineer = {
 
 <br/>
 
-## <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="28"/> `02` · Current Missions  `// > ls missions/`
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- CHECKPOINT 04 · ARSENAL & TECH STACK RADAR                          -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
+## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="28"/> ⚡ `CHECKPOINT 04` · Arsenal & Tech Stack Radar `// > cat stack.json`
+
+<div align="center">
+
+<table>
+<tr>
+<td valign="top" width="50%">
+
+#### <img src="https://img.shields.io/badge/%E2%9A%A1_Languages-A855F7?style=flat-square&labelColor=0D1117"/>
+
+<img src="https://skillicons.dev/icons?i=py,ts,js,cpp,c,html,css,bash&perline=8"/>
+
+#### <img src="https://img.shields.io/badge/%F0%9F%8C%90_Frontend_%26_Motion-22D3EE?style=flat-square&labelColor=0D1117"/>
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,threejs,vite,figma&perline=8"/>
+<br/>
+<img src="https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=black"/>
+<img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white"/>
+<img src="https://img.shields.io/badge/Barba.js-111111?style=flat-square&logo=javascript&logoColor=white"/>
+<img src="https://img.shields.io/badge/Lenis-000000?style=flat-square&logo=vercel&logoColor=white"/>
+
+#### <img src="https://img.shields.io/badge/%F0%9F%9B%B0%EF%B8%8F_Backend_Systems-F472B6?style=flat-square&labelColor=0D1117"/>
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,flask,graphql,prisma&perline=8"/>
+
+#### <img src="https://img.shields.io/badge/%F0%9F%97%84%EF%B8%8F_Databases_%26_Cache-7B2CBF?style=flat-square&labelColor=0D1117"/>
+
+<img src="https://skillicons.dev/icons?i=mongodb,postgres,redis,firebase,supabase,sqlite&perline=8"/>
+
+</td>
+<td valign="top" width="50%">
+
+#### <img src="https://img.shields.io/badge/%F0%9F%A7%A0_AI_%2F_ML_%26_Multi--Agent-A855F7?style=flat-square&labelColor=0D1117"/>
+
+<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,opencv&perline=8"/>
+<br/>
+<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
+<img src="https://img.shields.io/badge/Claude_API-D97706?style=flat-square&logo=anthropic&logoColor=white"/>
+<img src="https://img.shields.io/badge/Gemini_API-8E44AD?style=flat-square&logo=google&logoColor=white"/>
+<img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vercel_AI_SDK-000000?style=flat-square&logo=vercel&logoColor=white"/>
+<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
+<img src="https://img.shields.io/badge/Pinecone-000000?style=flat-square&logo=pinecone&logoColor=white"/>
+
+#### <img src="https://img.shields.io/badge/%E2%98%81%EF%B8%8F_DevOps_%26_Cloud-22D3EE?style=flat-square&labelColor=0D1117"/>
+
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,gcp,vercel,githubactions,nginx&perline=8"/>
+
+#### <img src="https://img.shields.io/badge/%F0%9F%9B%A0%EF%B8%8F_Tools-F472B6?style=flat-square&labelColor=0D1117"/>
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,linux,vim,notion&perline=8"/>
+
+#### <img src="https://img.shields.io/badge/%F0%9F%8E%A8_Design_%26_Media-7B2CBF?style=flat-square&labelColor=0D1117"/>
+
+<img src="https://skillicons.dev/icons?i=figma,ae,ps&perline=8"/>
+
+</td>
+</tr>
+</table>
+
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+
+<br/>
+
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- CHECKPOINT 05 · ACTIVE QUESTS & MISSIONS                            -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
+## <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="28"/> 🎯 `CHECKPOINT 05` · Active Quests & Missions `// > ls missions/`
 
 <table>
 <tr>
@@ -185,7 +301,7 @@ const saswat: AIEngineer = {
 
 **Distributed AI Systems**
 
-<sub>Vector DBs, event streams,<br/>observability & tracing for<br/>agent fleets in production.</sub>
+<sub>Vector DBs, event streams,<br/>observability &amp; tracing for<br/>agent fleets in production.</sub>
 
 <br/>
 
@@ -202,7 +318,7 @@ const saswat: AIEngineer = {
 
 **Open-Source Agent Tooling**
 
-<sub>Anything that pushes<br/>autonomous agents from<br/>demo to production-ready.</sub>
+<sub>Autonomous agent runtimes,<br/>eval harnesses &amp; browser automation<br/>from demo to production.</sub>
 
 <br/>
 
@@ -218,118 +334,11 @@ const saswat: AIEngineer = {
 
 <br/>
 
-## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="28"/> `03` · Arsenal  `// > cat stack.json`
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- CHECKPOINT 06 · CONTRIBUTION GRID RUNNER                           -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
 
-<div align="center">
-
-<table>
-<tr>
-<td valign="top" width="50%">
-
-#### <img src="https://img.shields.io/badge/%E2%9A%A1_Languages-A855F7?style=flat-square&labelColor=0D1117"/>
-
-<img src="https://skillicons.dev/icons?i=py,ts,js,cpp,c,html,css,bash&perline=8"/>
-
-#### <img src="https://img.shields.io/badge/%F0%9F%8C%90_Frontend-22D3EE?style=flat-square&labelColor=0D1117"/>
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,threejs,vite,figma&perline=8"/>
-<br/>
-<img src="https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=black"/>
-<img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white"/>
-<img src="https://img.shields.io/badge/Barba.js-111111?style=flat-square&logo=javascript&logoColor=white"/>
-<img src="https://img.shields.io/badge/Lenis-000000?style=flat-square&logo=vercel&logoColor=white"/>
-
-#### <img src="https://img.shields.io/badge/%F0%9F%9B%B0%EF%B8%8F_Backend-F472B6?style=flat-square&labelColor=0D1117"/>
-
-<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,flask,graphql,prisma&perline=8"/>
-
-#### <img src="https://img.shields.io/badge/%F0%9F%97%84%EF%B8%8F_Databases-7B2CBF?style=flat-square&labelColor=0D1117"/>
-
-<img src="https://skillicons.dev/icons?i=mongodb,postgres,redis,firebase,supabase,sqlite&perline=8"/>
-
-</td>
-<td valign="top" width="50%">
-
-#### <img src="https://img.shields.io/badge/%F0%9F%A7%A0_AI_%2F_ML-A855F7?style=flat-square&labelColor=0D1117"/>
-
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,opencv&perline=8"/>
-<br/>
-<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
-<img src="https://img.shields.io/badge/Claude_API-D97706?style=flat-square&logo=anthropic&logoColor=white"/>
-<img src="https://img.shields.io/badge/Gemini_API-8E44AD?style=flat-square&logo=google&logoColor=white"/>
-<img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white"/>
-<img src="https://img.shields.io/badge/Vercel_AI_SDK-000000?style=flat-square&logo=vercel&logoColor=white"/>
-<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
-<img src="https://img.shields.io/badge/Pinecone-000000?style=flat-square&logo=pinecone&logoColor=white"/>
-
-#### <img src="https://img.shields.io/badge/%E2%98%81%EF%B8%8F_DevOps-22D3EE?style=flat-square&labelColor=0D1117"/>
-
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,gcp,vercel,githubactions,nginx&perline=8"/>
-
-#### <img src="https://img.shields.io/badge/%F0%9F%9B%A0%EF%B8%8F_Tools-F472B6?style=flat-square&labelColor=0D1117"/>
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,linux,vim,notion&perline=8"/>
-
-#### <img src="https://img.shields.io/badge/%F0%9F%8E%A8_Design-7B2CBF?style=flat-square&labelColor=0D1117"/>
-
-<img src="https://skillicons.dev/icons?i=figma,ae,ps&perline=8"/>
-
-</td>
-</tr>
-</table>
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
-
-<br/>
-
-## <img src="https://media.giphy.com/media/W3QKEujo8vztC/giphy.gif" width="28"/> `04` · Battle Stats  `// > git log --telemetry`
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=SazWhatician&theme=react-dark&bg_color=0D1117&color=A855F7&line=22D3EE&point=F472B6&area=true&hide_border=true&custom_title=Saswat%27s%20Contribution%20Waveform" width="100%"/>
-
-<br/><br/>
-
-<img src="https://github-readme-stats.vercel.app/api?username=SazWhatician&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=22D3EE&text_color=E2E8F0&ring_color=F472B6" width="49%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=SazWhatician&theme=tokyonight&hide_border=true&background=0D1117&stroke=A855F7&ring=A855F7&fire=F472B6&currStreakLabel=22D3EE&sideNums=E2E8F0&currStreakNum=E2E8F0&dates=E2E8F0&sideLabels=A855F7" width="49%"/>
-
-<br/><br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SazWhatician&layout=compact&langs_count=10&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&text_color=E2E8F0" width="42%"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SazWhatician&theme=tokyonight" width="56%"/>
-
-<br/><br/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SazWhatician&theme=tokyonight" width="32%"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SazWhatician&theme=tokyonight" width="32%"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=SazWhatician&theme=tokyonight&utcOffset=5.5" width="32%"/>
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
-
-<br/>
-
-## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="28"/> `05` · Trophy Vault  `// > ls trophies/ --gold-first`
-
-<div align="center">
-
-<br/>
-
-<img src="https://github-profile-trophy.vercel.app/?username=SazWhatician&theme=tokyonight&no-bg=true&no-frame=true&column=4&margin-w=16&margin-h=16&rank=SSS,SS,S,AAA,AA,A,B" width="92%"/>
-
-<br/><br/>
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
-
-<br/>
-
-## <img src="https://media.giphy.com/media/RJVw5Rc5s0zvXNwohI/giphy.gif" width="28"/> `06` · Contribution Grid  `// > git diff --contributions`
+## <img src="https://media.giphy.com/media/RJVw5Rc5s0zvXNwohI/giphy.gif" width="28"/> 🐍 `CHECKPOINT 06` · Contribution Grid Snake Runner `// > git diff --snake-eater`
 
 <div align="center">
   <picture>
@@ -343,23 +352,27 @@ const saswat: AIEngineer = {
 
 <br/>
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"/> `07` · Featured Works  `// > ls projects/ --pinned`
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- CHECKPOINT 07 · PINNED ARTIFACTS & REPOSITORIES                     -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"/> 📦 `CHECKPOINT 07` · Pinned Artifacts & Repositories `// > ls projects/ --pinned`
 
 <div align="center">
 
-<a href="https://github.com/SazWhatician">
+<a href="https://github.com/SazWhatician/HRMSXYZ">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=SazWhatician&repo=HRMSXYZ&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=22D3EE&text_color=E2E8F0" width="49%"/>
 </a>
-<a href="https://github.com/SazWhatician">
+<a href="https://github.com/SazWhatician/PNEUFINAL">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=SazWhatician&repo=PNEUFINAL&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=22D3EE&text_color=E2E8F0" width="49%"/>
 </a>
 
 <br/><br/>
 
-<a href="https://github.com/SazWhatician">
+<a href="https://github.com/SazWhatician/ProjectML">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=SazWhatician&repo=ProjectML&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=22D3EE&text_color=E2E8F0" width="49%"/>
 </a>
-<a href="https://github.com/SazWhatician">
+<a href="https://github.com/SazWhatician/SazWhatician">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=SazWhatician&repo=SazWhatician&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=22D3EE&text_color=E2E8F0" width="49%"/>
 </a>
 
@@ -369,8 +382,12 @@ const saswat: AIEngineer = {
 
 <br/>
 
-<details>
-<summary><h2 style="display:inline">⚔️ &nbsp;<code>08</code> · Competitive Profiles &nbsp;<code>// > ./competitive --expand</code>&nbsp;<sub><i>(click)</i></sub></h2></summary>
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- CHECKPOINT 08 · COMPETITIVE ARENA & CODING TELEMETRY                -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
+<details open>
+<summary><h2 style="display:inline">⚔️ &nbsp;<code>CHECKPOINT 08</code> · Competitive Arena &amp; Code Heatmap &nbsp;<code>// > ./competitive --expand</code></h2></summary>
 
 <br/>
 
@@ -388,7 +405,11 @@ const saswat: AIEngineer = {
 
 <br/>
 
-## <img src="https://media.giphy.com/media/xUOwGhOrYP0jP6iAy4/giphy.gif" width="28"/> `09` · Dev Wisdom  `// > fortune | cowsay`
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- CHECKPOINT 09 · MATRIX DEV WISDOM                                   -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
+## <img src="https://media.giphy.com/media/xUOwGhOrYP0jP6iAy4/giphy.gif" width="28"/> 🔮 `CHECKPOINT 09` · Matrix Dev Wisdom `// > fortune | cowsay`
 
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="82%"/>
@@ -396,7 +417,11 @@ const saswat: AIEngineer = {
 
 <br/>
 
-## <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="28"/> `10` · Connect Matrix  `// > ping --all`
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+<!-- CHECKPOINT 10 · COMM LINK & NEURAL CONNECT                          -->
+<!-- ═══════════════════════════════════════════════════════════════════ -->
+
+## <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="28"/> 📡 `CHECKPOINT 10` · Comm Link & Neural Connect `// > ping --all`
 
 <div align="center">
 
@@ -448,50 +473,13 @@ const saswat: AIEngineer = {
 
 <br/>
 
-<!-- ╭──────── FOOTER ────────╮ -->
+<!-- ╭──────── FOOTER WAVE ANIMATION ────────╮ -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:F472B6,25:22D3EE,55:A855F7,80:7B2CBF,100:0D1117&height=180&section=footer&text=Thanks%20for%20visiting%20%E2%9C%A8&fontSize=28&fontColor=FFFFFF&fontAlign=50&fontAlignY=72&animation=twinkling" width="100%"/>
 
 <div align="center">
   <sub>
-    Engineered with ⚡ &amp; ☕ by
+    ⚡ Engineered with Cybernetic Motion &amp; AI by
     <a href="https://github.com/SazWhatician"><b>Saswat Mohanty</b></a>
     &nbsp;·&nbsp; <i>"Ship it clean. Ship it fast. Ship it now."</i>
   </sub>
 </div>
-
-<!--
-╔═══════════════════════════════════════════════════════════════════╗
-║  SETUP CHECKLIST (delete this block before publishing)            ║
-║                                                                   ║
-║  1. Repo name MUST equal username: SazWhatician/SazWhatician      ║
-║  2. Save this file as README.md in that repo root                 ║
-║  3. Commit saswatt.jpeg to the same repo root                     ║
-║  4. Snake animation needs .github/workflows/snake.yml:            ║
-║                                                                   ║
-║     name: Generate Snake                                          ║
-║     on:                                                           ║
-║       schedule: [{cron: "0 0 * * *"}]                            ║
-║       workflow_dispatch:                                          ║
-║     jobs:                                                         ║
-║       generate:                                                   ║
-║         runs-on: ubuntu-latest                                    ║
-║         steps:                                                    ║
-║           - uses: Platane/snk/svg-only@v3                         ║
-║             with:                                                 ║
-║               github_user_name: SazWhatician                     ║
-║               outputs: |                                          ║
-║                 dist/github-contribution-grid-snake.svg           ║
-║                 dist/github-contribution-grid-snake-dark.svg?     ║
-║                 palette=github-dark                               ║
-║           - uses: crazy-max/ghaction-github-pages@v3              ║
-║             with:                                                 ║
-║               target_branch: output                               ║
-║               build_dir: dist                                     ║
-║             env:                                                  ║
-║               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}           ║
-║                                                                   ║
-║  5. Replace placeholder X / Discord / BuyMeACoffee URLs           ║
-║  6. For WakaTime: sign in at wakatime.com, add WAKATIME_API_KEY   ║
-║     to repo secrets and set up the wakatime workflow              ║
-╚═══════════════════════════════════════════════════════════════════╝
--->

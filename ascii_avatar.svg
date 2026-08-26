@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 580" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c14" stop-opacity="0.97"/>
+      <stop offset="45%" stop-color="#0d1117" stop-opacity="0.98"/>
+      <stop offset="100%" stop-color="#19092b" stop-opacity="0.97"/>
+    </linearGradient>
+
+    <linearGradient id="neonBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A855F7">
+        <animate attributeName="stop-color" values="#A855F7;#22D3EE;#F472B6;#7B2CBF;#A855F7" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#22D3EE">
+        <animate attributeName="stop-color" values="#22D3EE;#F472B6;#A855F7;#22D3EE" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#F472B6">
+        <animate attributeName="stop-color" values="#F472B6;#7B2CBF;#22D3EE;#F472B6" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <linearGradient id="asciiTextGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#C084FC"/>
+      <stop offset="35%" stop-color="#F1F5F9"/>
+      <stop offset="70%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#F472B6"/>
+    </linearGradient>
+
+    <linearGradient id="hoverTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="50%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#F472B6"/>
+    </linearGradient>
+
+    <linearGradient id="scanlineGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .ascii-card {
+      cursor: pointer;
+      transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1), filter 0.4s ease;
+      transform-origin: center center;
+    }
+    .ascii-card:hover {
+      transform: translateY(-8px) scale(1.025);
+      filter: drop-shadow(0 0 24px rgba(168, 85, 247, 0.5)) drop-shadow(0 0 45px rgba(34, 211, 238, 0.3));
+    }
+    .ascii-art {
+      font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Courier New', monospace;
+      font-size: 8px;
+      font-weight: 700;
+      letter-spacing: 1.1px;
+      fill: url(#asciiTextGrad);
+      transition: fill 0.3s ease, letter-spacing 0.3s ease, transform 0.3s ease;
+    }
+    .ascii-card:hover .ascii-art {
+      fill: url(#hoverTextGrad);
+      letter-spacing: 1.25px;
+    }
+    .scanline {
+      animation: scanAnim 3.6s linear infinite;
+    }
+    .ascii-card:hover .scanline {
+      animation: scanAnim 1.4s linear infinite;
+    }
+    @keyframes scanAnim {
+      0% { transform: translateY(40px); opacity: 0; }
+      12% { opacity: 1; }
+      88% { opacity: 1; }
+      100% { transform: translateY(500px); opacity: 0; }
+    }
+    .floating-hud {
+      animation: hudFloat 4.5s ease-in-out infinite;
+    }
+    @keyframes hudFloat {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-4px); }
+    }
+    .status-blink {
+      animation: blinkLed 1.2s infinite;
+    }
+    @keyframes blinkLed {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.2; }
+    }
+    .grid-line {
+      stroke: rgba(168, 85, 247, 0.12);
+      stroke-width: 1;
+    }
+    .glitch-layer {
+      opacity: 0;
+      animation: glitchFlash 4.5s infinite;
+    }
+    @keyframes glitchFlash {
+      0%, 92%, 100% { opacity: 0; transform: translateX(0); }
+      93% { opacity: 0.85; transform: translateX(-2.5px); fill: #22D3EE; }
+      95% { opacity: 0.95; transform: translateX(2.5px); fill: #F472B6; }
+      97% { opacity: 0.5; transform: translateX(-1px); fill: #A855F7; }
+    }
+    .corner-bracket {
+      stroke: #22D3EE;
+      stroke-width: 2.5;
+      fill: none;
+      filter: url(#glow);
+      transition: stroke 0.3s ease;
+    }
+    .ascii-card:hover .corner-bracket {
+      stroke: #F472B6;
+    }
+  </style>
+
+  <!-- Interactive Card -->
+  <g class="ascii-card">
+    <!-- Card Frame -->
+    <rect x="6" y="6" width="468" height="568" rx="16" fill="url(#cardGrad)" stroke="url(#neonBorder)" stroke-width="2.2" />
+
+    <!-- HUD Grid lines -->
+    <line x1="6" y1="46" x2="474" y2="46" class="grid-line" stroke-width="1.5" stroke="rgba(168,85,247,0.25)"/>
+    <line x1="6" y1="540" x2="474" y2="540" class="grid-line" stroke-width="1.5" stroke="rgba(34,211,238,0.25)"/>
+
+    <!-- Sci-Fi Corner Brackets -->
+    <path d="M 16 26 L 16 16 L 26 16" class="corner-bracket" />
+    <path d="M 454 16 L 464 16 L 464 26" class="corner-bracket" />
+    <path d="M 16 554 L 16 564 L 26 564" class="corner-bracket" />
+    <path d="M 454 564 L 464 564 L 464 554" class="corner-bracket" />
+
+    <!-- Top Status Bar -->
+    <g transform="translate(18, 20)">
+      <circle cx="6" cy="6" r="4.5" fill="#EF4444" opacity="0.85"/>
+      <circle cx="20" cy="6" r="4.5" fill="#F59E0B" opacity="0.85"/>
+      <circle cx="34" cy="6" r="4.5" fill="#10B981" opacity="0.85"/>
+
+      <!-- Live Bio-Matrix Badge -->
+      <g transform="translate(56, -2)">
+        <rect x="0" y="0" width="112" height="17" rx="4" fill="rgba(168,85,247,0.18)" stroke="#A855F7" stroke-width="0.8"/>
+        <circle cx="8" cy="8.5" r="3.2" fill="#22D3EE" class="status-blink"/>
+        <text x="18" y="12" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="700" fill="#22D3EE" letter-spacing="0.5">BIO-ASCII v4.2</text>
+      </g>
+
+      <text x="432" y="11" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="9" fill="#94A3B8" font-weight="600">SYS::SASWAT_MOHANTY</text>
+    </g>
+
+    <!-- ASCII Motion Artwork -->
+    <g class="floating-hud">
+      <!-- Primary Stream -->
+      <text class="ascii-art" xml:space="preserve">
+        <tspan x="22" y="74.0">`&#x27;.........&#x27;&#x27;`&quot;:,&quot;,,,,,,,,,,,,,::::;;;IIIIIllIIIIIIIIIIIII</tspan><tspan x="22" y="85.2">^^`````^^^^^&quot;&quot;:I;&quot;&quot;,,,,,,,,,,,:;;;;IIIIlll!i!lllllllIIllII</tspan><tspan x="22" y="96.4">&quot;&quot;&quot;&quot;&quot;,,,,::;;IIl;,,,,,,,,,,,,,:IIIll!!ii&gt;&gt;&lt;&gt;i!!lII;:::,&quot;^^</tspan><tspan x="22" y="107.6">&quot;&quot;&quot;&quot;&quot;,,,,:;;Il!!llIIII;;;;::,,,;;;;IIIll!!!&gt;&lt;i;,^`&#x27;..     </tspan><tspan x="22" y="118.8">,,,&quot;^&quot;,,,,::Il!l:``````````&#x27;.....&#x27;``&#x27;``&#x27;``&#x27;^;:.           </tspan><tspan x="22" y="130.0">``&#x27;...&#x27;```&#x27;&#x27;`^^^.                          &#x27;+~&#x27;         ..</tspan><tspan x="22" y="141.2">              .^`&#x27;``^^^^^``            ... ~QQ_ .&#x27;.&#x27;^^&#x27;^&quot;^</tspan><tspan x="22" y="152.4">             :tr&lt;,::::::;;;`   .`,,,^,^&#x27;&quot;,^x@@v:&gt;!:I&lt;&lt;&gt;~+~</tspan><tspan x="22" y="163.6">&#x27;&#x27;&#x27;``:&gt;~!,,I^vBBX;IIIIIllI;:::i&gt;&gt;++&gt;i~_-__!L$$0&gt;?]_[1]-1\\</tspan><tspan x="22" y="174.8">{}-~_[|xx|}}+w$$ql!lll!l~-l:&gt;}]11)|{-[}[}[1w$$p)f/{(rxt/t/</tspan><tspan x="22" y="186.0">rjffnrjzLJzn)q$$bii&gt;&lt;~li+&gt;~  ;&quot;1nnnr\tt//rfo$$#jvcncvnnJ0Q</tspan><tspan x="22" y="197.2">vucvcxxQqOCYjh@$@]&gt;il,&quot;I&quot;l):   :iiI&gt;|urrrnu*$$Mnxntjuxrxnj</tspan><tspan x="22" y="208.4">nrrt([(uzvx/}d$$O~&quot;::`^ ,-^      &#x27;.:}t-]{){zB$C-)(}))|fnur</tspan><tspan x="22" y="219.6">:^&quot;^`.&#x27;^,,&quot;` |O}I` `&quot;^Ill&#x27; :~}[&gt;&#x27; &#x27;+lll`\znd$$oYLLYQmZmdbb</tspan><tspan x="22" y="230.8">&quot;.&#x27;.   ^:,&quot;^:?I;,`&#x27;``;ii,+nnXLhkf!l_^ ^ !Ow&amp;$$WqhdLZdkbbdp</tspan><tspan x="22" y="242.0">]liI` &quot;&gt;_~&gt;!--:^.&#x27;^&quot;,``-rUYvUwahOj?&#x27; &#x27;. .UkW$$Wqkbqbkbk***</tspan><tspan x="22" y="253.2">[l&lt;!&quot;.&quot;&gt;_~&lt;&lt;_:`..  `^:?\rcUOpko*Mhz`     r#@$$%oMa0w**kwww</tspan><tspan x="22" y="264.4">(!&lt;!,`&quot;i+~&gt;i_^    . &quot;tohYW*aoo*MW%p]:   &#x27;/fca#v1f\+&gt;++&gt;!ll</tspan><tspan x="22" y="275.6">i^,^&#x27;.`,:,&quot;^,&#x27;     `+\\xn0O0z/}](rOc?`   ^`&#x27;:I&quot;&quot;,::;II:,li</tspan><tspan x="22" y="286.8">^^^^&quot;^^^^^^&quot;&quot;&quot;` ,&gt;l]x1&gt;~(XQr}+?(/c)zm|&quot;?f~i&lt;&gt;&gt;~~+_---?_+_?</tspan><tspan x="22" y="298.0">ii&gt;&gt;&gt;illllII;]x|nOUxr+1nYY*JfvUr)vmbbU/Cn|++-[[}{11{{11{{{</tspan><tspan x="22" y="309.2">++~~____+__--\YcLk#hwmb#0d@@qdko#W$8hL&lt;?vx|1(\\\/\\|(||())</tspan><tspan x="22" y="320.4">{{[[{1((111))fkYYkoW8%#b*M&amp;#o*Z0hoo#ozjzLf\|\\\|\||((()))1</tspan><tspan x="22" y="331.6">{111{1()1111()z#uLdbqZZkz{}&gt;:xf?1[}r0r0Wctt//ttttt/()\fjjj</tspan><tspan x="22" y="342.8">ttttttff/ttttffJnxCULOYzt?+&gt;I?].I|1/cftjrxjrrxnnnnrftnuuvu</tspan><tspan x="22" y="354.0">unxrxxxxjrnrjxunr(xzCul+|vXYcun1]|)|1)rjxnrrxxnnnnrrnuuuun</tspan><tspan x="22" y="365.2">nxrjrrrjfjrjjrnunf?1rnCZXzux/1nCU{~l?ctjrxrrxxnnnnjrnunnnx</tspan><tspan x="22" y="376.4">nxrjrrjjffrffruuxrf-&lt;{cO0z|]{tYCf&gt;,!Jkrfxxrjrrnxnnjjnunnnr</tspan><tspan x="22" y="387.6">xxrjrrjjfjrjjxuuxrnc\::}tt\1)1-~. ;rmM*|nrfjjrnxjxrnjttjf/</tspan><tspan x="22" y="398.8">frxjfrrjrnnjxuvnxnuYCv[l^       &quot;i)xvW$)|vujjrux/jrnfttjf/</tspan><tspan x="22" y="410.0">tjrftrjfxnnfruunxjuu?qOUf([~~&gt;~[1{?(o$@)fXYJvvXXvvuurftjf/</tspan><tspan x="22" y="421.2">tfrttjftrnnjrnuxn]uC`Oqq0vt1[?]{[-u8$$WvrYYLCzYUXzzXXXzvnr</tspan><tspan x="22" y="432.4">tff/\ft/jnnfxnnj/If$r|LqdwCu|{}-(d$$@$bJvccYXznczucczYCUUC</tspan><tspan x="22" y="443.6">/ff\\tt/jrj///t/1^Y$$wXX0ppmUx/J$$@@$&amp;pXuunu|[1vcrxczcYYcC</tspan><tspan x="22" y="454.8">/tf\\tt\|){{{1(((`u$@$@kOZqqmQCzJa$$@*0uzccnrXCut/xcuxnzxu</tspan><tspan x="22" y="466.0">\tf\\\){}{1}?[11)lc$@@$8LwbdCYn\}{ua%ofuYznvjuU|\uxf|((rft</tspan>
+      </text>
+
+      <!-- Glitch Stream -->
+      <text class="ascii-art glitch-layer" xml:space="preserve">
+        <tspan x="22" y="74.0">`]......1..[&#x27;`&quot;:,&quot;,,,,,,,,,,,,,::::;;;IIIIIllIIIIIIIIIIIII</tspan><tspan x="22" y="85.2">^^`````^^^^^&quot;&quot;:I;&quot;&quot;,,,,,,,,,,,:;;;;IIIIlll!i!llll+llIIllII</tspan><tspan x="22" y="96.4">&quot;&quot;&quot;&quot;&quot;,{,,::;;IIl;,,,,,,,,,,,,,:IIIll!!#i&gt;&gt;&lt;&gt;i!!lII;:::,&quot;^^</tspan><tspan x="22" y="107.6">&quot;&quot;&quot;&quot;&quot;,,,,:;;Il!!llIIII;;;;::,,,;;;;IIIll!!!&gt;&lt;i;,^`&#x27;..     </tspan><tspan x="22" y="118.8">,,,&quot;^&quot;,,,,::Il!l:``````````&#x27;.....&#x27;-`&#x27;``&#x27;``&#x27;^;:.           </tspan><tspan x="22" y="130.0">``&#x27;...&#x27;`{`&#x27;&#x27;`^^^.             +         ~  &#x27;+~&#x27;[        .]</tspan><tspan x="22" y="141.2">             =.^`&#x27;``^^^^^``           ]... ~QQ_ .&#x27;.&#x27;^^&#x27;^&quot;^</tspan><tspan x="22" y="152.4">             :tr&lt;,::::::;;;`   .`,,,^,^&#x27;&quot;,^x@@v:&gt;!:I&lt;&lt;&gt;~+~</tspan><tspan x="22" y="163.6">&#x27;&#x27;&#x27;``=&gt;~!,,I^vBBX;IIIIIllI;:::i&gt;&gt;++&gt;i~_-__!L$$0&gt;?]_[[]/1\\</tspan><tspan x="22" y="174.8">{}-~_[|xx|}}+w$$ql!lll!l~-l:&gt;}]}1)|{-[}[}[1w$$p)f/{(rxt/-/</tspan><tspan x="22" y="186.0">rjffnrjzLJzn)q$$]ii&gt;&lt;~li+&gt;~  ;&quot;1nnnr\tt//rfo$##jvcncvn]J0Q</tspan><tspan x="22" y="197.2">vucvcxxQqOCYjh@$@]&gt;il,&quot;I&quot;l):   :i~I&gt;]urrrnu*$$Mnxntjuxrxnj</tspan><tspan x="22" y="208.4">nrrt([}uz[x/}d$$O~&quot;::`^ ,-^      &#x27;.:}t-]{){zB$C-)(}))|fnur</tspan><tspan x="22" y="219.6">:^&quot;^`.&#x27;^,,&quot;` |O}I` `&quot;^Ill&#x27; :~}[&gt;&#x27; &#x27;+lll`\znd$$oYLLYQmZmdb#</tspan><tspan x="22" y="230.8">&quot;.&#x27;.  /^:,&quot;^:?I;,`&#x27;``;i1,+nnXLhkf!l{^ ^ !Ow&amp;$$WqhdLZd=bbdp</tspan><tspan x="22" y="242.0">]liI` &quot;&gt;_~&gt;!---^.&#x27;^&quot;,``-rUYvUwahOj?&#x27; &#x27;. .UkW$$Wqkbqbkbk***</tspan><tspan x="22" y="253.2">[l&lt;!&quot;.&quot;&gt;_~#&lt;_:`..  `^:?\rcUOpko~Mhz`     r#@$$%oMa0w**kwww</tspan><tspan x="22" y="264.4">(!&lt;!,`&quot;i+~&gt;i_^    . &quot;tohYW*aoo*M]%p]:   &#x27;/fca#v1f\+&gt;++&gt;!ll</tspan><tspan x="22" y="275.6">i^,^&#x27;.`,:,&quot;^,&#x27;     `+\\xn0O0z/}](rOc?`   ^`&#x27;:I&quot;&quot;,::;II:,li</tspan><tspan x="22" y="286.8">^^^*&quot;^^^^^-&quot;&quot;&quot;` ,&gt;l]x1&gt;~(XQr}+?(/c)zm|&quot;?f~i&lt;&gt;&gt;~~+_---?_+_?</tspan><tspan x="22" y="298.0">ii&gt;&gt;&gt;illllII;]x|nOUxr+1nYY*JfvUr)vmbbU/Cn|++-[[}{11{{11{{{</tspan><tspan x="22" y="309.2">++~~{___+__--\YcLk#hwmb#0d@@qdko#W$8hL&lt;?vx|1(\\\/\\|(||())</tspan><tspan x="22" y="320.4">{{[[{1((111))fkYYkoW8%#b{M&amp;#o*Z0hoo#ozjzLf\|\\\|\||((()))1</tspan><tspan x="22" y="331.6">{111{1()1111()z#uLdbqZZkz{}&gt;-xf?1[}[0r0Wctt//ttttt#()\{jjj</tspan><tspan x="22" y="342.8">ttttttff/ttt=ffJnxCULOYzt?+&gt;I?][I|1/cftjrxjrrxnnnnrftnuuvu</tspan><tspan x="22" y="354.0">unxrxxxxjrnrjxunr(xzCul+|vXYc1n1]|/|1)rjxnrrxxnnnnrrnuuuun</tspan><tspan x="22" y="365.2">nxrjrrrjfjrjjrnunf?1r#CZXzux/1nCU{~l?ctjrxrrxxnnnnjrnunnnx</tspan><tspan x="22" y="376.4">nxrjrrjjffrffruuxrf-&lt;{*O0z|]{tYCf&gt;,!Jkrfxxrjrrnxnnjjnunnnr</tspan><tspan x="22" y="387.6">xxrjrrjjfjrjjxuu1rnc\::}tt\1)1-~. ;rmM*|nrfjjrnxjxrnjttjf/</tspan><tspan x="22" y="398.8">frxjfrrjrn~jxuvnxnuYCv[l^       &quot;i)xvW$)|vujjrux/jrnfttjf/</tspan><tspan x="22" y="410.0">tjrftrjfxnnfruunxjuu?qOUf([~~&gt;~[1{?(o$@)fXYJvvXXvvuurf/jf/</tspan><tspan x="22" y="421.2">-frttjf@rnnjrnuxn]uC`Oq{0vt1[?]{[-u8$$WvrYYL*zYUXzzXXXzvnr</tspan><tspan x="22" y="432.4">tff/\ft/jnnfxnnj/If$r|LqdwCu|{}-(d$$@$b]vccYXznczu}czYCUUC</tspan><tspan x="22" y="443.6">/ff\\tt/jrj///t/1^Y$$wXX0p*mUx[J$$@@$&amp;pXuunu|[1vcrxczcYYcC</tspan><tspan x="22" y="454.8">/tf\\tt\|){{{1(((`u$@$@kOZqqmQCzJa1$@*0uzcc[rXCut/xcuxnzxu</tspan><tspan x="22" y="466.0">\tf\\\){}{1}?[11)lc$@@$8LwbdCYn\}{ua%-fuY/nvj#U|\uxf#(#rft</tspan>
+      </text>
+    </g>
+
+    <!-- Holographic Laser Scanline -->
+    <g>
+      <rect class="scanline" x="10" y="0" width="460" height="20" fill="url(#scanlineGrad)" opacity="0.75" />
+    </g>
+
+    <!-- Bottom Telemetry HUD Bar -->
+    <g transform="translate(20, 557)">
+      <text x="0" y="7" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="600" fill="#22D3EE">
+        ⚡ HOVER / INTERACT
+      </text>
+      <text x="440" y="7" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="8.5" font-weight="600" fill="#A855F7">
+        60 FPS CYBERNETIC AVATAR
+      </text>
+    </g>
+  </g>
+</svg>
