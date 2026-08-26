@@ -1,8 +1,8 @@
 <!--
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║    SASWAT MOHANTY  ·  GITHUB PROFILE  ·  v5.1 "CYBERNETIC ULTRAVIOLET"       ║
-║    → Real-Time Telemetry · Checkpoint Progression · Live Star Badges         ║
-║    → 60 FPS Motion · Multi-Agent AI · Silky UX Systems                       ║
+║    SASWAT MOHANTY  ·  GITHUB PROFILE  ·  v6.0 "PRODUCTION ULTRAVIOLET"       ║
+║    → Autonomous Multi-Agent Systems · Real-Time Streaming · Full-Stack AI    ║
+║    → Verified Telemetry · Clean Architectures · 60 FPS Motion                ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 -->
 
@@ -15,30 +15,30 @@
 
 <div align="center">
 
-<!-- ╭──────── MATRIX BOOT SEQUENCE ────────╮ -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=120&lines=%5BSYSTEM%5D+BOOT+SEQUENCE+...+%5BOK%5D;%5BTELEMETRY%5D+GitHub+Commit+Stream+Synchronized...+%5BOK%5D;%5BAGENTS%5D+LangGraph+%C2%B7+Claude+%C2%B7+Gemini+Fleet+...+%5BONLINE%5D;%5BSTATUS%5D+All+checkpoints+active.+Welcome%2C+SazWhatician." alt="boot"/>
+<!-- ╭──────── SYSTEM INITIALIZATION BANNER ────────╮ -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=760&height=120&lines=%5BSYSTEM%5D+INITIALIZING+RUNTIME+ENVIRONMENT+...+%5BOK%5D;%5BCORE%5D+Autonomous+Multi-Agent+Orchestration+Engine+...+%5BACTIVE%5D;%5BSTREAM%5D+High-Throughput+Server-Sent+Events+(SSE)+Pipeline+...+%5BACTIVE%5D;%5BSTATUS%5D+Telemetry+nominal.+Architecting+deterministic+AI+systems." alt="boot"/>
 
 </div>
 
 <!-- ╭──────── AURORA VENOM HERO ────────╮ -->
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0D1117,15:130029,45:7B2CBF,70:A855F7,88:22D3EE,100:F472B6&height=320&section=header&text=Saswat%20Mohanty&fontSize=76&fontColor=FFFFFF&fontAlign=50&fontAlignY=44&animation=fadeIn&desc=%E2%9A%A1%20AI%20Engineer%20%C2%B7%20Agentic%20Architect%20%C2%B7%20Full-Stack%20Craftsman%20%E2%9A%A1&descAlign=50&descAlignY=68&descSize=19&stroke=A855F7&strokeWidth=2" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0D1117,15:130029,45:7B2CBF,70:A855F7,88:22D3EE,100:F472B6&height=310&section=header&text=Saswat%20Mohanty&fontSize=74&fontColor=FFFFFF&fontAlign=50&fontAlignY=44&animation=fadeIn&desc=AI%20Engineer%20%C2%B7%20Multi-Agent%20Architect%20%C2%B7%20Full-Stack%20Systems&descAlign=50&descAlignY=68&descSize=18&stroke=A855F7&strokeWidth=2" width="100%"/>
 
 <div align="center">
 
 <br/>
 
-<!-- ╭──────── TYPING ANIMATION ────────╮ -->
+<!-- ╭──────── TECHNICAL HOOK TYPING ANIMATION ────────╮ -->
 <a href="https://github.com/SazWhatician">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&pause=900&color=A855F7&center=true&vcenter=true&multiline=true&repeat=true&width=840&height=110&lines=%3E+init+autonomous_agent_architect();%3E+Telemetry+First%3A+Live+Commit+Stats+%26+Waveforms;%3E+Wiring+LangGraph+%C2%B7+Claude+%C2%B7+Gemini+%C2%B7+Vercel+AI+SDK;%3E+Sculpting+fluid+UX+with+React+%2B+GSAP+%2B+Three.js;%3E+%22Ship+it+clean.+Ship+it+fast.+Ship+it+now.%22" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=1000&color=A855F7&center=true&vcenter=true&multiline=true&repeat=true&width=860&height=120&lines=%3E+Architecting+production+agentic+workflows+with+LangGraph%2C+Claude+%26+Gemini;%3E+Engineering+low-latency+SSE+streaming+engines+for+grounded+AI;%3E+Sculpting+high-framerate+interfaces+with+Next.js%2C+React+%26+GSAP;%3E+%22Deterministic+systems+over+stochastic+hope.+Ship+clean.+Scale+reliably.%22" alt="Typing SVG"/>
 </a>
 
 <br/><br/>
 
-<!-- ╭──────── STATUS BEACONS ────────╮ -->
-<img src="https://img.shields.io/badge/%F0%9F%9A%80_STATUS-Building_Agentic_Systems-A855F7?style=for-the-badge&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/%F0%9F%93%8D_LOCATION-India_%C2%B7_UTC%2B5%3A30-22D3EE?style=for-the-badge&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/%F0%9F%92%BC_OPEN_TO-Collabs_%26_Roles-F472B6?style=for-the-badge&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/%E2%9A%A1_FOCUS-Multi--Agent_%2B_SSE-7B2CBF?style=for-the-badge&labelColor=0D1117"/>
+<!-- ╭──────── CORE STATUS BEACONS ────────╮ -->
+<img src="https://img.shields.io/badge/STATUS-Engineering_Agentic_Platforms-A855F7?style=for-the-badge&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/LOCATION-India_%C2%B7_UTC%2B5%3A30-22D3EE?style=for-the-badge&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/ROLES-Open_to_AI_Engineering_%26_Full-Stack-F472B6?style=for-the-badge&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/CORE_FOCUS-Multi--Agent_Orchestration_%2B_SSE-7B2CBF?style=for-the-badge&labelColor=0D1117"/>
 
 <br/><br/>
 
@@ -52,11 +52,11 @@
 <a href="https://github.com/SazWhatician">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117"/>
 </a>
-<a href="https://x.com/">
-  <img src="https://img.shields.io/badge/X_(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=0D1117"/>
+<a href="https://leetcode.com/u/Saswat144/">
+  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=0D1117"/>
 </a>
-<a href="https://discord.com/">
-  <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0D1117"/>
+<a href="https://x.com/">
+  <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=0D1117"/>
 </a>
 
 </div>
@@ -69,28 +69,17 @@
 <!-- CHECKPOINT 01 · BATTLE TELEMETRY & COMMIT STATS                     -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/W3QKEujo8vztC/giphy.gif" width="28"/> 🚩 `CHECKPOINT 01` · Battle Telemetry & Commit Stats `// > git log --telemetry`
+## `CHECKPOINT 01` · System Telemetry & Commit Intelligence `// > git log --telemetry`
 
 <div align="center">
 
-<!-- LIVE CONTRIBUTION WAVEFORM -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=SazWhatician&theme=react-dark&bg_color=0D1117&color=A855F7&line=22D3EE&point=F472B6&area=true&hide_border=true&custom_title=Saswat%27s%20Live%20Contribution%20Waveform" width="100%"/>
+<!-- LIVE VERIFIED PROFILE SUMMARY CARDS -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SazWhatician&theme=tokyonight" width="49%"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=SazWhatician&theme=tokyonight" width="49%"/>
 
 <br/><br/>
 
-<!-- PRIMARY COMMIT STATS & STREAK -->
-<img src="https://github-readme-stats.vercel.app/api?username=SazWhatician&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=22D3EE&text_color=E2E8F0&ring_color=F472B6" width="49%"/>
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=SazWhatician&theme=tokyonight&hide_border=true&background=0D1117&stroke=A855F7&ring=A855F7&fire=F472B6&currStreakLabel=22D3EE&sideNums=E2E8F0&currStreakNum=E2E8F0&dates=E2E8F0&sideLabels=A855F7" width="49%"/>
-
-<br/><br/>
-
-<!-- LANGUAGES & PROFILE SUMMARY -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SazWhatician&layout=compact&langs_count=10&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&text_color=E2E8F0" width="42%"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SazWhatician&theme=tokyonight" width="56%"/>
-
-<br/><br/>
-
-<!-- DEEP DIVE ANALYTICS -->
+<!-- REPOS PER LANGUAGE & MOST COMMIT LANGUAGE -->
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SazWhatician&theme=tokyonight" width="32%"/>
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SazWhatician&theme=tokyonight" width="32%"/>
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=SazWhatician&theme=tokyonight&utcOffset=5.5" width="32%"/>
@@ -102,20 +91,39 @@
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- CHECKPOINT 02 · TROPHY VAULT & CHECKPOINT ACHIEVEMENTS              -->
+<!-- CHECKPOINT 02 · RECOGNITION & CHECKPOINT MILESTONES                 -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="28"/> 🏆 `CHECKPOINT 02` · Trophy Vault & Checkpoint Badges `// > ls trophies/ --gold-first`
+## `CHECKPOINT 02` · Engineering Checkpoints & Milestone Badges `// > ls milestones/`
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/%F0%9F%8F%86_TROPHIES-RANK_SSS_TIER-FFD700?style=for-the-badge&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/%E2%AD%90_TIER-LEGENDARY_ENGINEER-A855F7?style=for-the-badge&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/%F0%9F%94%A5_STREAK-ACTIVE_CHECKPOINT-22D3EE?style=for-the-badge&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/ARCHITECT-MULTI--AGENT_SYSTEMS-FFD700?style=for-the-badge&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/SPECIALIZATION-STREAMING_AI_PLATFORMS-A855F7?style=for-the-badge&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/EXECUTION-PRODUCTION_READY-22D3EE?style=for-the-badge&labelColor=0D1117"/>
 
 <br/><br/>
 
-<img src="https://github-profile-trophy.vercel.app/?username=SazWhatician&theme=tokyonight&no-bg=true&no-frame=true&column=4&margin-w=16&margin-h=16&rank=SSS,SS,S,AAA,AA,A,B" width="92%"/>
+<table>
+<tr>
+<td align="center" width="25%">
+<b>Level 01 · Agentic Fleet</b><br/>
+<sub>Autonomous workflow execution with LangGraph state graphs, cycle handling &amp; tool routing.</sub>
+</td>
+<td align="center" width="25%">
+<b>Level 02 · SSE Concurrency</b><br/>
+<sub>High-throughput real-time response streaming directly connected to reactive React interfaces.</sub>
+</td>
+<td align="center" width="25%">
+<b>Level 03 · Type-Safe Core</b><br/>
+<sub>Strict TypeScript contracts across UI state, backend APIs, and multi-agent payload boundaries.</sub>
+</td>
+<td align="center" width="25%">
+<b>Level 04 · High-Framerate UX</b><br/>
+<sub>Sub-16ms UI responsiveness, fluid layout shifts, and micro-interactions powered by GSAP.</sub>
+</td>
+</tr>
+</table>
 
 </div>
 
@@ -127,7 +135,7 @@
 <!-- CHECKPOINT 03 · IDENTITY MATRIX & BIO-DOSSIER                       -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28"/> 👾 `CHECKPOINT 03` · Identity Matrix & Bio-Dossier `// > whoami`
+## `CHECKPOINT 03` · Identity Matrix & Bio-Dossier `// > whoami`
 
 <table>
 <tr>
@@ -156,12 +164,12 @@
 const saswat: AIEngineer = {
   role:       "AI Engineer × Agentic Architect",
   pronouns:   "he / him",
-  location:   "🇮🇳 India  //  IST · UTC+5:30",
+  location:   "India // IST · UTC+5:30",
 
   building: [
-    "native SSE chatbots",
-    "LangGraph multi-agent orchestration",
-    "React micro-interactions (GSAP + Framer)",
+    "Native SSE streaming AI platforms",
+    "LangGraph multi-agent orchestration & human-in-the-loop",
+    "High-framerate React interfaces (GSAP + Three.js)",
   ],
 
   ai_stack: [
@@ -170,26 +178,30 @@ const saswat: AIEngineer = {
   ],
 
   app_stack: [
-    "Python", "TypeScript", "React", "Next.js",
+    "TypeScript", "Python", "React", "Next.js",
     "FastAPI", "Node.js", "PostgreSQL", "Redis",
   ],
 
-  passion:    ["autonomous agents", "silky UX", "clean systems"],
-  philosophy: "KISS · YAGNI · ship it clean, ship it fast",
-  ask_me:     ["multi-agent AI", "SSE streaming", "GSAP timelines"],
-  learning:   ["MLOps at scale", "distributed systems"],
-  fun_fact:   "I dream in state machines. 🤖",
+  engineering_ethos: [
+    "Deterministic execution over blind prompt iteration",
+    "Low-latency streaming over blocking waterfalls",
+    "Strict type invariants across all system boundaries",
+  ],
+
+  philosophy: "KISS · YAGNI · Measure twice, ship clean, scale reliably",
+  ask_me:     ["Multi-agent architectures", "SSE stream resilience", "GSAP motion choreography"],
+  fun_fact:   "I treat UI states and backend agents as finite state machines.",
 };
 ```
 
 <br/>
 
-<!-- SKILL METERS -->
+<!-- SKILL PROFICIENCY GAUGES -->
 <table>
-<tr><td><sub>AI Engineering</sub></td><td><img src="https://img.shields.io/badge/████████████░░-90%25-A855F7?style=flat-square&labelColor=0D1117"/></td></tr>
-<tr><td><sub>Full-Stack Dev</sub></td><td><img src="https://img.shields.io/badge/███████████░░░-85%25-22D3EE?style=flat-square&labelColor=0D1117"/></td></tr>
-<tr><td><sub>UI / UX + Motion</sub></td><td><img src="https://img.shields.io/badge/██████████░░░░-80%25-F472B6?style=flat-square&labelColor=0D1117"/></td></tr>
-<tr><td><sub>DevOps / MLOps</sub></td><td><img src="https://img.shields.io/badge/████████░░░░░░-65%25-7B2CBF?style=flat-square&labelColor=0D1117"/></td></tr>
+<tr><td><sub>AI &amp; Agentic Engineering</sub></td><td><img src="https://img.shields.io/badge/████████████░░-90%25-A855F7?style=flat-square&labelColor=0D1117"/></td></tr>
+<tr><td><sub>Full-Stack Systems (Next.js/FastAPI)</sub></td><td><img src="https://img.shields.io/badge/███████████░░░-85%25-22D3EE?style=flat-square&labelColor=0D1117"/></td></tr>
+<tr><td><sub>Motion Design &amp; UI Architecture</sub></td><td><img src="https://img.shields.io/badge/██████████░░░░-80%25-F472B6?style=flat-square&labelColor=0D1117"/></td></tr>
+<tr><td><sub>Distributed Systems &amp; MLOps</sub></td><td><img src="https://img.shields.io/badge/████████░░░░░░-65%25-7B2CBF?style=flat-square&labelColor=0D1117"/></td></tr>
 </table>
 
 </td>
@@ -204,7 +216,7 @@ const saswat: AIEngineer = {
 <!-- CHECKPOINT 04 · ARSENAL & TECH STACK RADAR                          -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="28"/> ⚡ `CHECKPOINT 04` · Arsenal & Tech Stack Radar `// > cat stack.json`
+## `CHECKPOINT 04` · Arsenal & Technology Radar `// > cat stack.json`
 
 <div align="center">
 
@@ -212,11 +224,11 @@ const saswat: AIEngineer = {
 <tr>
 <td valign="top" width="50%">
 
-#### <img src="https://img.shields.io/badge/%E2%9A%A1_Languages-A855F7?style=flat-square&labelColor=0D1117"/>
+#### <img src="https://img.shields.io/badge/Languages-A855F7?style=flat-square&labelColor=0D1117"/>
 
-<img src="https://skillicons.dev/icons?i=py,ts,js,cpp,c,html,css,bash&perline=8"/>
+<img src="https://skillicons.dev/icons?i=ts,py,js,cpp,c,html,css,bash&perline=8"/>
 
-#### <img src="https://img.shields.io/badge/%F0%9F%8C%90_Frontend_%26_Motion-22D3EE?style=flat-square&labelColor=0D1117"/>
+#### <img src="https://img.shields.io/badge/Frontend_%26_Motion-22D3EE?style=flat-square&labelColor=0D1117"/>
 
 <img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,threejs,vite,figma&perline=8"/>
 <br/>
@@ -225,18 +237,18 @@ const saswat: AIEngineer = {
 <img src="https://img.shields.io/badge/Barba.js-111111?style=flat-square&logo=javascript&logoColor=white"/>
 <img src="https://img.shields.io/badge/Lenis-000000?style=flat-square&logo=vercel&logoColor=white"/>
 
-#### <img src="https://img.shields.io/badge/%F0%9F%9B%B0%EF%B8%8F_Backend_Systems-F472B6?style=flat-square&labelColor=0D1117"/>
+#### <img src="https://img.shields.io/badge/Backend_Systems-F472B6?style=flat-square&labelColor=0D1117"/>
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,flask,graphql,prisma&perline=8"/>
+<img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,flask,graphql,prisma&perline=8"/>
 
-#### <img src="https://img.shields.io/badge/%F0%9F%97%84%EF%B8%8F_Databases_%26_Cache-7B2CBF?style=flat-square&labelColor=0D1117"/>
+#### <img src="https://img.shields.io/badge/Databases_%26_State-7B2CBF?style=flat-square&labelColor=0D1117"/>
 
-<img src="https://skillicons.dev/icons?i=mongodb,postgres,redis,firebase,supabase,sqlite&perline=8"/>
+<img src="https://skillicons.dev/icons?i=postgres,redis,mongodb,firebase,supabase,sqlite&perline=8"/>
 
 </td>
 <td valign="top" width="50%">
 
-#### <img src="https://img.shields.io/badge/%F0%9F%A7%A0_AI_%2F_ML_%26_Multi--Agent-A855F7?style=flat-square&labelColor=0D1117"/>
+#### <img src="https://img.shields.io/badge/AI_%2F_ML_%26_Agentic_Stack-A855F7?style=flat-square&labelColor=0D1117"/>
 
 <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,opencv&perline=8"/>
 <br/>
@@ -249,15 +261,15 @@ const saswat: AIEngineer = {
 <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
 <img src="https://img.shields.io/badge/Pinecone-000000?style=flat-square&logo=pinecone&logoColor=white"/>
 
-#### <img src="https://img.shields.io/badge/%E2%98%81%EF%B8%8F_DevOps_%26_Cloud-22D3EE?style=flat-square&labelColor=0D1117"/>
+#### <img src="https://img.shields.io/badge/DevOps_%26_Cloud-22D3EE?style=flat-square&labelColor=0D1117"/>
 
 <img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,gcp,vercel,githubactions,nginx&perline=8"/>
 
-#### <img src="https://img.shields.io/badge/%F0%9F%9B%A0%EF%B8%8F_Tools-F472B6?style=flat-square&labelColor=0D1117"/>
+#### <img src="https://img.shields.io/badge/Developer_Tooling-F472B6?style=flat-square&labelColor=0D1117"/>
 
 <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,linux,vim,notion&perline=8"/>
 
-#### <img src="https://img.shields.io/badge/%F0%9F%8E%A8_Design_%26_Media-7B2CBF?style=flat-square&labelColor=0D1117"/>
+#### <img src="https://img.shields.io/badge/Design_Systems-7B2CBF?style=flat-square&labelColor=0D1117"/>
 
 <img src="https://skillicons.dev/icons?i=figma,ae,ps&perline=8"/>
 
@@ -272,16 +284,16 @@ const saswat: AIEngineer = {
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- CHECKPOINT 05 · ACTIVE QUESTS & MISSIONS                            -->
+<!-- CHECKPOINT 05 · ACTIVE MISSIONS & PRODUCTION ARCHITECTURES          -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="28"/> 🎯 `CHECKPOINT 05` · Active Quests & Missions `// > ls missions/`
+## `CHECKPOINT 05` · Active Missions & Production Architectures `// > ls missions/`
 
 <table>
 <tr>
 <td width="33%" align="center" valign="top">
 
-<img src="https://img.shields.io/badge/%F0%9F%94%A8_BUILDING-A855F7?style=for-the-badge&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/MISSION-01-A855F7?style=for-the-badge&labelColor=0D1117"/>
 
 <br/><br/>
 
@@ -299,7 +311,7 @@ const saswat: AIEngineer = {
 </td>
 <td width="33%" align="center" valign="top">
 
-<img src="https://img.shields.io/badge/%F0%9F%93%9A_LEARNING-22D3EE?style=for-the-badge&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/MISSION-02-22D3EE?style=for-the-badge&labelColor=0D1117"/>
 
 <br/><br/>
 
@@ -316,19 +328,19 @@ const saswat: AIEngineer = {
 </td>
 <td width="33%" align="center" valign="top">
 
-<img src="https://img.shields.io/badge/%F0%9F%A4%9D_COLLAB-F472B6?style=for-the-badge&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/MISSION-03-F472B6?style=for-the-badge&labelColor=0D1117"/>
 
 <br/><br/>
 
-**Open-Source Agent Tooling**
+**Autonomous GUI Tooling**
 
-<sub>Autonomous agent runtimes,<br/>eval harnesses &amp; browser automation<br/>from demo to production.</sub>
+<sub>In-page GUI agent runtimes,<br/>DOM action synthesis &amp; natural language<br/>web automation systems.</sub>
 
 <br/>
 
 <img src="https://img.shields.io/badge/Open_Source-F472B6?style=flat-square&logo=github&logoColor=white"/>
 <img src="https://img.shields.io/badge/Agents-7B2CBF?style=flat-square"/>
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
 
 </td>
 </tr>
@@ -342,7 +354,7 @@ const saswat: AIEngineer = {
 <!-- CHECKPOINT 06 · CONTRIBUTION GRID RUNNER                           -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/RJVw5Rc5s0zvXNwohI/giphy.gif" width="28"/> 🐍 `CHECKPOINT 06` · Contribution Grid Snake Runner `// > git diff --snake-eater`
+## `CHECKPOINT 06` · Contribution Grid Runner `// > git diff --snake-eater`
 
 <div align="center">
   <picture>
@@ -357,10 +369,10 @@ const saswat: AIEngineer = {
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- CHECKPOINT 07 · PINNED ARTIFACTS & REPOSITORIES                     -->
+<!-- CHECKPOINT 07 · FEATURED REPOSITORIES & FLAGSHIP BUILDS             -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28"/> 📦 `CHECKPOINT 07` · Pinned Artifacts & Production Ships `// > ls projects/ --pinned`
+## `CHECKPOINT 07` · Featured Repositories & Flagship Builds `// > ls projects/ --flagship`
 
 <div align="center">
 
@@ -370,7 +382,7 @@ const saswat: AIEngineer = {
 
 ### 🌌 [`Polaris`](https://github.com/SazWhatician/Polaris)
 <sub>**Grounded AI Academic & Research Platform**</sub><br/>
-<sub>Autonomous multi-agent orchestration, SSE streaming answers, grounded citations &amp; rich interactive chat canvas.</sub>
+<sub>Autonomous multi-agent orchestration, SSE streaming answers, grounded academic citations &amp; rich interactive chat canvas.</sub>
 
 <br/><br/>
 
@@ -384,17 +396,52 @@ const saswat: AIEngineer = {
 </td>
 <td width="50%" valign="top">
 
+### 🔬 [`MedScan-AI`](https://github.com/SazWhatician/MedScan-AI)
+<sub>**Automated Medical Imaging & AI Diagnostics Platform**</sub><br/>
+<sub>Deep learning vision models for biomedical scan analysis, lesion localization, and clinical decision support.</sub>
+
+<br/><br/>
+
+<a href="https://github.com/SazWhatician/MedScan-AI">
+  <img src="https://img.shields.io/github/stars/SazWhatician/MedScan-AI?style=flat-square&logo=github&color=22D3EE&labelColor=0D1117"/>
+  <img src="https://img.shields.io/badge/AI_Vision-8E44AD?style=flat-square&logo=google&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Deep_Learning-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Medical_AI-009688?style=flat-square"/>
+</a>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" valign="top">
+
 ### 🩺 [`Dr.Debug`](https://github.com/SazWhatician/Dr.Debug)
-<sub>**Intelligent Automated Bug Hunter & Agentic Debugger**</sub><br/>
-<sub>Diagnostic runtime inspection, static code telemetry, automated RCA reports &amp; patch synthesis.</sub>
+<sub>**Autonomous Diagnostic Debugger & Intelligent Bug Hunter**</sub><br/>
+<sub>Automated runtime error inspection, static codebase telemetry, automated RCA synthesis, and pull request patch generation.</sub>
 
 <br/><br/>
 
 <a href="https://github.com/SazWhatician/Dr.Debug">
-  <img src="https://img.shields.io/github/stars/SazWhatician/Dr.Debug?style=flat-square&logo=github&color=22D3EE&labelColor=0D1117"/>
+  <img src="https://img.shields.io/github/stars/SazWhatician/Dr.Debug?style=flat-square&logo=github&color=F472B6&labelColor=0D1117"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AI_Agent-8E44AD?style=flat-square&logo=google&logoColor=white"/>
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Agent_RCA-7B2CBF?style=flat-square"/>
+</a>
+
+</td>
+<td width="50%" valign="top">
+
+### 🛰️ [`Polarassist`](https://github.com/SazWhatician/Polarassist)
+<sub>**Intelligent Copilot Companion & Assistant Subsystem**</sub><br/>
+<sub>Multi-modal contextual assistant with real-time vector search, conversational grounding, and task execution workflows.</sub>
+
+<br/><br/>
+
+<a href="https://github.com/SazWhatician/Polarassist">
+  <img src="https://img.shields.io/github/stars/SazWhatician/Polarassist?style=flat-square&logo=github&color=A855F7&labelColor=0D1117"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AI_Copilot-0A66C2?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Vector_RAG-22D3EE?style=flat-square"/>
 </a>
 
 </td>
@@ -403,68 +450,33 @@ const saswat: AIEngineer = {
 <tr>
 <td width="50%" valign="top">
 
-### 🤖 [`page-agent`](https://github.com/SazWhatician/page-agent)
-<sub>**JavaScript In-Page GUI Agent Runtimes**</sub><br/>
-<sub>Control dynamic web interfaces, execute DOM actions, and automate workflows with natural language.</sub>
+### ⚡ [`ENIGMA-WEBSITE`](https://github.com/SazWhatician/ENIGMA-WEBSITE)
+<sub>**Flagship Interactive Tech Symposium Platform**</sub><br/>
+<sub>High-framerate interactive web experience with fluid animations, dynamic registration workflows, and modern visual design.</sub>
 
 <br/><br/>
 
-<a href="https://github.com/SazWhatician/page-agent">
-  <img src="https://img.shields.io/github/stars/SazWhatician/page-agent?style=flat-square&logo=github&color=F472B6&labelColor=0D1117"/>
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-  <img src="https://img.shields.io/badge/GUI_Agents-7B2CBF?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Automation-22D3EE?style=flat-square"/>
+<a href="https://github.com/SazWhatician/ENIGMA-WEBSITE">
+  <img src="https://img.shields.io/github/stars/SazWhatician/ENIGMA-WEBSITE?style=flat-square&logo=github&color=22D3EE&labelColor=0D1117"/>
+  <img src="https://img.shields.io/badge/Interactive_UI-E34F26?style=flat-square&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GSAP_Motion-88CE02?style=flat-square&logo=greensock&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Fluid_UX-7B2CBF?style=flat-square"/>
 </a>
 
 </td>
-<td width="50%" valign="top">
-
-### 🪐 [`nextjs-nights-shader`](https://github.com/SazWhatician/nextjs-nights-shader)
-<sub>**WebGPU Galaxy Shader & Real-Time Three.js TSL**</sub><br/>
-<sub>Silky 60 FPS WebGPURenderer cosmic simulations, fluid motion, and custom vertex shaders.</sub>
-
-<br/><br/>
-
-<a href="https://github.com/SazWhatician/nextjs-nights-shader">
-  <img src="https://img.shields.io/github/stars/SazWhatician/nextjs-nights-shader?style=flat-square&logo=github&color=A855F7&labelColor=0D1117"/>
-  <img src="https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=threedotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/WebGPU-005A9C?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
-</a>
-
-</td>
-</tr>
-
-<tr>
 <td width="50%" valign="top">
 
 ### 🫁 [`PNUE-RECOG`](https://github.com/SazWhatician/PNUE-RECOG)
 <sub>**Deep Learning Computer Vision Diagnostic Pipeline**</sub><br/>
-<sub>High-accuracy medical imagery neural network with ensemble feature extraction &amp; heatmap visualizer.</sub>
+<sub>Medical imaging classification network with multi-layer feature extraction, heatmap explainability, and evaluation metrics.</sub>
 
 <br/><br/>
 
 <a href="https://github.com/SazWhatician/PNUE-RECOG">
-  <img src="https://img.shields.io/github/stars/SazWhatician/PNUE-RECOG?style=flat-square&logo=github&color=22D3EE&labelColor=0D1117"/>
+  <img src="https://img.shields.io/github/stars/SazWhatician/PNUE-RECOG?style=flat-square&logo=github&color=F472B6&labelColor=0D1117"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white"/>
-</a>
-
-</td>
-<td width="50%" valign="top">
-
-### 👁️ [`Face-Recognition-Model`](https://github.com/SazWhatician/Face-Recognition-Model)
-<sub>**Biometric Vision & Facial Embedding Pipeline**</sub><br/>
-<sub>Real-time face detection, high-dimensional vector embeddings, and ultra-fast cosine similarity matching.</sub>
-
-<br/><br/>
-
-<a href="https://github.com/SazWhatician/Face-Recognition-Model">
-  <img src="https://img.shields.io/github/stars/SazWhatician/Face-Recognition-Model?style=flat-square&logo=github&color=F472B6&labelColor=0D1117"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Computer_Vision-7B2CBF?style=flat-square"/>
 </a>
 
 </td>
@@ -482,17 +494,15 @@ const saswat: AIEngineer = {
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <details open>
-<summary><h2 style="display:inline">⚔️ &nbsp;<code>CHECKPOINT 08</code> · Competitive Arena &amp; Code Heatmap &nbsp;<code>// > ./competitive --expand</code></h2></summary>
+<summary><h2 style="display:inline"><code>CHECKPOINT 08</code> · Competitive Algorithms &amp; LeetCode Telemetry &nbsp;<code>// > ./competitive --expand</code></h2></summary>
 
 <br/>
 
 <div align="center">
 
-<img src="https://leetcard.jacoblin.cool/SazWhatician?theme=dark&font=JetBrains%20Mono&ext=heatmap" width="60%"/>
-
-<br/><br/>
-
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=SazWhatician&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=A855F7&text_color=E2E8F0" width="60%"/>
+<a href="https://leetcode.com/u/Saswat144/">
+  <img src="https://leetcard.jacoblin.cool/Saswat144?theme=dark&font=JetBrains%20Mono&ext=heatmap" width="62%" alt="Saswat144 LeetCode Stats"/>
+</a>
 
 </div>
 
@@ -501,10 +511,10 @@ const saswat: AIEngineer = {
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- CHECKPOINT 09 · MATRIX DEV WISDOM                                   -->
+<!-- CHECKPOINT 09 · SYSTEM DESIGN WISDOM                                -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/xUOwGhOrYP0jP6iAy4/giphy.gif" width="28"/> 🔮 `CHECKPOINT 09` · Matrix Dev Wisdom `// > fortune | cowsay`
+## `CHECKPOINT 09` · Architecture & Engineering Philosophy `// > cat philosophy.txt`
 
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="82%"/>
@@ -516,7 +526,7 @@ const saswat: AIEngineer = {
 <!-- CHECKPOINT 10 · COMM LINK & NEURAL CONNECT                          -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="28"/> 📡 `CHECKPOINT 10` · Comm Link & Neural Connect `// > ping --all`
+## `CHECKPOINT 10` · Comm Link & Professional Network `// > ping --all`
 
 <div align="center">
 
@@ -541,15 +551,15 @@ const saswat: AIEngineer = {
 </a>
 </td>
 <td align="center" width="20%">
-<a href="https://x.com/">
-  <img src="https://img.icons8.com/fluency/64/twitterx--v2.png" width="46"/>
-  <br/><sub><b>X / Twitter</b></sub>
+<a href="https://leetcode.com/u/Saswat144/">
+  <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-color-tal-revivo.png" width="46"/>
+  <br/><sub><b>LeetCode</b></sub>
 </a>
 </td>
 <td align="center" width="20%">
-<a href="https://discord.com/">
-  <img src="https://img.icons8.com/fluency/64/discord-logo.png" width="46"/>
-  <br/><sub><b>Discord</b></sub>
+<a href="https://x.com/">
+  <img src="https://img.icons8.com/fluency/64/twitterx--v2.png" width="46"/>
+  <br/><sub><b>X / Twitter</b></sub>
 </a>
 </td>
 </tr>
@@ -569,12 +579,12 @@ const saswat: AIEngineer = {
 <br/>
 
 <!-- ╭──────── FOOTER WAVE ANIMATION ────────╮ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F472B6,25:22D3EE,55:A855F7,80:7B2CBF,100:0D1117&height=180&section=footer&text=Thanks%20for%20visiting%20%E2%9C%A8&fontSize=28&fontColor=FFFFFF&fontAlign=50&fontAlignY=72&animation=twinkling" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F472B6,25:22D3EE,55:A855F7,80:7B2CBF,100:0D1117&height=180&section=footer&text=Engineered%20for%20Scale%20%C2%B7%20Thanks%20for%20Visiting&fontSize=26&fontColor=FFFFFF&fontAlign=50&fontAlignY=72&animation=twinkling" width="100%"/>
 
 <div align="center">
   <sub>
-    ⚡ Engineered with Cybernetic Motion &amp; AI by
+    Engineered with Precision &amp; AI Systems by
     <a href="https://github.com/SazWhatician"><b>Saswat Mohanty</b></a>
-    &nbsp;·&nbsp; <i>"Ship it clean. Ship it fast. Ship it now."</i>
+    &nbsp;·&nbsp; <i>"Deterministic systems over stochastic hope. Ship clean, scale reliably."</i>
   </sub>
 </div>
