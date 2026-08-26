@@ -73,16 +73,47 @@
 
 <div align="center">
 
-<!-- LIVE VERIFIED PROFILE SUMMARY CARDS -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SazWhatician&theme=tokyonight" width="49%"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=SazWhatician&theme=tokyonight" width="49%"/>
+<!-- LIVE TELEMETRY RIBBON -->
+<img src="https://img.shields.io/badge/Total_Commits-450%2B-A855F7?style=for-the-badge&logo=git&logoColor=white&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/Public_Repositories-28_Shipped-22D3EE?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/Code_Velocity-High_Frequency-F472B6?style=for-the-badge&logo=speedtest&logoColor=white&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/Stack-TypeScript_%C2%B7_Python_%C2%B7_Next.js-7B2CBF?style=for-the-badge&labelColor=0D1117"/>
 
 <br/><br/>
 
-<!-- REPOS PER LANGUAGE & MOST COMMIT LANGUAGE -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SazWhatician&theme=tokyonight" width="32%"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SazWhatician&theme=tokyonight" width="32%"/>
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=SazWhatician&theme=tokyonight&utcOffset=5.5" width="32%"/>
+<!-- TELEMETRY TYPING HUD -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&pause=1800&color=22D3EE&center=true&vCenter=true&multiline=true&repeat=true&width=780&height=90&lines=%3E+%5BTELEMETRY%5D+Tracking+28+active+repositories+across+AI%2C+Agents+%26+Full-Stack;%3E+%5BVELOCITY%5D+Peak+commit+cycles+concentrated+in+high-focus+evening+sprints;%3E+%5BSTANDARDS%5D+Strict+type+safety%2C+zero-waterfall+SSE+streams%2C+finite+state+agents." alt="telemetry typing"/>
+
+<br/><br/>
+
+<!-- PRIMARY ANALYTICS CARDS (GRID) -->
+<table>
+<tr>
+<td width="50%" align="center" valign="top">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SazWhatician&theme=tokyonight" width="100%"/>
+</td>
+<td width="50%" align="center" valign="top">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=SazWhatician&theme=tokyonight" width="100%"/>
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- LANGUAGE & PRODUCTIVITY RADAR (3-COLUMN) -->
+<table>
+<tr>
+<td width="33%" align="center" valign="top">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=SazWhatician&theme=tokyonight" width="100%"/>
+</td>
+<td width="33%" align="center" valign="top">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=SazWhatician&theme=tokyonight" width="100%"/>
+</td>
+<td width="33%" align="center" valign="top">
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=SazWhatician&theme=tokyonight&utcOffset=5.5" width="100%"/>
+</td>
+</tr>
+</table>
 
 </div>
 
