@@ -16,7 +16,8 @@
 <div align="center">
 
 <!-- ╭──────── MATRIX BOOT SEQUENCE ────────╮ -->
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=13&pause=40&color=00FF41&center=true&vCenter=true&multiline=true&repeat=false&width=700&height=140&lines=%5BSYSTEM%5D+BOOT+SEQUENCE+INITIATED+...;%5BAI_CORE%5D+Loading+neural+networks+...............+%5B+OK+%5D;%5BAGENTS%5D+Multi-agent+subsystem+online+..........+%5B+OK+%5D;%5BSTACK%5D++React+·+FastAPI+·+LangGraph+...........+%5B+OK+%5D;%5BSTATUS%5D+All+systems+operational.;%5BWELCOME%5D+You+are+now+connected+to+%40SazWhatician" alt="Boot Sequence"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=120&lines=%5BSYSTEM%5D+BOOT+SEQUENCE+...+%5BOK%5D;%5BAGENTS%5D+Multi-agent+subsystem+online+...+%5BOK%5D;%5BSTACK%5D+LangGraph+%C2%B7+Claude+%C2%B7+Gemini+...+%5BOK%5D;%5BSTATUS%5D+All+systems+nominal.+Welcome%2C+SazWhatician." alt="boot"/>
+
 
 </div>
 
