@@ -145,7 +145,7 @@
 
 <!-- ORIGINAL PORTRAIT PHOTO WITH CYBER BORDER -->
 <a href="https://github.com/SazWhatician">
-  <img src="saswatt.jpeg" width="260" alt="Saswat Mohanty" style="border-radius: 20px; border: 2px solid #A855F7;"/>
+  <img src="saswat.png" width="260" alt="Saswat Mohanty" style="border-radius: 20px; border: 2px solid #A855F7;"/>
 </a>
 
 <br/><br/>
