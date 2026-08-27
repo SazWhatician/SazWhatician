@@ -1,146 +1,147 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Saswat Mohanty - AI Engineer">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Saswat Mohanty">
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0D1117">
-        <animate attributeName="stop-color" values="#0D1117;#130029;#0a001a;#0D1117" dur="10s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#0a0014">
+        <animate attributeName="stop-color" values="#0a0014;#130029;#0a0014" dur="12s" repeatCount="indefinite"/>
       </stop>
       <stop offset="50%" stop-color="#130029">
-        <animate attributeName="stop-color" values="#130029;#1a0033;#0D1117;#130029" dur="10s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#130029;#1a0033;#130029" dur="12s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#0D1117">
-        <animate attributeName="stop-color" values="#0D1117;#0a001a;#130029;#0D1117" dur="10s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#0a0014">
+        <animate attributeName="stop-color" values="#0a0014;#0D1117;#0a0014" dur="12s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
     <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#A855F7">
-        <animate attributeName="stop-color" values="#A855F7;#F472B6;#22D3EE;#7B2CBF;#A855F7" dur="8s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#F5D976">
+        <animate attributeName="stop-color" values="#F5D976;#D4AF37;#F5D976" dur="10s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#22D3EE">
-        <animate attributeName="stop-color" values="#22D3EE;#A855F7;#F472B6;#22D3EE" dur="8s" repeatCount="indefinite"/>
+      <stop offset="50%" stop-color="#FFFFFF">
+        <animate attributeName="stop-color" values="#FFFFFF;#F5D976;#FFFFFF" dur="10s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="100%" stop-color="#F472B6">
-        <animate attributeName="stop-color" values="#F472B6;#22D3EE;#A855F7;#7B2CBF;#F472B6" dur="8s" repeatCount="indefinite"/>
+      <stop offset="100%" stop-color="#D4AF37">
+        <animate attributeName="stop-color" values="#D4AF37;#F5D976;#D4AF37" dur="10s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
 
     <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#7B2CBF" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#A855F7" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#7B2CBF" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#D4AF37" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0"/>
     </linearGradient>
 
     <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feGaussianBlur stdDeviation="3"/>
       <feMerge>
-        <feMergeNode in="blur"/>
+        <feMergeNode/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
     <filter id="strongGlow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feGaussianBlur stdDeviation="6"/>
       <feMerge>
-        <feMergeNode in="blur"/>
+        <feMergeNode/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
-    <pattern id="dotGrid" x="0" y="0" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="1" fill="#7B2CBF" opacity="0.14"/>
+    <pattern id="dotGrid" x="0" y="0" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#D4AF37" opacity="0.10"/>
     </pattern>
 
-    <path id="orbitA" d="M 100 200 A 500 110 0 1 0 1100 200 A 500 110 0 1 0 100 200" fill="none"/>
-    <path id="orbitB" d="M 220 200 A 380 70 0 1 0 980 200 A 380 70 0 1 0 220 200" fill="none"/>
-    <path id="orbitC" d="M 350 200 A 250 40 0 1 0 850 200 A 250 40 0 1 0 350 200" fill="none"/>
+    <path id="orbitA" d="M 100 210 A 500 110 0 1 0 1100 210 A 500 110 0 1 0 100 210" fill="none"/>
+    <path id="orbitB" d="M 220 210 A 380 70 0 1 0 980 210 A 380 70 0 1 0 220 210" fill="none"/>
+    <path id="orbitC" d="M 350 210 A 250 40 0 1 0 850 210 A 250 40 0 1 0 350 210" fill="none"/>
   </defs>
 
-  <rect width="1200" height="380" fill="url(#bgGrad)"/>
-  <rect width="1200" height="380" fill="url(#dotGrid)"/>
+  <rect width="1200" height="400" fill="url(#bgGrad)"/>
+  <rect width="1200" height="400" fill="url(#dotGrid)"/>
 
-  <!-- Corner brackets -->
-  <g stroke="#A855F7" stroke-width="2" fill="none" opacity="0.75">
-    <path d="M 24 24 L 24 62 M 24 24 L 62 24"/>
-    <path d="M 1176 24 L 1176 62 M 1176 24 L 1138 24"/>
-    <path d="M 24 356 L 24 318 M 24 356 L 62 356"/>
-    <path d="M 1176 356 L 1176 318 M 1176 356 L 1138 356"/>
+  <!-- Fine gold corner brackets -->
+  <g stroke="#D4AF37" stroke-width="1.2" fill="none" opacity="0.85">
+    <path d="M 22 22 L 22 62 M 22 22 L 62 22"/>
+    <path d="M 1178 22 L 1178 62 M 1178 22 L 1138 22"/>
+    <path d="M 22 378 L 22 338 M 22 378 L 62 378"/>
+    <path d="M 1178 378 L 1178 338 M 1178 378 L 1138 378"/>
   </g>
 
-  <!-- Orbit rings faint -->
-  <use href="#orbitA" stroke="#7B2CBF" stroke-width="0.7" opacity="0.28"/>
-  <use href="#orbitB" stroke="#22D3EE" stroke-width="0.7" opacity="0.22"/>
-  <use href="#orbitC" stroke="#F472B6" stroke-width="0.7" opacity="0.20"/>
+  <!-- Faint orbit rings (rings visible; particles ride them) -->
+  <use href="#orbitA" stroke="#7B2CBF" stroke-width="0.5" opacity="0.22"/>
+  <use href="#orbitB" stroke="#22D3EE" stroke-width="0.5" opacity="0.18"/>
+  <use href="#orbitC" stroke="#F472B6" stroke-width="0.5" opacity="0.16"/>
 
   <!-- Orbiting particles -->
-  <circle r="4" fill="#22D3EE" filter="url(#softGlow)">
-    <animateMotion dur="14s" repeatCount="indefinite">
+  <circle r="3.5" fill="#D4AF37" filter="url(#softGlow)">
+    <animateMotion dur="16s" repeatCount="indefinite">
       <mpath href="#orbitA"/>
     </animateMotion>
   </circle>
-  <circle r="3.5" fill="#F472B6" filter="url(#softGlow)">
-    <animateMotion dur="14s" repeatCount="indefinite" begin="-7s">
+  <circle r="3" fill="#F5D976" filter="url(#softGlow)">
+    <animateMotion dur="16s" repeatCount="indefinite" begin="-8s">
       <mpath href="#orbitA"/>
     </animateMotion>
   </circle>
-  <circle r="3" fill="#A855F7" filter="url(#softGlow)">
-    <animateMotion dur="11s" repeatCount="indefinite">
+  <circle r="2.5" fill="#A855F7" filter="url(#softGlow)">
+    <animateMotion dur="12s" repeatCount="indefinite">
       <mpath href="#orbitB"/>
     </animateMotion>
   </circle>
-  <circle r="3" fill="#FCD34D" filter="url(#softGlow)">
-    <animateMotion dur="9s" repeatCount="indefinite" begin="-3s">
-      <mpath href="#orbitC"/>
-    </animateMotion>
-  </circle>
   <circle r="2.5" fill="#22D3EE" filter="url(#softGlow)">
-    <animateMotion dur="9s" repeatCount="indefinite" begin="-6s">
+    <animateMotion dur="10s" repeatCount="indefinite" begin="-4s">
       <mpath href="#orbitC"/>
     </animateMotion>
   </circle>
 
-  <!-- Top tags -->
-  <text x="40" y="55" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="12" fill="#A855F7" letter-spacing="5">// PROFILE.INITIALIZED</text>
-  <text x="1160" y="55" text-anchor="end" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="12" fill="#F472B6" letter-spacing="5">v7.0 // ULTRA_INSTINCT</text>
+  <!-- Top row: house of · ordo -->
+  <text x="40" y="58" font-family="Georgia, 'Cormorant Garamond', serif" font-style="italic" font-size="14" fill="#D4AF37" letter-spacing="4">the house of</text>
+  <text x="1160" y="58" text-anchor="end" font-family="Georgia, 'Cormorant Garamond', serif" font-style="italic" font-size="12" fill="#A855F7" letter-spacing="3">— studio saswat · est. 2024 —</text>
 
-  <!-- Main Name -->
-  <text x="600" y="185" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, sans-serif" font-weight="900" font-size="86" fill="url(#nameGrad)" filter="url(#strongGlow)" letter-spacing="6">SASWAT MOHANTY</text>
+  <!-- Hairline divider under top -->
+  <line x1="40" y1="76" x2="1160" y2="76" stroke="url(#lineGrad)" stroke-width="0.6"/>
 
-  <!-- Subtitle -->
-  <text x="600" y="228" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="16" fill="#22D3EE" letter-spacing="7">AI ENGINEER · MULTI-AGENT ARCHITECT · FULL-STACK SYSTEMS</text>
+  <!-- Main name — serif luxury, gold gradient -->
+  <text x="600" y="180" text-anchor="middle" font-family="'Playfair Display', 'Cormorant Garamond', Georgia, serif" font-weight="700" font-size="82" fill="url(#nameGrad)" filter="url(#strongGlow)" letter-spacing="8">SASWAT MOHANTY</text>
 
-  <!-- Divider glow -->
-  <line x1="360" y1="252" x2="840" y2="252" stroke="url(#lineGrad)" stroke-width="1.5"/>
-  <circle cx="600" cy="252" r="3" fill="#A855F7" filter="url(#softGlow)">
-    <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+  <!-- Serif italic tagline -->
+  <text x="600" y="220" text-anchor="middle" font-family="Georgia, 'Cormorant Garamond', serif" font-style="italic" font-size="20" fill="#F5D976" letter-spacing="3">— building quiet systems that ship —</text>
+
+  <!-- Small caps subtitle -->
+  <text x="600" y="252" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="12" fill="#22D3EE" letter-spacing="10">AI  ENGINEER  ·  SYSTEMS  ·  INTERFACES</text>
+
+  <!-- Gold hairline divider with center pearl -->
+  <line x1="380" y1="278" x2="820" y2="278" stroke="url(#lineGrad)" stroke-width="1"/>
+  <circle cx="600" cy="278" r="3" fill="#D4AF37" filter="url(#softGlow)">
+    <animate attributeName="opacity" values="1;0.35;1" dur="2.5s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- Chip tags -->
-  <g font-family="'JetBrains Mono', ui-monospace, monospace" font-size="11" letter-spacing="3">
-    <g transform="translate(392, 282)">
-      <rect x="-64" y="-14" width="128" height="24" rx="12" fill="#0D1117" stroke="#A855F7" stroke-width="1"/>
-      <text x="0" y="3" text-anchor="middle" fill="#A855F7">[ LANGGRAPH ]</text>
+  <!-- Chip tags — restrained, no buzzwords -->
+  <g font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" letter-spacing="4">
+    <g transform="translate(420, 310)">
+      <rect x="-58" y="-14" width="116" height="24" rx="12" fill="#0a0014" stroke="#D4AF37" stroke-width="0.8"/>
+      <text x="0" y="3" text-anchor="middle" fill="#D4AF37">SYSTEMS</text>
     </g>
-    <g transform="translate(540, 282)">
-      <rect x="-64" y="-14" width="128" height="24" rx="12" fill="#0D1117" stroke="#F472B6" stroke-width="1"/>
-      <text x="0" y="3" text-anchor="middle" fill="#F472B6">[ SSE STREAM ]</text>
+    <g transform="translate(540, 310)">
+      <rect x="-58" y="-14" width="116" height="24" rx="12" fill="#0a0014" stroke="#A855F7" stroke-width="0.8"/>
+      <text x="0" y="3" text-anchor="middle" fill="#A855F7">AGENTS</text>
     </g>
-    <g transform="translate(688, 282)">
-      <rect x="-64" y="-14" width="128" height="24" rx="12" fill="#0D1117" stroke="#22D3EE" stroke-width="1"/>
-      <text x="0" y="3" text-anchor="middle" fill="#22D3EE">[ NEXT.JS 15 ]</text>
+    <g transform="translate(660, 310)">
+      <rect x="-58" y="-14" width="116" height="24" rx="12" fill="#0a0014" stroke="#22D3EE" stroke-width="0.8"/>
+      <text x="0" y="3" text-anchor="middle" fill="#22D3EE">INTERFACES</text>
     </g>
-    <g transform="translate(836, 282)">
-      <rect x="-64" y="-14" width="128" height="24" rx="12" fill="#0D1117" stroke="#FCD34D" stroke-width="1"/>
-      <text x="0" y="3" text-anchor="middle" fill="#FCD34D">[ GSAP · 60FPS ]</text>
+    <g transform="translate(780, 310)">
+      <rect x="-58" y="-14" width="116" height="24" rx="12" fill="#0a0014" stroke="#F472B6" stroke-width="0.8"/>
+      <text x="0" y="3" text-anchor="middle" fill="#F472B6">CRAFT</text>
     </g>
   </g>
 
-  <!-- Bottom row: status + location -->
-  <g transform="translate(40, 340)">
-    <circle cx="0" cy="0" r="5" fill="#22c55e" filter="url(#softGlow)">
+  <!-- Bottom rail: online + region -->
+  <line x1="40" y1="352" x2="1160" y2="352" stroke="#D4AF37" stroke-width="0.3" opacity="0.4"/>
+  <g transform="translate(40, 376)">
+    <circle cx="0" cy="0" r="4" fill="#22c55e" filter="url(#softGlow)">
       <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
-      <animate attributeName="r" values="5;6.5;5" dur="1.6s" repeatCount="indefinite"/>
     </circle>
-    <text x="15" y="4" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="11" fill="#22c55e" letter-spacing="3">SYSTEM ONLINE · CORE ACTIVE · TELEMETRY NOMINAL</text>
+    <text x="14" y="4" font-family="Georgia, 'Cormorant Garamond', serif" font-style="italic" font-size="12" fill="#22c55e" letter-spacing="2">available · answering messages</text>
   </g>
-  <text x="1160" y="344" text-anchor="end" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="11" fill="#22D3EE" letter-spacing="3">INDIA · IST · UTC+05:30</text>
+  <text x="1160" y="380" text-anchor="end" font-family="Georgia, 'Cormorant Garamond', serif" font-style="italic" font-size="12" fill="#D4AF37" letter-spacing="2">india · ist · utc+05:30</text>
 </svg>

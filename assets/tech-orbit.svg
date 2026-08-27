@@ -1,168 +1,257 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Tech Orbit">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Tech Constellation">
   <defs>
-    <radialGradient id="bgR" cx="50%" cy="50%" r="70%">
+    <radialGradient id="bgR" cx="50%" cy="50%" r="72%">
       <stop offset="0%" stop-color="#1a0033"/>
       <stop offset="60%" stop-color="#130029"/>
-      <stop offset="100%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#0a0014"/>
     </radialGradient>
 
-    <radialGradient id="coreG" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#F472B6"/>
-      <stop offset="60%" stop-color="#A855F7"/>
+    <radialGradient id="coreG" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#F5D976"/>
+      <stop offset="45%" stop-color="#D4AF37"/>
       <stop offset="100%" stop-color="#7B2CBF"/>
     </radialGradient>
 
-    <filter id="glow2" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="3"/>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2"/>
       <feMerge>
         <feMergeNode/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
-    <filter id="corePulse" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="8"/>
+    <filter id="deep" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6"/>
       <feMerge>
         <feMergeNode/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
 
-    <pattern id="starfield" width="120" height="120" patternUnits="userSpaceOnUse">
-      <circle cx="20" cy="30" r="0.8" fill="#22D3EE" opacity="0.4"/>
-      <circle cx="80" cy="90" r="0.6" fill="#F472B6" opacity="0.3"/>
-      <circle cx="60" cy="15" r="0.5" fill="#A855F7" opacity="0.5"/>
-      <circle cx="105" cy="55" r="0.7" fill="#FCD34D" opacity="0.35"/>
-      <circle cx="15" cy="90" r="0.5" fill="#22D3EE" opacity="0.3"/>
-      <circle cx="45" cy="75" r="0.6" fill="#A855F7" opacity="0.35"/>
+    <pattern id="starfield" width="140" height="140" patternUnits="userSpaceOnUse">
+      <circle cx="25" cy="35" r="0.7" fill="#D4AF37" opacity="0.35"/>
+      <circle cx="95" cy="105" r="0.6" fill="#22D3EE" opacity="0.28"/>
+      <circle cx="70" cy="18" r="0.5" fill="#A855F7" opacity="0.4"/>
+      <circle cx="118" cy="65" r="0.6" fill="#F5D976" opacity="0.3"/>
+      <circle cx="18" cy="100" r="0.5" fill="#22D3EE" opacity="0.25"/>
+      <circle cx="55" cy="80" r="0.5" fill="#F472B6" opacity="0.3"/>
     </pattern>
+
+    <!-- Invisible orbit paths for signal sparks -->
+    <path id="pInner" d="M 450 200 A 100 100 0 1 1 450 400 A 100 100 0 1 1 450 200" fill="none"/>
+    <path id="pMid"   d="M 450 120 A 180 180 0 1 1 450 480 A 180 180 0 1 1 450 120" fill="none"/>
+    <path id="pOuter" d="M 450 40  A 260 260 0 1 1 450 560 A 260 260 0 1 1 450 40"  fill="none"/>
   </defs>
 
-  <rect width="900" height="600" fill="url(#bgR)" rx="14"/>
-  <rect width="900" height="600" fill="url(#starfield)" rx="14"/>
-  <rect x="1" y="1" width="898" height="598" fill="none" stroke="#7B2CBF" stroke-width="1" rx="14" opacity="0.5"/>
+  <rect width="900" height="620" fill="url(#bgR)" rx="14"/>
+  <rect width="900" height="620" fill="url(#starfield)" rx="14"/>
+  <rect x="1" y="1" width="898" height="618" fill="none" stroke="#D4AF37" stroke-width="0.6" rx="14" opacity="0.55"/>
 
-  <!-- Header -->
-  <text x="30" y="34" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="13" fill="#A855F7" letter-spacing="4">// TECH_CONSTELLATION.orbit</text>
-  <text x="870" y="34" text-anchor="end" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="11" fill="#22D3EE" letter-spacing="3">↳ stack in motion</text>
+  <!-- Header (serif luxury) -->
+  <text x="30" y="36" font-family="Georgia, 'Cormorant Garamond', serif" font-style="italic" font-size="15" fill="#D4AF37" letter-spacing="2">The Constellation</text>
+  <text x="870" y="36" text-anchor="end" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" fill="#A855F7" letter-spacing="3">// stack.map</text>
+  <line x1="30" y1="50" x2="870" y2="50" stroke="#D4AF37" stroke-width="0.4" opacity="0.35"/>
 
-  <!-- Orbit rings -->
-  <circle cx="450" cy="310" r="90" fill="none" stroke="#7B2CBF" stroke-width="1" stroke-dasharray="3 4" opacity="0.5"/>
-  <circle cx="450" cy="310" r="170" fill="none" stroke="#22D3EE" stroke-width="1" stroke-dasharray="4 6" opacity="0.4"/>
-  <circle cx="450" cy="310" r="245" fill="none" stroke="#F472B6" stroke-width="1" stroke-dasharray="2 5" opacity="0.35"/>
+  <!-- Orbit rings — FLOWING via dash offset only (rings appear to "spin" without moving labels) -->
+  <circle cx="450" cy="300" r="100" fill="none" stroke="#7B2CBF" stroke-width="1" stroke-dasharray="4 8" opacity="0.7">
+    <animate attributeName="stroke-dashoffset" from="0" to="72" dur="18s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="450" cy="300" r="180" fill="none" stroke="#22D3EE" stroke-width="1" stroke-dasharray="5 10" opacity="0.55">
+    <animate attributeName="stroke-dashoffset" from="0" to="-90" dur="26s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="450" cy="300" r="260" fill="none" stroke="#F5D976" stroke-width="1" stroke-dasharray="3 12" opacity="0.4">
+    <animate attributeName="stroke-dashoffset" from="0" to="120" dur="42s" repeatCount="indefinite"/>
+  </circle>
 
-  <!-- Core -->
-  <g transform="translate(450 310)">
-    <circle cx="0" cy="0" r="55" fill="url(#coreG)" filter="url(#corePulse)">
-      <animate attributeName="r" values="55;60;55" dur="3s" repeatCount="indefinite"/>
+  <!-- Signal sparks orbit around the paths (dots only, no text moves) -->
+  <circle r="3.5" fill="#D4AF37" filter="url(#soft)">
+    <animateMotion dur="10s" repeatCount="indefinite">
+      <mpath href="#pInner"/>
+    </animateMotion>
+  </circle>
+  <circle r="3" fill="#F472B6" filter="url(#soft)">
+    <animateMotion dur="14s" repeatCount="indefinite" begin="-4s">
+      <mpath href="#pMid"/>
+    </animateMotion>
+  </circle>
+  <circle r="3" fill="#22D3EE" filter="url(#soft)">
+    <animateMotion dur="14s" repeatCount="indefinite" begin="-9s">
+      <mpath href="#pMid"/>
+    </animateMotion>
+  </circle>
+  <circle r="2.5" fill="#F5D976" filter="url(#soft)">
+    <animateMotion dur="22s" repeatCount="indefinite">
+      <mpath href="#pOuter"/>
+    </animateMotion>
+  </circle>
+  <circle r="2.5" fill="#A855F7" filter="url(#soft)">
+    <animateMotion dur="22s" repeatCount="indefinite" begin="-11s">
+      <mpath href="#pOuter"/>
+    </animateMotion>
+  </circle>
+
+  <!-- CORE (static; pulsing halo only) -->
+  <g transform="translate(450 300)">
+    <circle r="60" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.5">
+      <animate attributeName="r" values="60;90;60" dur="4s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0;0.5" dur="4s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="0" cy="0" r="55" fill="none" stroke="#F472B6" stroke-width="1.5" opacity="0.6">
-      <animate attributeName="r" values="55;80;55" dur="3s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.6;0;0.6" dur="3s" repeatCount="indefinite"/>
+    <circle r="55" fill="url(#coreG)" filter="url(#deep)">
+      <animate attributeName="r" values="55;58;55" dur="4s" repeatCount="indefinite"/>
     </circle>
-    <text x="0" y="-4" text-anchor="middle" font-family="Segoe UI, sans-serif" font-weight="800" font-size="15" fill="#FFFFFF" letter-spacing="2">SASWAT</text>
-    <text x="0" y="14" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#E9D5FF" letter-spacing="2">AI · CORE</text>
+    <text y="-3" text-anchor="middle" font-family="Georgia, 'Playfair Display', serif" font-weight="700" font-size="20" fill="#0a0014" letter-spacing="3">SASWAT</text>
+    <text y="16" text-anchor="middle" font-family="Georgia, 'Cormorant Garamond', serif" font-style="italic" font-size="10" fill="#3B0764" letter-spacing="4">— the core —</text>
   </g>
 
-  <!-- Inner Orbit: LLM/Agentic layer (r=90) — rotates -->
-  <g>
-    <animateTransform attributeName="transform" type="rotate" from="0 450 310" to="360 450 310" dur="22s" repeatCount="indefinite"/>
-    <!-- Node 1: LangGraph -->
-    <g transform="translate(450 220)">
-      <circle r="20" fill="#0D1117" stroke="#A855F7" stroke-width="1.5" filter="url(#glow2)"/>
-      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#A855F7" font-weight="700">LGraph</text>
+  <!-- INNER RING · Models (4 static nodes) -->
+  <g font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" font-weight="700" letter-spacing="1">
+    <g transform="translate(450 200)">
+      <circle r="22" fill="#0a0014" stroke="#A855F7" stroke-width="1.5" filter="url(#soft)"/>
+      <circle r="22" fill="none" stroke="#A855F7" stroke-width="1" opacity="0.6">
+        <animate attributeName="r" values="22;30;22" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.6;0;0.6" dur="3s" repeatCount="indefinite"/>
+      </circle>
+      <text y="4" text-anchor="middle" fill="#A855F7">Claude</text>
     </g>
-    <!-- Node 2: Claude -->
-    <g transform="translate(540 310)">
-      <circle r="20" fill="#0D1117" stroke="#F472B6" stroke-width="1.5" filter="url(#glow2)"/>
-      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#F472B6" font-weight="700">Claude</text>
+    <g transform="translate(550 300)">
+      <circle r="22" fill="#0a0014" stroke="#F472B6" stroke-width="1.5" filter="url(#soft)"/>
+      <circle r="22" fill="none" stroke="#F472B6" stroke-width="1" opacity="0.6">
+        <animate attributeName="r" values="22;30;22" dur="3s" repeatCount="indefinite" begin="-0.75s"/>
+        <animate attributeName="opacity" values="0.6;0;0.6" dur="3s" repeatCount="indefinite" begin="-0.75s"/>
+      </circle>
+      <text y="4" text-anchor="middle" fill="#F472B6">Gemini</text>
     </g>
-    <!-- Node 3: Gemini -->
     <g transform="translate(450 400)">
-      <circle r="20" fill="#0D1117" stroke="#22D3EE" stroke-width="1.5" filter="url(#glow2)"/>
-      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#22D3EE" font-weight="700">Gemini</text>
+      <circle r="22" fill="#0a0014" stroke="#22D3EE" stroke-width="1.5" filter="url(#soft)"/>
+      <circle r="22" fill="none" stroke="#22D3EE" stroke-width="1" opacity="0.6">
+        <animate attributeName="r" values="22;30;22" dur="3s" repeatCount="indefinite" begin="-1.5s"/>
+        <animate attributeName="opacity" values="0.6;0;0.6" dur="3s" repeatCount="indefinite" begin="-1.5s"/>
+      </circle>
+      <text y="4" text-anchor="middle" fill="#22D3EE">LGraph</text>
     </g>
-    <!-- Node 4: RAG -->
-    <g transform="translate(360 310)">
-      <circle r="20" fill="#0D1117" stroke="#FCD34D" stroke-width="1.5" filter="url(#glow2)"/>
-      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#FCD34D" font-weight="700">RAG</text>
+    <g transform="translate(350 300)">
+      <circle r="22" fill="#0a0014" stroke="#D4AF37" stroke-width="1.5" filter="url(#soft)"/>
+      <circle r="22" fill="none" stroke="#D4AF37" stroke-width="1" opacity="0.6">
+        <animate attributeName="r" values="22;30;22" dur="3s" repeatCount="indefinite" begin="-2.25s"/>
+        <animate attributeName="opacity" values="0.6;0;0.6" dur="3s" repeatCount="indefinite" begin="-2.25s"/>
+      </circle>
+      <text y="4" text-anchor="middle" fill="#D4AF37">OpenAI</text>
     </g>
   </g>
 
-  <!-- Middle Orbit: Application layer (r=170) — counter-rotates -->
-  <g>
-    <animateTransform attributeName="transform" type="rotate" from="360 450 310" to="0 450 310" dur="32s" repeatCount="indefinite"/>
-    <g transform="translate(450 140)">
-      <circle r="24" fill="#0D1117" stroke="#22D3EE" stroke-width="1.5" filter="url(#glow2)"/>
-      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" fill="#22D3EE" font-weight="700">Next.js</text>
+  <!-- MIDDLE RING · Application layer (6 static nodes) -->
+  <g font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" font-weight="700" letter-spacing="1">
+    <g transform="translate(450 120)">
+      <circle r="24" fill="#0a0014" stroke="#22D3EE" stroke-width="1.5" filter="url(#soft)"/>
+      <circle r="24" fill="none" stroke="#22D3EE" stroke-width="0.8" opacity="0.5">
+        <animate attributeName="r" values="24;32;24" dur="3.4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.5;0;0.5" dur="3.4s" repeatCount="indefinite"/>
+      </circle>
+      <text y="4" text-anchor="middle" fill="#22D3EE">Next.js</text>
     </g>
-    <g transform="translate(570 190)">
-      <circle r="24" fill="#0D1117" stroke="#A855F7" stroke-width="1.5" filter="url(#glow2)"/>
-      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" fill="#A855F7" font-weight="700">React</text>
+    <g transform="translate(606 210)">
+      <circle r="24" fill="#0a0014" stroke="#A855F7" stroke-width="1.5" filter="url(#soft)"/>
+      <circle r="24" fill="none" stroke="#A855F7" stroke-width="0.8" opacity="0.5">
+        <animate attributeName="r" values="24;32;24" dur="3.4s" repeatCount="indefinite" begin="-0.57s"/>
+        <animate attributeName="opacity" values="0.5;0;0.5" dur="3.4s" repeatCount="indefinite" begin="-0.57s"/>
+      </circle>
+      <text y="4" text-anchor="middle" fill="#A855F7">React</text>
     </g>
-    <g transform="translate(620 310)">
-      <circle r="24" fill="#0D1117" stroke="#F472B6" stroke-width="1.5" filter="url(#glow2)"/>
-      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" fill="#F472B6" font-weight="700">FastAPI</text>
-    </g>
-    <g transform="translate(570 430)">
-      <circle r="24" fill="#0D1117" stroke="#FCD34D" stroke-width="1.5" filter="url(#glow2)"/>
-      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" fill="#FCD34D" font-weight="700">TS</text>
+    <g transform="translate(606 390)">
+      <circle r="24" fill="#0a0014" stroke="#F472B6" stroke-width="1.5" filter="url(#soft)"/>
+      <circle r="24" fill="none" stroke="#F472B6" stroke-width="0.8" opacity="0.5">
+        <animate attributeName="r" values="24;32;24" dur="3.4s" repeatCount="indefinite" begin="-1.13s"/>
+        <animate attributeName="opacity" values="0.5;0;0.5" dur="3.4s" repeatCount="indefinite" begin="-1.13s"/>
+      </circle>
+      <text y="4" text-anchor="middle" fill="#F472B6">FastAPI</text>
     </g>
     <g transform="translate(450 480)">
-      <circle r="24" fill="#0D1117" stroke="#22D3EE" stroke-width="1.5" filter="url(#glow2)"/>
-      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" fill="#22D3EE" font-weight="700">Python</text>
+      <circle r="24" fill="#0a0014" stroke="#D4AF37" stroke-width="1.5" filter="url(#soft)"/>
+      <circle r="24" fill="none" stroke="#D4AF37" stroke-width="0.8" opacity="0.5">
+        <animate attributeName="r" values="24;32;24" dur="3.4s" repeatCount="indefinite" begin="-1.7s"/>
+        <animate attributeName="opacity" values="0.5;0;0.5" dur="3.4s" repeatCount="indefinite" begin="-1.7s"/>
+      </circle>
+      <text y="4" text-anchor="middle" fill="#D4AF37">Python</text>
     </g>
-    <g transform="translate(330 430)">
-      <circle r="24" fill="#0D1117" stroke="#A855F7" stroke-width="1.5" filter="url(#glow2)"/>
-      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" fill="#A855F7" font-weight="700">Node</text>
+    <g transform="translate(294 390)">
+      <circle r="24" fill="#0a0014" stroke="#22D3EE" stroke-width="1.5" filter="url(#soft)"/>
+      <circle r="24" fill="none" stroke="#22D3EE" stroke-width="0.8" opacity="0.5">
+        <animate attributeName="r" values="24;32;24" dur="3.4s" repeatCount="indefinite" begin="-2.27s"/>
+        <animate attributeName="opacity" values="0.5;0;0.5" dur="3.4s" repeatCount="indefinite" begin="-2.27s"/>
+      </circle>
+      <text y="4" text-anchor="middle" fill="#22D3EE">Node</text>
     </g>
-    <g transform="translate(280 310)">
-      <circle r="24" fill="#0D1117" stroke="#F472B6" stroke-width="1.5" filter="url(#glow2)"/>
-      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" fill="#F472B6" font-weight="700">GSAP</text>
-    </g>
-    <g transform="translate(330 190)">
-      <circle r="24" fill="#0D1117" stroke="#FCD34D" stroke-width="1.5" filter="url(#glow2)"/>
-      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" fill="#FCD34D" font-weight="700">Three</text>
-    </g>
-  </g>
-
-  <!-- Outer Orbit: Infra layer (r=245) — rotates slow -->
-  <g>
-    <animateTransform attributeName="transform" type="rotate" from="0 450 310" to="360 450 310" dur="46s" repeatCount="indefinite"/>
-    <g transform="translate(450 65)">
-      <circle r="22" fill="#0D1117" stroke="#7B2CBF" stroke-width="1.5" filter="url(#glow2)"/>
-      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#7B2CBF" font-weight="700">Docker</text>
-    </g>
-    <g transform="translate(623 121)">
-      <circle r="22" fill="#0D1117" stroke="#22D3EE" stroke-width="1.5" filter="url(#glow2)"/>
-      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#22D3EE" font-weight="700">AWS</text>
-    </g>
-    <g transform="translate(695 310)">
-      <circle r="22" fill="#0D1117" stroke="#F472B6" stroke-width="1.5" filter="url(#glow2)"/>
-      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#F472B6" font-weight="700">Redis</text>
-    </g>
-    <g transform="translate(623 499)">
-      <circle r="22" fill="#0D1117" stroke="#A855F7" stroke-width="1.5" filter="url(#glow2)"/>
-      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#A855F7" font-weight="700">Kafka</text>
-    </g>
-    <g transform="translate(450 555)">
-      <circle r="22" fill="#0D1117" stroke="#FCD34D" stroke-width="1.5" filter="url(#glow2)"/>
-      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#FCD34D" font-weight="700">PgSQL</text>
-    </g>
-    <g transform="translate(277 499)">
-      <circle r="22" fill="#0D1117" stroke="#22D3EE" stroke-width="1.5" filter="url(#glow2)"/>
-      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#22D3EE" font-weight="700">Vercel</text>
-    </g>
-    <g transform="translate(205 310)">
-      <circle r="22" fill="#0D1117" stroke="#F472B6" stroke-width="1.5" filter="url(#glow2)"/>
-      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#F472B6" font-weight="700">GCP</text>
-    </g>
-    <g transform="translate(277 121)">
-      <circle r="22" fill="#0D1117" stroke="#A855F7" stroke-width="1.5" filter="url(#glow2)"/>
-      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#A855F7" font-weight="700">CI/CD</text>
+    <g transform="translate(294 210)">
+      <circle r="24" fill="#0a0014" stroke="#A855F7" stroke-width="1.5" filter="url(#soft)"/>
+      <circle r="24" fill="none" stroke="#A855F7" stroke-width="0.8" opacity="0.5">
+        <animate attributeName="r" values="24;32;24" dur="3.4s" repeatCount="indefinite" begin="-2.83s"/>
+        <animate attributeName="opacity" values="0.5;0;0.5" dur="3.4s" repeatCount="indefinite" begin="-2.83s"/>
+      </circle>
+      <text y="4" text-anchor="middle" fill="#A855F7">TS</text>
     </g>
   </g>
 
-  <!-- Orbit labels -->
-  <text x="450" y="580" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" fill="#6B7280" letter-spacing="4">L1 · AGENTS   ///   L2 · APPS   ///   L3 · INFRA</text>
+  <!-- OUTER RING · Infra (6 static nodes) -->
+  <g font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" font-weight="700" letter-spacing="1">
+    <g transform="translate(450 40)">
+      <circle r="20" fill="#0a0014" stroke="#7B2CBF" stroke-width="1.2" filter="url(#soft)"/>
+      <circle r="20" fill="none" stroke="#7B2CBF" stroke-width="0.6" opacity="0.4">
+        <animate attributeName="r" values="20;28;20" dur="4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.4;0;0.4" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <text y="4" text-anchor="middle" fill="#7B2CBF">Docker</text>
+    </g>
+    <g transform="translate(675 170)">
+      <circle r="20" fill="#0a0014" stroke="#F5D976" stroke-width="1.2" filter="url(#soft)"/>
+      <circle r="20" fill="none" stroke="#F5D976" stroke-width="0.6" opacity="0.4">
+        <animate attributeName="r" values="20;28;20" dur="4s" repeatCount="indefinite" begin="-0.66s"/>
+        <animate attributeName="opacity" values="0.4;0;0.4" dur="4s" repeatCount="indefinite" begin="-0.66s"/>
+      </circle>
+      <text y="4" text-anchor="middle" fill="#F5D976">AWS</text>
+    </g>
+    <g transform="translate(675 430)">
+      <circle r="20" fill="#0a0014" stroke="#F472B6" stroke-width="1.2" filter="url(#soft)"/>
+      <circle r="20" fill="none" stroke="#F472B6" stroke-width="0.6" opacity="0.4">
+        <animate attributeName="r" values="20;28;20" dur="4s" repeatCount="indefinite" begin="-1.33s"/>
+        <animate attributeName="opacity" values="0.4;0;0.4" dur="4s" repeatCount="indefinite" begin="-1.33s"/>
+      </circle>
+      <text y="4" text-anchor="middle" fill="#F472B6">Redis</text>
+    </g>
+    <g transform="translate(450 560)">
+      <circle r="20" fill="#0a0014" stroke="#22D3EE" stroke-width="1.2" filter="url(#soft)"/>
+      <circle r="20" fill="none" stroke="#22D3EE" stroke-width="0.6" opacity="0.4">
+        <animate attributeName="r" values="20;28;20" dur="4s" repeatCount="indefinite" begin="-2s"/>
+        <animate attributeName="opacity" values="0.4;0;0.4" dur="4s" repeatCount="indefinite" begin="-2s"/>
+      </circle>
+      <text y="4" text-anchor="middle" fill="#22D3EE">Postgres</text>
+    </g>
+    <g transform="translate(225 430)">
+      <circle r="20" fill="#0a0014" stroke="#A855F7" stroke-width="1.2" filter="url(#soft)"/>
+      <circle r="20" fill="none" stroke="#A855F7" stroke-width="0.6" opacity="0.4">
+        <animate attributeName="r" values="20;28;20" dur="4s" repeatCount="indefinite" begin="-2.66s"/>
+        <animate attributeName="opacity" values="0.4;0;0.4" dur="4s" repeatCount="indefinite" begin="-2.66s"/>
+      </circle>
+      <text y="4" text-anchor="middle" fill="#A855F7">Vercel</text>
+    </g>
+    <g transform="translate(225 170)">
+      <circle r="20" fill="#0a0014" stroke="#D4AF37" stroke-width="1.2" filter="url(#soft)"/>
+      <circle r="20" fill="none" stroke="#D4AF37" stroke-width="0.6" opacity="0.4">
+        <animate attributeName="r" values="20;28;20" dur="4s" repeatCount="indefinite" begin="-3.33s"/>
+        <animate attributeName="opacity" values="0.4;0;0.4" dur="4s" repeatCount="indefinite" begin="-3.33s"/>
+      </circle>
+      <text y="4" text-anchor="middle" fill="#D4AF37">GCP</text>
+    </g>
+  </g>
+
+  <!-- Ring labels (static, elegant, right-aligned) -->
+  <g font-family="Georgia, 'Cormorant Garamond', serif" font-style="italic" font-size="11" fill="#6B7280">
+    <text x="565" y="304" text-anchor="start">models</text>
+    <text x="640" y="304" text-anchor="start">stack</text>
+    <text x="720" y="304" text-anchor="start">infra</text>
+  </g>
+
+  <!-- Bottom rail -->
+  <line x1="30" y1="590" x2="870" y2="590" stroke="#D4AF37" stroke-width="0.3" opacity="0.35"/>
+  <text x="30" y="608" font-family="Georgia, serif" font-style="italic" font-size="11" fill="#6B7280">three concentric rings. one architect.</text>
+  <text x="870" y="608" text-anchor="end" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#A855F7" letter-spacing="2">rings.flow · nodes.still</text>
 </svg>
