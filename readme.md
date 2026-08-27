@@ -184,10 +184,11 @@ const saswat = {
   ],
 
   stack: {
-    languages: ["TypeScript", "Python", "Go", "C++"],
+    languages: ["TypeScript", "Python", "Javascript", "C++", "C"],
     frontend:  ["React", "Next.js", "GSAP", "Three.js"],
     backend:   ["FastAPI", "Node.js", "Postgres", "Redis"],
     models:    ["Claude", "Gemini", "OpenAI", "LangGraph"],
+    
   },
 
   ethos: [
@@ -199,7 +200,7 @@ const saswat = {
 
   philosophy: "measure twice · ship once · then watch the logs",
   ask_me_about: ["debugging tools", "streaming interfaces", "motion craft"],
-  fun_fact: "I keep a ledger of every commit that shipped a bug.",
+  fun_fact: "I ask for logs everytime something goes wrong.",
 };
 ```
 
