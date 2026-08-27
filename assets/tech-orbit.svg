@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Tech Orbit">
+  <defs>
+    <radialGradient id="bgR" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1a0033"/>
+      <stop offset="60%" stop-color="#130029"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </radialGradient>
+
+    <radialGradient id="coreG" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F472B6"/>
+      <stop offset="60%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#7B2CBF"/>
+    </radialGradient>
+
+    <filter id="glow2" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="corePulse" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="starfield" width="120" height="120" patternUnits="userSpaceOnUse">
+      <circle cx="20" cy="30" r="0.8" fill="#22D3EE" opacity="0.4"/>
+      <circle cx="80" cy="90" r="0.6" fill="#F472B6" opacity="0.3"/>
+      <circle cx="60" cy="15" r="0.5" fill="#A855F7" opacity="0.5"/>
+      <circle cx="105" cy="55" r="0.7" fill="#FCD34D" opacity="0.35"/>
+      <circle cx="15" cy="90" r="0.5" fill="#22D3EE" opacity="0.3"/>
+      <circle cx="45" cy="75" r="0.6" fill="#A855F7" opacity="0.35"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="600" fill="url(#bgR)" rx="14"/>
+  <rect width="900" height="600" fill="url(#starfield)" rx="14"/>
+  <rect x="1" y="1" width="898" height="598" fill="none" stroke="#7B2CBF" stroke-width="1" rx="14" opacity="0.5"/>
+
+  <!-- Header -->
+  <text x="30" y="34" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="13" fill="#A855F7" letter-spacing="4">// TECH_CONSTELLATION.orbit</text>
+  <text x="870" y="34" text-anchor="end" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="11" fill="#22D3EE" letter-spacing="3">↳ stack in motion</text>
+
+  <!-- Orbit rings -->
+  <circle cx="450" cy="310" r="90" fill="none" stroke="#7B2CBF" stroke-width="1" stroke-dasharray="3 4" opacity="0.5"/>
+  <circle cx="450" cy="310" r="170" fill="none" stroke="#22D3EE" stroke-width="1" stroke-dasharray="4 6" opacity="0.4"/>
+  <circle cx="450" cy="310" r="245" fill="none" stroke="#F472B6" stroke-width="1" stroke-dasharray="2 5" opacity="0.35"/>
+
+  <!-- Core -->
+  <g transform="translate(450 310)">
+    <circle cx="0" cy="0" r="55" fill="url(#coreG)" filter="url(#corePulse)">
+      <animate attributeName="r" values="55;60;55" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="55" fill="none" stroke="#F472B6" stroke-width="1.5" opacity="0.6">
+      <animate attributeName="r" values="55;80;55" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <text x="0" y="-4" text-anchor="middle" font-family="Segoe UI, sans-serif" font-weight="800" font-size="15" fill="#FFFFFF" letter-spacing="2">SASWAT</text>
+    <text x="0" y="14" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#E9D5FF" letter-spacing="2">AI · CORE</text>
+  </g>
+
+  <!-- Inner Orbit: LLM/Agentic layer (r=90) — rotates -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 450 310" to="360 450 310" dur="22s" repeatCount="indefinite"/>
+    <!-- Node 1: LangGraph -->
+    <g transform="translate(450 220)">
+      <circle r="20" fill="#0D1117" stroke="#A855F7" stroke-width="1.5" filter="url(#glow2)"/>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#A855F7" font-weight="700">LGraph</text>
+    </g>
+    <!-- Node 2: Claude -->
+    <g transform="translate(540 310)">
+      <circle r="20" fill="#0D1117" stroke="#F472B6" stroke-width="1.5" filter="url(#glow2)"/>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#F472B6" font-weight="700">Claude</text>
+    </g>
+    <!-- Node 3: Gemini -->
+    <g transform="translate(450 400)">
+      <circle r="20" fill="#0D1117" stroke="#22D3EE" stroke-width="1.5" filter="url(#glow2)"/>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#22D3EE" font-weight="700">Gemini</text>
+    </g>
+    <!-- Node 4: RAG -->
+    <g transform="translate(360 310)">
+      <circle r="20" fill="#0D1117" stroke="#FCD34D" stroke-width="1.5" filter="url(#glow2)"/>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#FCD34D" font-weight="700">RAG</text>
+    </g>
+  </g>
+
+  <!-- Middle Orbit: Application layer (r=170) — counter-rotates -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="360 450 310" to="0 450 310" dur="32s" repeatCount="indefinite"/>
+    <g transform="translate(450 140)">
+      <circle r="24" fill="#0D1117" stroke="#22D3EE" stroke-width="1.5" filter="url(#glow2)"/>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" fill="#22D3EE" font-weight="700">Next.js</text>
+    </g>
+    <g transform="translate(570 190)">
+      <circle r="24" fill="#0D1117" stroke="#A855F7" stroke-width="1.5" filter="url(#glow2)"/>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" fill="#A855F7" font-weight="700">React</text>
+    </g>
+    <g transform="translate(620 310)">
+      <circle r="24" fill="#0D1117" stroke="#F472B6" stroke-width="1.5" filter="url(#glow2)"/>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" fill="#F472B6" font-weight="700">FastAPI</text>
+    </g>
+    <g transform="translate(570 430)">
+      <circle r="24" fill="#0D1117" stroke="#FCD34D" stroke-width="1.5" filter="url(#glow2)"/>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" fill="#FCD34D" font-weight="700">TS</text>
+    </g>
+    <g transform="translate(450 480)">
+      <circle r="24" fill="#0D1117" stroke="#22D3EE" stroke-width="1.5" filter="url(#glow2)"/>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" fill="#22D3EE" font-weight="700">Python</text>
+    </g>
+    <g transform="translate(330 430)">
+      <circle r="24" fill="#0D1117" stroke="#A855F7" stroke-width="1.5" filter="url(#glow2)"/>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" fill="#A855F7" font-weight="700">Node</text>
+    </g>
+    <g transform="translate(280 310)">
+      <circle r="24" fill="#0D1117" stroke="#F472B6" stroke-width="1.5" filter="url(#glow2)"/>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" fill="#F472B6" font-weight="700">GSAP</text>
+    </g>
+    <g transform="translate(330 190)">
+      <circle r="24" fill="#0D1117" stroke="#FCD34D" stroke-width="1.5" filter="url(#glow2)"/>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" fill="#FCD34D" font-weight="700">Three</text>
+    </g>
+  </g>
+
+  <!-- Outer Orbit: Infra layer (r=245) — rotates slow -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 450 310" to="360 450 310" dur="46s" repeatCount="indefinite"/>
+    <g transform="translate(450 65)">
+      <circle r="22" fill="#0D1117" stroke="#7B2CBF" stroke-width="1.5" filter="url(#glow2)"/>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#7B2CBF" font-weight="700">Docker</text>
+    </g>
+    <g transform="translate(623 121)">
+      <circle r="22" fill="#0D1117" stroke="#22D3EE" stroke-width="1.5" filter="url(#glow2)"/>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#22D3EE" font-weight="700">AWS</text>
+    </g>
+    <g transform="translate(695 310)">
+      <circle r="22" fill="#0D1117" stroke="#F472B6" stroke-width="1.5" filter="url(#glow2)"/>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#F472B6" font-weight="700">Redis</text>
+    </g>
+    <g transform="translate(623 499)">
+      <circle r="22" fill="#0D1117" stroke="#A855F7" stroke-width="1.5" filter="url(#glow2)"/>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#A855F7" font-weight="700">Kafka</text>
+    </g>
+    <g transform="translate(450 555)">
+      <circle r="22" fill="#0D1117" stroke="#FCD34D" stroke-width="1.5" filter="url(#glow2)"/>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#FCD34D" font-weight="700">PgSQL</text>
+    </g>
+    <g transform="translate(277 499)">
+      <circle r="22" fill="#0D1117" stroke="#22D3EE" stroke-width="1.5" filter="url(#glow2)"/>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#22D3EE" font-weight="700">Vercel</text>
+    </g>
+    <g transform="translate(205 310)">
+      <circle r="22" fill="#0D1117" stroke="#F472B6" stroke-width="1.5" filter="url(#glow2)"/>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#F472B6" font-weight="700">GCP</text>
+    </g>
+    <g transform="translate(277 121)">
+      <circle r="22" fill="#0D1117" stroke="#A855F7" stroke-width="1.5" filter="url(#glow2)"/>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#A855F7" font-weight="700">CI/CD</text>
+    </g>
+  </g>
+
+  <!-- Orbit labels -->
+  <text x="450" y="580" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" fill="#6B7280" letter-spacing="4">L1 · AGENTS   ///   L2 · APPS   ///   L3 · INFRA</text>
+</svg>

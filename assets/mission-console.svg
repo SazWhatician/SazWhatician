@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Mission Console">
+  <defs>
+    <linearGradient id="term" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0014"/>
+      <stop offset="100%" stop-color="#050008"/>
+    </linearGradient>
+
+    <linearGradient id="titlebar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0033"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+
+    <filter id="crt">
+      <feGaussianBlur stdDeviation="0.4"/>
+    </filter>
+
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#A855F7" opacity="0.04"/>
+    </pattern>
+  </defs>
+
+  <!-- Terminal window frame -->
+  <rect width="900" height="480" fill="url(#term)" rx="12"/>
+  <rect width="900" height="42" fill="url(#titlebar)" rx="12"/>
+  <rect y="30" width="900" height="12" fill="url(#titlebar)"/>
+  <rect y="42" width="900" height="1" fill="#7B2CBF" opacity="0.6"/>
+
+  <!-- Traffic lights -->
+  <circle cx="24" cy="21" r="6" fill="#F472B6"/>
+  <circle cx="46" cy="21" r="6" fill="#FCD34D"/>
+  <circle cx="68" cy="21" r="6" fill="#22c55e">
+    <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Titlebar text -->
+  <text x="450" y="26" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="12" fill="#A855F7" letter-spacing="3">saswat@ultra-instinct: ~/missions</text>
+  <text x="870" y="26" text-anchor="end" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" fill="#6B7280">— × □</text>
+
+  <!-- Scanlines overlay -->
+  <rect y="43" width="900" height="437" fill="url(#scanlines)"/>
+
+  <!-- Terminal content -->
+  <g font-family="'JetBrains Mono', ui-monospace, monospace" font-size="13" filter="url(#crt)">
+    <!-- Line 1: prompt (immediate) -->
+    <text x="30" y="80">
+      <tspan fill="#A855F7">saswat@core</tspan><tspan fill="#E9D5FF">:</tspan><tspan fill="#22D3EE">~/missions</tspan><tspan fill="#E9D5FF">$ </tspan><tspan fill="#FFFFFF">./deploy --stack=agentic --stream=sse</tspan>
+    </text>
+
+    <!-- Line 2 -->
+    <text x="30" y="108" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.1s" fill="freeze" begin="0.6s"/>
+      <tspan fill="#22c55e">[  OK  ]</tspan><tspan fill="#E9D5FF"> Booting </tspan><tspan fill="#A855F7">LangGraph</tspan><tspan fill="#E9D5FF"> orchestrator ... state graph compiled</tspan>
+    </text>
+
+    <!-- Line 3 -->
+    <text x="30" y="132" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.1s" fill="freeze" begin="1.2s"/>
+      <tspan fill="#22c55e">[  OK  ]</tspan><tspan fill="#E9D5FF"> Connecting </tspan><tspan fill="#F472B6">Claude</tspan><tspan fill="#E9D5FF"> · </tspan><tspan fill="#22D3EE">Gemini</tspan><tspan fill="#E9D5FF"> · </tspan><tspan fill="#FCD34D">OpenAI</tspan><tspan fill="#E9D5FF"> ... 3 providers online</tspan>
+    </text>
+
+    <!-- Line 4 -->
+    <text x="30" y="156" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.1s" fill="freeze" begin="1.8s"/>
+      <tspan fill="#22c55e">[  OK  ]</tspan><tspan fill="#E9D5FF"> Opening </tspan><tspan fill="#22D3EE">SSE</tspan><tspan fill="#E9D5FF"> pipeline on :4000/stream ... transport ready</tspan>
+    </text>
+
+    <!-- Line 5 -->
+    <text x="30" y="180" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.1s" fill="freeze" begin="2.4s"/>
+      <tspan fill="#22c55e">[  OK  ]</tspan><tspan fill="#E9D5FF"> Mounting </tspan><tspan fill="#A855F7">Pinecone</tspan><tspan fill="#E9D5FF"> vector store · </tspan><tspan fill="#F472B6">1536</tspan><tspan fill="#E9D5FF">-dim embeddings hydrated</tspan>
+    </text>
+
+    <!-- Line 6 -->
+    <text x="30" y="204" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.1s" fill="freeze" begin="3.0s"/>
+      <tspan fill="#FCD34D">[ WARN ]</tspan><tspan fill="#E9D5FF"> Rate-limiter armed · </tspan><tspan fill="#F472B6">120</tspan><tspan fill="#E9D5FF"> req/min per tenant</tspan>
+    </text>
+
+    <!-- Line 7 -->
+    <text x="30" y="228" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.1s" fill="freeze" begin="3.6s"/>
+      <tspan fill="#22c55e">[  OK  ]</tspan><tspan fill="#E9D5FF"> React frontend hydrated · GSAP timeline · </tspan><tspan fill="#22D3EE">60fps</tspan><tspan fill="#E9D5FF"> locked</tspan>
+    </text>
+
+    <!-- Divider -->
+    <line x1="30" y1="248" x2="870" y2="248" stroke="#7B2CBF" stroke-width="0.5" opacity="0.5"/>
+
+    <!-- Mission status -->
+    <text x="30" y="280" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.1s" fill="freeze" begin="4.2s"/>
+      <tspan fill="#F472B6" font-weight="700">MISSION.01</tspan><tspan fill="#E9D5FF"> · HRMS SSE Chatbot </tspan><tspan fill="#22c55e">[ shipping ]</tspan><tspan fill="#6B7280"> — LangGraph + Gemini + React</tspan>
+    </text>
+    <text x="30" y="308" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.1s" fill="freeze" begin="4.5s"/>
+      <tspan fill="#A855F7" font-weight="700">MISSION.02</tspan><tspan fill="#E9D5FF"> · Distributed AI Fleet </tspan><tspan fill="#FCD34D">[ scaling ]</tspan><tspan fill="#6B7280"> — Pinecone + Kafka observability</tspan>
+    </text>
+    <text x="30" y="336" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.1s" fill="freeze" begin="4.8s"/>
+      <tspan fill="#22D3EE" font-weight="700">MISSION.03</tspan><tspan fill="#E9D5FF"> · Autonomous GUI Runtime </tspan><tspan fill="#22c55e">[ R&amp;D ]</tspan><tspan fill="#6B7280"> — DOM synthesis + NL automation</tspan>
+    </text>
+
+    <!-- Divider 2 -->
+    <line x1="30" y1="356" x2="870" y2="356" stroke="#7B2CBF" stroke-width="0.5" opacity="0.5"/>
+
+    <!-- Telemetry summary line -->
+    <text x="30" y="388" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.1s" fill="freeze" begin="5.2s"/>
+      <tspan fill="#22c55e">✓ </tspan><tspan fill="#E9D5FF">All systems </tspan><tspan fill="#22c55e" font-weight="700">GO</tspan><tspan fill="#E9D5FF"> · latency </tspan><tspan fill="#22D3EE">p95 = 118ms</tspan><tspan fill="#E9D5FF"> · uptime </tspan><tspan fill="#A855F7">99.94%</tspan>
+    </text>
+
+    <!-- Live prompt -->
+    <text x="30" y="428" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.1s" fill="freeze" begin="5.6s"/>
+      <tspan fill="#A855F7">saswat@core</tspan><tspan fill="#E9D5FF">:</tspan><tspan fill="#22D3EE">~/missions</tspan><tspan fill="#E9D5FF">$ </tspan><tspan fill="#FFFFFF">_</tspan>
+    </text>
+
+    <!-- Blinking cursor -->
+    <rect x="230" y="415" width="9" height="16" fill="#A855F7" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.1s" fill="freeze" begin="5.6s"/>
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite" begin="5.7s"/>
+    </rect>
+  </g>
+
+  <!-- Footer bar -->
+  <line y1="450" x2="900" y2="450" stroke="#7B2CBF" stroke-width="0.5" opacity="0.4"/>
+  <text x="30" y="468" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" fill="#6B7280" letter-spacing="2">tty0 · 24 x 80</text>
+  <text x="450" y="468" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" fill="#A855F7" letter-spacing="3">MISSIONS.LIVE</text>
+  <text x="870" y="468" text-anchor="end" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" fill="#22D3EE" letter-spacing="2">ENC: UTF-8 · TLS: 1.3</text>
+</svg>

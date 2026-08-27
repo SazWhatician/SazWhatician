@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 420" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Neural Connect">
+  <defs>
+    <linearGradient id="nbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="55%" stop-color="#130029"/>
+      <stop offset="100%" stop-color="#0a001a"/>
+    </linearGradient>
+
+    <radialGradient id="nodeIn" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F472B6"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </radialGradient>
+    <radialGradient id="nodeHid" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#0E7490"/>
+    </radialGradient>
+    <radialGradient id="nodeOut" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </radialGradient>
+
+    <filter id="ng" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="ngrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#A855F7" stroke-width="0.3" opacity="0.12"/>
+    </pattern>
+  </defs>
+
+  <rect width="1000" height="420" fill="url(#nbg)" rx="14"/>
+  <rect width="1000" height="420" fill="url(#ngrid)" rx="14"/>
+  <rect x="1" y="1" width="998" height="418" fill="none" stroke="#7B2CBF" stroke-width="1" rx="14" opacity="0.55"/>
+
+  <!-- Header -->
+  <text x="30" y="34" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="13" fill="#A855F7" letter-spacing="4">// COMM_LINK.neural_broadcast</text>
+  <text x="970" y="34" text-anchor="end" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="11" fill="#22D3EE" letter-spacing="3">↳ open channels · 5 online</text>
+  <line x1="30" y1="48" x2="970" y2="48" stroke="#7B2CBF" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Layer labels -->
+  <text x="150" y="90" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" fill="#F472B6" letter-spacing="3">INPUT · YOU</text>
+  <text x="500" y="90" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" fill="#22D3EE" letter-spacing="3">RELAY · CHANNELS</text>
+  <text x="850" y="90" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" fill="#FCD34D" letter-spacing="3">OUTPUT · SASWAT</text>
+
+  <!-- Animated connection lines (from input to hidden) -->
+  <g stroke-width="1" fill="none">
+    <line x1="150" y1="220" x2="380" y2="150" stroke="#A855F7" opacity="0.3"/>
+    <line x1="150" y1="220" x2="380" y2="220" stroke="#A855F7" opacity="0.3"/>
+    <line x1="150" y1="220" x2="380" y2="290" stroke="#A855F7" opacity="0.3"/>
+    <line x1="150" y1="220" x2="380" y2="360" stroke="#A855F7" opacity="0.3"/>
+    <line x1="150" y1="220" x2="380" y2="80" stroke="#A855F7" opacity="0.3"/>
+
+    <line x1="380" y1="80" x2="620" y2="150" stroke="#22D3EE" opacity="0.3"/>
+    <line x1="380" y1="150" x2="620" y2="150" stroke="#22D3EE" opacity="0.3"/>
+    <line x1="380" y1="150" x2="620" y2="220" stroke="#22D3EE" opacity="0.3"/>
+    <line x1="380" y1="220" x2="620" y2="220" stroke="#22D3EE" opacity="0.3"/>
+    <line x1="380" y1="220" x2="620" y2="290" stroke="#22D3EE" opacity="0.3"/>
+    <line x1="380" y1="290" x2="620" y2="290" stroke="#22D3EE" opacity="0.3"/>
+    <line x1="380" y1="290" x2="620" y2="360" stroke="#22D3EE" opacity="0.3"/>
+    <line x1="380" y1="360" x2="620" y2="360" stroke="#22D3EE" opacity="0.3"/>
+
+    <line x1="620" y1="150" x2="850" y2="140" stroke="#FCD34D" opacity="0.3"/>
+    <line x1="620" y1="150" x2="850" y2="220" stroke="#FCD34D" opacity="0.3"/>
+    <line x1="620" y1="220" x2="850" y2="140" stroke="#FCD34D" opacity="0.3"/>
+    <line x1="620" y1="220" x2="850" y2="220" stroke="#FCD34D" opacity="0.3"/>
+    <line x1="620" y1="220" x2="850" y2="300" stroke="#FCD34D" opacity="0.3"/>
+    <line x1="620" y1="290" x2="850" y2="220" stroke="#FCD34D" opacity="0.3"/>
+    <line x1="620" y1="290" x2="850" y2="300" stroke="#FCD34D" opacity="0.3"/>
+    <line x1="620" y1="360" x2="850" y2="300" stroke="#FCD34D" opacity="0.3"/>
+  </g>
+
+  <!-- Signal pulses -->
+  <circle r="4" fill="#F472B6" filter="url(#ng)">
+    <animateMotion dur="2.4s" repeatCount="indefinite" path="M 150 220 L 380 150 L 620 150 L 850 140"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <circle r="4" fill="#22D3EE" filter="url(#ng)">
+    <animateMotion dur="2.6s" repeatCount="indefinite" begin="-0.6s" path="M 150 220 L 380 220 L 620 220 L 850 220"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="2.6s" repeatCount="indefinite" begin="-0.6s"/>
+  </circle>
+  <circle r="4" fill="#FCD34D" filter="url(#ng)">
+    <animateMotion dur="2.8s" repeatCount="indefinite" begin="-1.2s" path="M 150 220 L 380 290 L 620 290 L 850 300"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="2.8s" repeatCount="indefinite" begin="-1.2s"/>
+  </circle>
+  <circle r="4" fill="#A855F7" filter="url(#ng)">
+    <animateMotion dur="2.2s" repeatCount="indefinite" begin="-1.4s" path="M 150 220 L 380 360 L 620 360 L 850 300"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="2.2s" repeatCount="indefinite" begin="-1.4s"/>
+  </circle>
+
+  <!-- Input node -->
+  <g transform="translate(150 220)">
+    <circle r="42" fill="url(#nodeIn)" filter="url(#ng)">
+      <animate attributeName="r" values="42;46;42" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <text y="4" text-anchor="middle" font-family="Segoe UI, sans-serif" font-weight="800" font-size="14" fill="#FFFFFF" letter-spacing="1">YOU</text>
+  </g>
+
+  <!-- Hidden layer 1 (5 nodes) -->
+  <g>
+    <g transform="translate(380 80)">
+      <circle r="22" fill="url(#nodeHid)" filter="url(#ng)">
+        <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#0D1117" font-weight="800">LI</text>
+    </g>
+    <g transform="translate(380 150)">
+      <circle r="22" fill="url(#nodeHid)" filter="url(#ng)">
+        <animate attributeName="opacity" values="1;0.55;1" dur="2.2s" repeatCount="indefinite" begin="-0.3s"/>
+      </circle>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#0D1117" font-weight="800">GM</text>
+    </g>
+    <g transform="translate(380 220)">
+      <circle r="22" fill="url(#nodeHid)" filter="url(#ng)">
+        <animate attributeName="opacity" values="1;0.6;1" dur="1.8s" repeatCount="indefinite" begin="-0.6s"/>
+      </circle>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#0D1117" font-weight="800">GH</text>
+    </g>
+    <g transform="translate(380 290)">
+      <circle r="22" fill="url(#nodeHid)" filter="url(#ng)">
+        <animate attributeName="opacity" values="1;0.55;1" dur="2.4s" repeatCount="indefinite" begin="-0.9s"/>
+      </circle>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#0D1117" font-weight="800">LC</text>
+    </g>
+    <g transform="translate(380 360)">
+      <circle r="22" fill="url(#nodeHid)" filter="url(#ng)">
+        <animate attributeName="opacity" values="1;0.5;1" dur="2.6s" repeatCount="indefinite" begin="-1.2s"/>
+      </circle>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#0D1117" font-weight="800">X</text>
+    </g>
+  </g>
+
+  <!-- Hidden layer 2 (4 nodes) -->
+  <g>
+    <g transform="translate(620 150)">
+      <circle r="20" fill="#0D1117" stroke="#22D3EE" stroke-width="1.5" filter="url(#ng)"/>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#22D3EE" font-weight="700">TCP</text>
+    </g>
+    <g transform="translate(620 220)">
+      <circle r="20" fill="#0D1117" stroke="#22D3EE" stroke-width="1.5" filter="url(#ng)"/>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#22D3EE" font-weight="700">TLS</text>
+    </g>
+    <g transform="translate(620 290)">
+      <circle r="20" fill="#0D1117" stroke="#22D3EE" stroke-width="1.5" filter="url(#ng)"/>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#22D3EE" font-weight="700">SSE</text>
+    </g>
+    <g transform="translate(620 360)">
+      <circle r="20" fill="#0D1117" stroke="#22D3EE" stroke-width="1.5" filter="url(#ng)"/>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#22D3EE" font-weight="700">REST</text>
+    </g>
+  </g>
+
+  <!-- Output nodes (3 - inbox states) -->
+  <g>
+    <g transform="translate(850 140)">
+      <circle r="26" fill="url(#nodeOut)" filter="url(#ng)">
+        <animate attributeName="r" values="26;28;26" dur="1.8s" repeatCount="indefinite"/>
+      </circle>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" fill="#0D1117" font-weight="800">DM</text>
+    </g>
+    <g transform="translate(850 220)">
+      <circle r="30" fill="url(#nodeOut)" filter="url(#ng)">
+        <animate attributeName="r" values="30;33;30" dur="1.8s" repeatCount="indefinite" begin="-0.6s"/>
+      </circle>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="11" fill="#0D1117" font-weight="800">HIRE</text>
+    </g>
+    <g transform="translate(850 300)">
+      <circle r="26" fill="url(#nodeOut)" filter="url(#ng)">
+        <animate attributeName="r" values="26;28;26" dur="1.8s" repeatCount="indefinite" begin="-1.2s"/>
+      </circle>
+      <text y="4" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="10" fill="#0D1117" font-weight="800">COFF</text>
+    </g>
+  </g>
+
+  <!-- Layer descriptors bottom -->
+  <text x="150" y="395" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#6B7280" letter-spacing="2">recruiter · collaborator · student</text>
+  <text x="500" y="395" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#6B7280" letter-spacing="2">LinkedIn · Gmail · GitHub · LeetCode · X</text>
+  <text x="850" y="395" text-anchor="middle" font-family="'JetBrains Mono', ui-monospace, monospace" font-size="9" fill="#6B7280" letter-spacing="2">reply within 24h · always open</text>
+</svg>

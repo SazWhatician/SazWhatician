@@ -1,8 +1,8 @@
 <!--
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║    SASWAT MOHANTY  ·  GITHUB PROFILE  ·  v6.0 "PRODUCTION ULTRAVIOLET"       ║
-║    → Autonomous Multi-Agent Systems · Real-Time Streaming · Full-Stack AI    ║
-║    → Verified Telemetry · Clean Architectures · 60 FPS Motion                ║
+║    SASWAT MOHANTY  ·  GITHUB PROFILE  ·  v7.0 "ULTRA INSTINCT"               ║
+║    → Custom SMIL-animated SVG cards · Not just shields — real motion         ║
+║    → Autonomous Multi-Agent Systems · Real-Time SSE · Full-Stack AI          ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 -->
 
@@ -13,32 +13,25 @@
   <img src="https://img.shields.io/github/stars/SazWhatician?label=STARS&style=for-the-badge&color=22D3EE&labelColor=0D1117"/>
 </div>
 
-<div align="center">
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!-- HERO · CUSTOM ANIMATED SVG BANNER (SMIL — orbiting particles, live glow) -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
 
-<!-- ╭──────── SYSTEM INITIALIZATION BANNER ────────╮ -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=760&height=120&lines=%5BSYSTEM%5D+INITIALIZING+RUNTIME+ENVIRONMENT+...+%5BOK%5D;%5BCORE%5D+Autonomous+Multi-Agent+Orchestration+Engine+...+%5BACTIVE%5D;%5BSTREAM%5D+High-Throughput+Server-Sent+Events+(SSE)+Pipeline+...+%5BACTIVE%5D;%5BSTATUS%5D+Telemetry+nominal.+Architecting+deterministic+AI+systems." alt="boot"/>
-
-</div>
-
-<!-- ╭──────── AURORA VENOM HERO ────────╮ -->
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0D1117,15:130029,45:7B2CBF,70:A855F7,88:22D3EE,100:F472B6&height=310&section=header&text=Saswat%20Mohanty&fontSize=74&fontColor=FFFFFF&fontAlign=50&fontAlignY=44&animation=fadeIn&desc=AI%20Engineer%20%C2%B7%20Multi-Agent%20Architect%20%C2%B7%20Full-Stack%20Systems&descAlign=50&descAlignY=68&descSize=18&stroke=A855F7&strokeWidth=2" width="100%"/>
+<p align="center">
+  <img src="./assets/hero-banner.svg" alt="Saswat Mohanty — AI Engineer · Multi-Agent Architect" width="100%"/>
+</p>
 
 <div align="center">
+
+<!-- Boot sequence typing -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=2000&color=00FF41&center=true&vCenter=true&multiline=true&repeat=true&width=780&height=90&lines=%5BSYSTEM%5D+INITIALIZING+RUNTIME+ENVIRONMENT+...+%5BOK%5D;%5BCORE%5D+Multi-Agent+Orchestration+Engine+...+%5BACTIVE%5D;%5BSTREAM%5D+High-Throughput+SSE+Pipeline+...+%5BACTIVE%5D;%5BSTATUS%5D+Telemetry+nominal.+Architecting+deterministic+AI+systems." alt="boot"/>
 
 <br/>
 
-<!-- ╭──────── TECHNICAL HOOK TYPING ANIMATION ────────╮ -->
+<!-- Technical hook typing -->
 <a href="https://github.com/SazWhatician">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&pause=1000&color=A855F7&center=true&vcenter=true&multiline=true&repeat=true&width=860&height=120&lines=%3E+Architecting+production+agentic+workflows+with+LangGraph%2C+Claude+%26+Gemini;%3E+Engineering+low-latency+SSE+streaming+engines+for+grounded+AI;%3E+Sculpting+high-framerate+interfaces+with+Next.js%2C+React+%26+GSAP;%3E+%22Deterministic+systems+over+stochastic+hope.+Ship+clean.+Scale+reliably.%22" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=19&pause=1000&color=A855F7&center=true&vcenter=true&multiline=true&repeat=true&width=880&height=110&lines=%3E+Architecting+production+agentic+workflows+with+LangGraph%2C+Claude+%26+Gemini;%3E+Engineering+low-latency+SSE+streaming+engines+for+grounded+AI;%3E+Sculpting+high-framerate+interfaces+with+Next.js%2C+React+%26+GSAP;%3E+%22Deterministic+systems+over+stochastic+hope.+Ship+clean.+Scale+reliably.%22" alt="Typing SVG"/>
 </a>
-
-<br/><br/>
-
-<!-- ╭──────── CORE STATUS BEACONS ────────╮ -->
-<img src="https://img.shields.io/badge/STATUS-Engineering_Agentic_Platforms-A855F7?style=for-the-badge&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/LOCATION-India_%C2%B7_UTC%2B5%3A30-22D3EE?style=for-the-badge&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/ROLES-Open_to_AI_Engineering_%26_Full-Stack-F472B6?style=for-the-badge&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/CORE_FOCUS-Multi--Agent_Orchestration_%2B_SSE-7B2CBF?style=for-the-badge&labelColor=0D1117"/>
 
 <br/><br/>
 
@@ -66,27 +59,18 @@
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- CHECKPOINT 01 · BATTLE TELEMETRY & COMMIT STATS                     -->
+<!-- CHECKPOINT 01 · TELEMETRY HUD (CUSTOM ANIMATED GAUGES SVG)          -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 ## `CHECKPOINT 01` · System Telemetry & Commit Intelligence `// > git log --telemetry`
 
+<p align="center">
+  <img src="./assets/telemetry-hud.svg" alt="Live Telemetry HUD — animated gauges" width="100%"/>
+</p>
+
 <div align="center">
 
-<!-- LIVE TELEMETRY RIBBON -->
-<img src="https://img.shields.io/badge/Total_Commits-450%2B-A855F7?style=for-the-badge&logo=git&logoColor=white&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/Public_Repositories-28_Shipped-22D3EE?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/Code_Velocity-High_Frequency-F472B6?style=for-the-badge&logo=speedtest&logoColor=white&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/Stack-TypeScript_%C2%B7_Python_%C2%B7_Next.js-7B2CBF?style=for-the-badge&labelColor=0D1117"/>
-
-<br/><br/>
-
-<!-- TELEMETRY TYPING HUD -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&pause=1800&color=22D3EE&center=true&vCenter=true&multiline=true&repeat=true&width=780&height=90&lines=%3E+%5BTELEMETRY%5D+Tracking+28+active+repositories+across+AI%2C+Agents+%26+Full-Stack;%3E+%5BVELOCITY%5D+Peak+commit+cycles+concentrated+in+high-focus+evening+sprints;%3E+%5BSTANDARDS%5D+Strict+type+safety%2C+zero-waterfall+SSE+streams%2C+finite+state+agents." alt="telemetry typing"/>
-
-<br/><br/>
-
-<!-- PRIMARY ANALYTICS CARDS (GRID) -->
+<!-- Analytics cards -->
 <table>
 <tr>
 <td width="50%" align="center" valign="top">
@@ -98,9 +82,6 @@
 </tr>
 </table>
 
-<br/>
-
-<!-- LANGUAGE & PRODUCTIVITY RADAR (3-COLUMN) -->
 <table>
 <tr>
 <td width="33%" align="center" valign="top">
@@ -122,7 +103,7 @@
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- CHECKPOINT 02 · RECOGNITION & CHECKPOINT MILESTONES                 -->
+<!-- CHECKPOINT 02 · MILESTONES                                          -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 ## `CHECKPOINT 02` · Engineering Checkpoints & Milestone Badges `// > ls milestones/`
@@ -163,7 +144,7 @@
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- CHECKPOINT 03 · IDENTITY MATRIX & BIO-DOSSIER                       -->
+<!-- CHECKPOINT 03 · IDENTITY MATRIX + CUSTOM ANIMATED SKILL BARS SVG    -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 ## `CHECKPOINT 03` · Identity Matrix & Bio-Dossier `// > whoami`
@@ -174,7 +155,6 @@
 
 <br/>
 
-<!-- ORIGINAL PORTRAIT PHOTO WITH CYBER BORDER -->
 <a href="https://github.com/SazWhatician">
   <img src="saswat.png" width="260" alt="Saswat Mohanty" style="border-radius: 20px; border: 2px solid #A855F7;"/>
 </a>
@@ -225,29 +205,32 @@ const saswat: AIEngineer = {
 };
 ```
 
-<br/>
-
-<!-- SKILL PROFICIENCY GAUGES -->
-<table>
-<tr><td><sub>AI &amp; Agentic Engineering</sub></td><td><img src="https://img.shields.io/badge/████████████░░-90%25-A855F7?style=flat-square&labelColor=0D1117"/></td></tr>
-<tr><td><sub>Full-Stack Systems (Next.js/FastAPI)</sub></td><td><img src="https://img.shields.io/badge/███████████░░░-85%25-22D3EE?style=flat-square&labelColor=0D1117"/></td></tr>
-<tr><td><sub>Motion Design &amp; UI Architecture</sub></td><td><img src="https://img.shields.io/badge/██████████░░░░-80%25-F472B6?style=flat-square&labelColor=0D1117"/></td></tr>
-<tr><td><sub>Distributed Systems &amp; MLOps</sub></td><td><img src="https://img.shields.io/badge/████████░░░░░░-65%25-7B2CBF?style=flat-square&labelColor=0D1117"/></td></tr>
-</table>
-
 </td>
 </tr>
 </table>
+
+<br/>
+
+<!-- CUSTOM ANIMATED SKILL MATRIX SVG (bars fill on load, dots pulse) -->
+<p align="center">
+  <img src="./assets/skill-matrix.svg" alt="Animated Skill Matrix — bars fill on load" width="100%"/>
+</p>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- CHECKPOINT 04 · ARSENAL & TECH STACK RADAR                          -->
+<!-- CHECKPOINT 04 · TECH ORBIT (CUSTOM ANIMATED CONSTELLATION SVG)      -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 ## `CHECKPOINT 04` · Arsenal & Technology Radar `// > cat stack.json`
+
+<p align="center">
+  <img src="./assets/tech-orbit.svg" alt="Tech Constellation — three orbital rings rotating around AI core" width="82%"/>
+</p>
+
+<br/>
 
 <div align="center">
 
@@ -315,10 +298,18 @@ const saswat: AIEngineer = {
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- CHECKPOINT 05 · ACTIVE MISSIONS & PRODUCTION ARCHITECTURES          -->
+<!-- CHECKPOINT 05 · MISSION CONSOLE (CUSTOM ANIMATED TERMINAL SVG)      -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## `CHECKPOINT 05` · Active Missions & Production Architectures `// > ls missions/`
+## `CHECKPOINT 05` · Active Missions & Production Architectures `// > ./deploy`
+
+<p align="center">
+  <img src="./assets/mission-console.svg" alt="Mission Console — animated terminal boot sequence with scrolling logs" width="100%"/>
+</p>
+
+<br/>
+
+<div align="center">
 
 <table>
 <tr>
@@ -376,6 +367,8 @@ const saswat: AIEngineer = {
 </td>
 </tr>
 </table>
+
+</div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
@@ -521,7 +514,7 @@ const saswat: AIEngineer = {
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- CHECKPOINT 08 · COMPETITIVE ARENA & CODING TELEMETRY                -->
+<!-- CHECKPOINT 08 · COMPETITIVE ARENA                                   -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <details open>
@@ -542,7 +535,7 @@ const saswat: AIEngineer = {
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- CHECKPOINT 09 · SYSTEM DESIGN WISDOM                                -->
+<!-- CHECKPOINT 09 · PHILOSOPHY                                          -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 ## `CHECKPOINT 09` · Architecture & Engineering Philosophy `// > cat philosophy.txt`
@@ -554,10 +547,14 @@ const saswat: AIEngineer = {
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- CHECKPOINT 10 · COMM LINK & NEURAL CONNECT                          -->
+<!-- CHECKPOINT 10 · NEURAL COMM LINK (CUSTOM ANIMATED NETWORK SVG)      -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## `CHECKPOINT 10` · Comm Link & Professional Network `// > ping --all`
+## `CHECKPOINT 10` · Comm Link & Professional Network `// > ping --neural`
+
+<p align="center">
+  <img src="./assets/neural-connect.svg" alt="Neural Comm Link — signals pulsing across channel network" width="100%"/>
+</p>
 
 <div align="center">
 
@@ -617,5 +614,7 @@ const saswat: AIEngineer = {
     Engineered with Precision &amp; AI Systems by
     <a href="https://github.com/SazWhatician"><b>Saswat Mohanty</b></a>
     &nbsp;·&nbsp; <i>"Deterministic systems over stochastic hope. Ship clean, scale reliably."</i>
+    <br/>
+    <sup>v7.0 · ULTRA_INSTINCT · 6 custom SMIL-animated SVG cards · rendered live on GitHub</sup>
   </sub>
 </div>
