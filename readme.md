@@ -1,71 +1,69 @@
 <!--
 ╔══════════════════════════════════════════════════════════════════════════════╗
-║    SASWAT MOHANTY  ·  GITHUB PROFILE  ·  v7.1 "MAISON"                       ║
-║    → Custom SMIL-animated SVG cards. Serif type. Gold hairlines.             ║
+║    SASWAT MOHANTY  ·  GITHUB PROFILE  ·  EDITION MMXXIV                      ║
+║    → Custom SMIL-animated SVG cards. Curvy luxury serif. Warm beige & wine.  ║
 ║    → Systems that ship. Interfaces that breathe. Words that don't shout.     ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 -->
 
 <!-- ╭──────── TOP TELEMETRY BEACONS ────────╮ -->
 <div align="right">
-  <img src="https://komarev.com/ghpvc/?username=SazWhatician&label=PROFILE+VIEWS&color=A855F7&style=for-the-badge" alt="views"/>
-  <img src="https://img.shields.io/github/followers/SazWhatician?label=FOLLOWERS&style=for-the-badge&color=7B2CBF&labelColor=0D1117"/>
-  <img src="https://img.shields.io/github/stars/SazWhatician?label=STARS&style=for-the-badge&color=22D3EE&labelColor=0D1117"/>
+  <img src="https://komarev.com/ghpvc/?username=SazWhatician&label=PROFILE+VIEWS&color=74825C&style=for-the-badge" alt="views"/>
+  <img src="https://img.shields.io/github/followers/SazWhatician?label=FOLLOWERS&style=for-the-badge&color=9E2D4C&labelColor=16040B"/>
+  <img src="https://img.shields.io/github/stars/SazWhatician?label=STARS&style=for-the-badge&color=D8C5B2&labelColor=16040B"/>
 </div>
 
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!-- HERO · CUSTOM ANIMATED SVG BANNER (SMIL — orbiting particles, live glow) -->
+<!-- HERO · BESPOKE ANIMATED LUXURY BANNER (CURVY SERIF, BEIGE, OLIVE, BURGUNDY) -->
 <!-- ═══════════════════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="./assets/hero-banner.svg" alt="Saswat Mohanty — AI Engineer · Systems · Interfaces" width="100%"/>
+  <img src="./assets/hero-banner.svg" alt="Saswat Mohanty — Haute Craft in Systems and Intelligence" width="100%"/>
 </p>
 
 <div align="center">
 
 <!-- Serif italic tagline typing -->
-<img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=500&size=22&pause=2200&color=D4AF37&center=true&vCenter=true&multiline=false&repeat=true&width=780&height=54&lines=I+build+quiet+systems+that+ship.;Small+teams%2C+careful+code%2C+long+patience.;Interfaces+are+trust.+Latency+is+language." alt="tagline"/>
+<img src="https://readme-typing-svg.demolab.com?font=Instrument+Serif&weight=400&size=24&pause=2200&color=EADBCE&center=true&vCenter=true&multiline=false&repeat=true&width=780&height=54&lines=I+build+quiet+systems+that+ship.;Small+teams%2C+careful+code%2C+long+patience.;Interfaces+are+trust.+Latency+is+language." alt="tagline"/>
 
 <br/>
 
 <!-- Small caps mono subheading -->
 <a href="https://github.com/SazWhatician">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&pause=1400&color=A855F7&center=true&vcenter=true&multiline=true&repeat=true&width=880&height=92&lines=%3E+writing+TypeScript%2C+Python%2C+and+the+occasional+Go+file;%3E+working+across+the+stack%3A+Next.js%2C+FastAPI%2C+Postgres%2C+Redis;%3E+shipping+Dr.Debug%2C+Polaris%2C+Polarassist+%E2%80%94+quiet+tools+that+work;%3E+%22measure+twice.+ship+once.+then+watch+the+logs.%22" alt="Typing"/>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&pause=1400&color=8E9F70&center=true&vcenter=true&multiline=true&repeat=true&width=880&height=92&lines=%3E+writing+TypeScript%2C+Python%2C+and+the+occasional+Go+file;%3E+working+across+the+stack%3A+Next.js%2C+FastAPI%2C+Postgres%2C+Redis;%3E+shipping+Dr.Debug%2C+Polaris%2C+MedScan+AI+%E2%80%94+quiet+tools+that+work;%3E+%22measure+twice.+ship+once.+then+watch+the+logs.%22" alt="Typing"/>
 </a>
 
 <br/><br/>
 
 <!-- ╭──────── CONNECT QUICK-BAR ────────╮ -->
 <a href="https://www.linkedin.com/in/saswat-mohanty-0a4549331/">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0D1117"/>
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=16040B"/>
 </a>
 <a href="mailto:saswatmohanty029@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0D1117"/>
+  <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=16040B"/>
 </a>
 <a href="https://github.com/SazWhatician">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=0D1117"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=16040B"/>
 </a>
 <a href="https://leetcode.com/u/Saswat144/">
-  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=0D1117"/>
+  <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black&labelColor=16040B"/>
 </a>
 <a href="https://x.com/">
-  <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=0D1117"/>
+  <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white&labelColor=16040B"/>
 </a>
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
-
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- CHECKPOINT 01 · TELEMETRY HUD (CUSTOM ANIMATED GAUGES SVG)          -->
+<!-- 01 / TELEMETRY · LIVE ANIMATED REEL COUNTERS (ALL-TIME CONTRIBUTIONS & REPOS) -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## `CHECKPOINT 01` · The Ledger `// > git log --telemetry`
+## `01` · Telemetry
 
 <p align="center">
-  <img src="./assets/telemetry-hud.svg" alt="Live Telemetry HUD — animated gauges" width="100%"/>
+  <img src="./assets/telemetry-hud.svg" alt="Live Telemetry HUD — Animated Live Counters" width="100%"/>
 </p>
 
 <div align="center">
@@ -98,56 +96,13 @@
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
-
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- CHECKPOINT 02 · MILESTONES                                          -->
+<!-- 02 / DOSSIER · IDENTITY & ARCHITECTURE SPECIFICATION               -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## `CHECKPOINT 02` · Milestones `// > ls hallmarks/`
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/HALLMARK-SYSTEMS_BUILDER-D4AF37?style=for-the-badge&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/CRAFT-INTERFACE_%26_MOTION-A855F7?style=for-the-badge&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/PRACTICE-SHIPPED_%26_SIGNED-22D3EE?style=for-the-badge&labelColor=0D1117"/>
-
-<br/><br/>
-
-<table>
-<tr>
-<td align="center" width="25%">
-<b><i>i.</i> &nbsp; The Debugger</b><br/>
-<sub>Reads the stack trace. Writes the fix. Opens the pull request. Signs its work.</sub>
-</td>
-<td align="center" width="25%">
-<b><i>ii.</i> &nbsp; The Canvas</b><br/>
-<sub>Grounded research answers that read like careful paper — citations, quiet motion, honest gaps.</sub>
-</td>
-<td align="center" width="25%">
-<b><i>iii.</i> &nbsp; The Frame</b><br/>
-<sub>Strict types from database row to pixel — one contract, no daylight between layers.</sub>
-</td>
-<td align="center" width="25%">
-<b><i>iv.</i> &nbsp; The Motion</b><br/>
-<sub>Every transition earns its 16 milliseconds. Interfaces that breathe, not blink.</sub>
-</td>
-</tr>
-</table>
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- CHECKPOINT 03 · IDENTITY MATRIX + CUSTOM ANIMATED SKILL BARS SVG    -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-
-## `CHECKPOINT 03` · The Dossier `// > whoami`
+## `02` · Dossier
 
 <table>
 <tr>
@@ -156,17 +111,17 @@
 <br/>
 
 <a href="https://github.com/SazWhatician">
-  <img src="saswat.png" width="260" alt="Saswat Mohanty" style="border-radius: 20px; border: 2px solid #A855F7;"/>
+  <img src="saswat.png" width="260" alt="Saswat Mohanty" style="border-radius: 20px; border: 2px solid #74825C;"/>
 </a>
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/Saswat_Mohanty-AI_Engineer-A855F7?style=for-the-badge&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/Saswat_Mohanty-AI_Engineer-74825C?style=for-the-badge&labelColor=16040B"/>
 
 <br/><br/>
 
-<img src="https://img.shields.io/badge/he%2Fhim-IST%20·%20UTC%2B5%3A30-22D3EE?style=flat-square&labelColor=0D1117"/>
-<img src="https://img.shields.io/badge/Focus-Systems_%26_Interfaces-F472B6?style=flat-square&labelColor=0D1117"/>
+<img src="https://img.shields.io/badge/he%2Fhim-IST%20·%20UTC%2B5%3A30-D8C5B2?style=flat-square&labelColor=16040B"/>
+<img src="https://img.shields.io/badge/Focus-Systems_%26_Interfaces-9E2D4C?style=flat-square&labelColor=16040B"/>
 
 </td>
 <td width="64%" valign="top">
@@ -210,185 +165,44 @@ const saswat = {
 
 <br/>
 
-<!-- CUSTOM ANIMATED SKILL MATRIX SVG (bars fill on load, dots pulse) -->
-<p align="center">
-  <img src="./assets/skill-matrix.svg" alt="Animated Skill Matrix — bars fill on load" width="100%"/>
-</p>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
-
-<br/>
-
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- CHECKPOINT 04 · TECH ORBIT (CUSTOM ANIMATED CONSTELLATION SVG)      -->
+<!-- 03 / INITIATIVES · ANIMATED FLAGSHIP SHOWCASE CARDS                 -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## `CHECKPOINT 04` · The Constellation `// > cat stack.json`
+## `03` · Initiatives
 
+<!-- Mission 01: Dr.Debug Animated Showcase Card -->
 <p align="center">
-  <img src="./assets/tech-orbit.svg" alt="Tech Constellation — three orbital rings rotating around AI core" width="82%"/>
+  <a href="https://github.com/SazWhatician/Dr.Debug">
+    <img src="./assets/dr-debug-card.svg" alt="Dr.Debug — The Autonomous Debugger" width="100%"/>
+  </a>
 </p>
 
 <br/>
 
-<div align="center">
-
-<table>
-<tr>
-<td valign="top" width="50%">
-
-#### <img src="https://img.shields.io/badge/Languages-A855F7?style=flat-square&labelColor=0D1117"/>
-
-<img src="https://skillicons.dev/icons?i=ts,py,js,cpp,c,html,css,bash&perline=8"/>
-
-#### <img src="https://img.shields.io/badge/Frontend_%26_Motion-22D3EE?style=flat-square&labelColor=0D1117"/>
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,threejs,vite,figma&perline=8"/>
-<br/>
-<img src="https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=black"/>
-<img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white"/>
-<img src="https://img.shields.io/badge/Barba.js-111111?style=flat-square&logo=javascript&logoColor=white"/>
-<img src="https://img.shields.io/badge/Lenis-000000?style=flat-square&logo=vercel&logoColor=white"/>
-
-#### <img src="https://img.shields.io/badge/Backend_Systems-F472B6?style=flat-square&labelColor=0D1117"/>
-
-<img src="https://skillicons.dev/icons?i=fastapi,nodejs,express,flask,graphql,prisma&perline=8"/>
-
-#### <img src="https://img.shields.io/badge/Databases_%26_State-7B2CBF?style=flat-square&labelColor=0D1117"/>
-
-<img src="https://skillicons.dev/icons?i=postgres,redis,mongodb,firebase,supabase,sqlite&perline=8"/>
-
-</td>
-<td valign="top" width="50%">
-
-#### <img src="https://img.shields.io/badge/AI_%2F_ML_%26_Models-A855F7?style=flat-square&labelColor=0D1117"/>
-
-<img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn,opencv&perline=8"/>
-<br/>
-<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white"/>
-<img src="https://img.shields.io/badge/Claude_API-D97706?style=flat-square&logo=anthropic&logoColor=white"/>
-<img src="https://img.shields.io/badge/Gemini_API-8E44AD?style=flat-square&logo=google&logoColor=white"/>
-<img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white"/>
-<img src="https://img.shields.io/badge/Vercel_AI_SDK-000000?style=flat-square&logo=vercel&logoColor=white"/>
-<img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black"/>
-<img src="https://img.shields.io/badge/Pinecone-000000?style=flat-square&logo=pinecone&logoColor=white"/>
-
-#### <img src="https://img.shields.io/badge/DevOps_%26_Cloud-22D3EE?style=flat-square&labelColor=0D1117"/>
-
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,gcp,vercel,githubactions,nginx&perline=8"/>
-
-#### <img src="https://img.shields.io/badge/Developer_Tooling-F472B6?style=flat-square&labelColor=0D1117"/>
-
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,linux,vim,notion&perline=8"/>
-
-#### <img src="https://img.shields.io/badge/Design_Systems-7B2CBF?style=flat-square&labelColor=0D1117"/>
-
-<img src="https://skillicons.dev/icons?i=figma,ae,ps&perline=8"/>
-
-</td>
-</tr>
-</table>
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- CHECKPOINT 05 · MISSION CONSOLE (CUSTOM ANIMATED TERMINAL SVG)      -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-
-## `CHECKPOINT 05` · Missions in Flight `// > ./ship`
-
+<!-- Mission 02: Polaris Animated Showcase Card -->
 <p align="center">
-  <img src="./assets/mission-console.svg" alt="Mission Console — animated terminal boot sequence with scrolling logs" width="100%"/>
+  <a href="https://github.com/SazWhatician/Polaris">
+    <img src="./assets/polaris-card.svg" alt="Polaris — The Cognitive Research Canvas" width="100%"/>
+  </a>
 </p>
 
 <br/>
 
-<div align="center">
-
-<table>
-<tr>
-<td width="33%" align="center" valign="top">
-
-<img src="https://img.shields.io/badge/MISSION-01-D4AF37?style=for-the-badge&labelColor=0D1117"/>
-
-<br/><br/>
-
-**Dr.Debug**
-
-<sub><i>the debugger that debugs itself</i></sub>
-
-<br/>
-
-<sub>Traces runtime errors, reads static telemetry,<br/>writes the root-cause note, opens the PR.</sub>
-
-<br/>
-
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-<img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-<img src="https://img.shields.io/badge/Claude-D97706?style=flat-square&logo=anthropic&logoColor=white"/>
-
-</td>
-<td width="33%" align="center" valign="top">
-
-<img src="https://img.shields.io/badge/MISSION-02-A855F7?style=for-the-badge&labelColor=0D1117"/>
-
-<br/><br/>
-
-**Polaris**
-
-<sub><i>research canvas that reads like paper</i></sub>
-
-<br/>
-
-<sub>Grounded answers with citations,<br/>quiet typography, a chat that thinks.</sub>
-
-<br/>
-
-<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
-<img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square"/>
-<img src="https://img.shields.io/badge/Gemini-8E44AD?style=flat-square&logo=google&logoColor=white"/>
-
-</td>
-<td width="33%" align="center" valign="top">
-
-<img src="https://img.shields.io/badge/MISSION-03-22D3EE?style=for-the-badge&labelColor=0D1117"/>
-
-<br/><br/>
-
-**Polarassist**
-
-<sub><i>the copilot that stays quiet</i></sub>
-
-<br/>
-
-<sub>Context-aware, vector-grounded, opinionated.<br/>Fewer suggestions — better ones.</sub>
-
-<br/>
-
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-<img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white"/>
-<img src="https://img.shields.io/badge/Claude-D97706?style=flat-square&logo=anthropic&logoColor=white"/>
-
-</td>
-</tr>
-</table>
-
-</div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+<!-- Mission 03: MedScan AI Animated Showcase Card -->
+<p align="center">
+  <a href="https://github.com/SazWhatician/MedScan-AI">
+    <img src="./assets/medscan-card.svg" alt="MedScan AI — Vision Models for the Clinic" width="100%"/>
+  </a>
+</p>
 
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- CHECKPOINT 06 · CONTRIBUTION GRID RUNNER                           -->
+<!-- 04 / CHRONICLE · CONTRIBUTION GRID SNAKE RUNNER                     -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## `CHECKPOINT 06` · The Garden `// > git diff --snake-eater`
+## `04` · Chronicle
 
 <div align="center">
   <picture>
@@ -398,15 +212,13 @@ const saswat = {
   </picture>
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
-
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- CHECKPOINT 07 · FEATURED REPOSITORIES & FLAGSHIP BUILDS             -->
+<!-- 05 / ARCHIVE · FEATURED REPOSITORIES & FLAGSHIP BUILDS             -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## `CHECKPOINT 07` · Flagship Builds `// > ls projects/ --starred`
+## `05` · Archive
 
 <div align="center">
 
@@ -421,7 +233,7 @@ const saswat = {
 <br/><br/>
 
 <a href="https://github.com/SazWhatician/Polaris">
-  <img src="https://img.shields.io/github/stars/SazWhatician/Polaris?style=flat-square&logo=github&color=A855F7&labelColor=0D1117"/>
+  <img src="https://img.shields.io/github/stars/SazWhatician/Polaris?style=flat-square&logo=github&color=74825C&labelColor=16040B"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
   <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
   <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square"/>
@@ -437,7 +249,7 @@ const saswat = {
 <br/><br/>
 
 <a href="https://github.com/SazWhatician/MedScan-AI">
-  <img src="https://img.shields.io/github/stars/SazWhatician/MedScan-AI?style=flat-square&logo=github&color=22D3EE&labelColor=0D1117"/>
+  <img src="https://img.shields.io/github/stars/SazWhatician/MedScan-AI?style=flat-square&logo=github&color=9E2D4C&labelColor=16040B"/>
   <img src="https://img.shields.io/badge/AI_Vision-8E44AD?style=flat-square&logo=google&logoColor=white"/>
   <img src="https://img.shields.io/badge/Deep_Learning-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
   <img src="https://img.shields.io/badge/Medical_AI-009688?style=flat-square"/>
@@ -456,10 +268,10 @@ const saswat = {
 <br/><br/>
 
 <a href="https://github.com/SazWhatician/Dr.Debug">
-  <img src="https://img.shields.io/github/stars/SazWhatician/Dr.Debug?style=flat-square&logo=github&color=F472B6&labelColor=0D1117"/>
+  <img src="https://img.shields.io/github/stars/SazWhatician/Dr.Debug?style=flat-square&logo=github&color=74825C&labelColor=16040B"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Agent_RCA-7B2CBF?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Agent_RCA-9E2D4C?style=flat-square"/>
 </a>
 
 </td>
@@ -472,10 +284,10 @@ const saswat = {
 <br/><br/>
 
 <a href="https://github.com/SazWhatician/Polarassist">
-  <img src="https://img.shields.io/github/stars/SazWhatician/Polarassist?style=flat-square&logo=github&color=A855F7&labelColor=0D1117"/>
+  <img src="https://img.shields.io/github/stars/SazWhatician/Polarassist?style=flat-square&logo=github&color=9E2D4C&labelColor=16040B"/>
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
   <img src="https://img.shields.io/badge/AI_Copilot-0A66C2?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Vector_RAG-22D3EE?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Vector_RAG-74825C?style=flat-square"/>
 </a>
 
 </td>
@@ -491,10 +303,10 @@ const saswat = {
 <br/><br/>
 
 <a href="https://github.com/SazWhatician/ENIGMA-WEBSITE">
-  <img src="https://img.shields.io/github/stars/SazWhatician/ENIGMA-WEBSITE?style=flat-square&logo=github&color=22D3EE&labelColor=0D1117"/>
+  <img src="https://img.shields.io/github/stars/SazWhatician/ENIGMA-WEBSITE?style=flat-square&logo=github&color=74825C&labelColor=16040B"/>
   <img src="https://img.shields.io/badge/Interactive_UI-E34F26?style=flat-square&logo=html5&logoColor=white"/>
   <img src="https://img.shields.io/badge/GSAP_Motion-88CE02?style=flat-square&logo=greensock&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Fluid_UX-7B2CBF?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Fluid_UX-9E2D4C?style=flat-square"/>
 </a>
 
 </td>
@@ -507,7 +319,7 @@ const saswat = {
 <br/><br/>
 
 <a href="https://github.com/SazWhatician/PNUE-RECOG">
-  <img src="https://img.shields.io/github/stars/SazWhatician/PNUE-RECOG?style=flat-square&logo=github&color=F472B6&labelColor=0D1117"/>
+  <img src="https://img.shields.io/github/stars/SazWhatician/PNUE-RECOG?style=flat-square&logo=github&color=9E2D4C&labelColor=16040B"/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
   <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white"/>
@@ -519,16 +331,14 @@ const saswat = {
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
-
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- CHECKPOINT 08 · COMPETITIVE ARENA                                   -->
+<!-- 06 / ARENA · COMPETITIVE ALGORITHMS                                -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <details open>
-<summary><h2 style="display:inline"><code>CHECKPOINT 08</code> · The Arena &nbsp;<code>// > cat leetcode.log</code></h2></summary>
+<summary><h2 style="display:inline"><code>06</code> · Arena</h2></summary>
 
 <br/>
 
@@ -545,26 +355,22 @@ const saswat = {
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- CHECKPOINT 09 · PHILOSOPHY                                          -->
+<!-- 07 / ETHOS · PHILOSOPHY & MANIFESTO                                -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## `CHECKPOINT 09` · The Ethos `// > cat philosophy.txt`
+## `07` · Ethos
 
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="82%"/>
-</div>
+<p align="center">
+  <img src="./assets/ethos-card.svg" alt="The Engineering Manifesto &amp; Ethos — Saswat Mohanty" width="100%"/>
+</p>
 
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- CHECKPOINT 10 · NEURAL COMM LINK (CUSTOM ANIMATED NETWORK SVG)      -->
+<!-- 08 / INQUIRIES · CHANNELS & SPONSORSHIP                            -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## `CHECKPOINT 10` · The Comm Link `// > ping --open`
-
-<p align="center">
-  <img src="./assets/neural-connect.svg" alt="The Comm Link — signals crossing five channels" width="100%"/>
-</p>
+## `08` · Inquiries
 
 <div align="center">
 
@@ -609,22 +415,20 @@ const saswat = {
   <img src="https://img.shields.io/badge/Buy_Me_a_Coffee-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black"/>
 </a>
 <a href="https://github.com/sponsors/SazWhatician">
-  <img src="https://img.shields.io/badge/Sponsor_on_GitHub-EA4AAA?style=for-the-badge&logo=github-sponsors&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Sponsor_on_GitHub-9E2D4C?style=for-the-badge&logo=github-sponsors&logoColor=white"/>
 </a>
 
 </div>
 
 <br/>
 
-<!-- ╭──────── FOOTER WAVE ANIMATION ────────╮ -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:F472B6,25:22D3EE,55:A855F7,80:7B2CBF,100:0D1117&height=180&section=footer&text=Engineered%20for%20Scale%20%C2%B7%20Thanks%20for%20Visiting&fontSize=26&fontColor=FFFFFF&fontAlign=50&fontAlignY=72&animation=twinkling" width="100%"/>
-
+<!-- ╭──────── FOOTER SIGN-OFF ────────╮ -->
 <div align="center">
   <sub>
-    Drafted in serif, shipped in mono, signed by
+    Designed in serif, shipped in mono, signed by
     <a href="https://github.com/SazWhatician"><b>Saswat Mohanty</b></a>
     &nbsp;·&nbsp; <i>measure twice · ship once · then watch the logs</i>
     <br/>
-    <sup>v7.1 · maison · six hand-animated SVG cards · rendered live on github</sup>
+    <sup>edition mmxxiv · bespoke animated luxury cards · rendered live on github</sup>
   </sub>
 </div>
