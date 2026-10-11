@@ -43,15 +43,12 @@
       </feMerge>
     </filter>
 
-    <!-- Precise LOCAL Clip Paths (inside Card coordinate space) -->
-    <!-- Left Card: All-Time Contributions (506) -->
-    <clipPath id="clipCommitC1"><rect x="36" y="96" width="56" height="82"/></clipPath>
-    <clipPath id="clipCommitC2"><rect x="94" y="96" width="56" height="82"/></clipPath>
-    <clipPath id="clipCommitC3"><rect x="152" y="96" width="56" height="82"/></clipPath>
-
-    <!-- Right Card: Public Repos (31) -->
-    <clipPath id="clipRepoR1"><rect x="36" y="96" width="56" height="82"/></clipPath>
-    <clipPath id="clipRepoR2"><rect x="94" y="96" width="56" height="82"/></clipPath>
+    <!-- Dynamic LOCAL Clip Paths -->
+    <clipPath id="clip_CommitC1"><rect x="36" y="96" width="54" height="82"/></clipPath>
+    <clipPath id="clip_CommitC2"><rect x="94" y="96" width="54" height="82"/></clipPath>
+    <clipPath id="clip_CommitC3"><rect x="152" y="96" width="54" height="82"/></clipPath>
+    <clipPath id="clip_RepoR1"><rect x="36" y="96" width="54" height="82"/></clipPath>
+    <clipPath id="clip_RepoR2"><rect x="94" y="96" width="54" height="82"/></clipPath>
   </defs>
 
   <style>
@@ -102,13 +99,6 @@
       font-weight: 400;
       font-style: italic;
     }
-    .serif-brand {
-      font-family: "Instrument Serif", Georgia, serif;
-    }
-    .cursive-brand {
-      font-family: "Instrument Serif", Georgia, serif;
-      font-style: italic;
-    }
 
 
     .reel {
@@ -116,21 +106,16 @@
       animation-fill-mode: forwards;
       animation-iteration-count: 1;
     }
-    /* Digit line height = 80px */
-    /* 506: C1 rolls to 5 (-400px), C2 rolls to 0 (-800px), C3 rolls to 6 (-480px) */
-    .roll-c100 { animation-name: kfC100; animation-duration: 2.2s; animation-delay: 0.1s; }
-    .roll-c010 { animation-name: kfC010; animation-duration: 2.5s; animation-delay: 0.2s; }
-    .roll-c001 { animation-name: kfC001; animation-duration: 2.8s; animation-delay: 0.15s; }
-
-    .roll-r10  { animation-name: kfR10;  animation-duration: 2.0s; animation-delay: 0.25s; }
-    .roll-r01  { animation-name: kfR01;  animation-duration: 2.4s; animation-delay: 0.3s; }
-
-    @keyframes kfC100 { from { transform: translateY(0); } to { transform: translateY(-400px); } }
-    @keyframes kfC010 { from { transform: translateY(0); } to { transform: translateY(-800px); } }
-    @keyframes kfC001 { from { transform: translateY(0); } to { transform: translateY(-480px); } }
-
-    @keyframes kfR10  { from { transform: translateY(0); } to { transform: translateY(-240px); } }
-    @keyframes kfR01  { from { transform: translateY(0); } to { transform: translateY(-80px); } }
+    .roll_CommitC1 { animation-name: kf_CommitC1; animation-duration: 2.0s; animation-delay: 0.10s; }
+    @keyframes kf_CommitC1 { from { transform: translateY(0); } to { transform: translateY(-400px); } }
+    .roll_CommitC2 { animation-name: kf_CommitC2; animation-duration: 2.3s; animation-delay: 0.18s; }
+    @keyframes kf_CommitC2 { from { transform: translateY(0); } to { transform: translateY(-560px); } }
+    .roll_CommitC3 { animation-name: kf_CommitC3; animation-duration: 2.6s; animation-delay: 0.26s; }
+    @keyframes kf_CommitC3 { from { transform: translateY(0); } to { transform: translateY(-320px); } }
+    .roll_RepoR1 { animation-name: kf_RepoR1; animation-duration: 2.0s; animation-delay: 0.10s; }
+    @keyframes kf_RepoR1 { from { transform: translateY(0); } to { transform: translateY(-240px); } }
+    .roll_RepoR2 { animation-name: kf_RepoR2; animation-duration: 2.3s; animation-delay: 0.18s; }
+    @keyframes kf_RepoR2 { from { transform: translateY(0); } to { transform: translateY(-400px); } }
 
     .bar-grow {
       transform-origin: left center;
@@ -152,7 +137,7 @@
   <text x="952" y="50" text-anchor="end" class="host-grotesk" font-size="12" font-weight="600" fill="#8E9F70" letter-spacing="2.5">VERIFIED ALL-TIME RECORDS · @SazWhatician</text>
   <line x1="48" y1="62" x2="952" y2="62" stroke="url(#cntGold)" stroke-width="0.6"/>
 
-  <!-- LEFT CARD: ALL-TIME CONTRIBUTIONS (506+) · Position at X=48, Y=78, Width=438, Height=238 -->
+  <!-- LEFT CARD: ALL-TIME CONTRIBUTIONS · Position at X=48, Y=78, Width=438, Height=238 -->
   <g transform="translate(48, 78)">
     <rect width="438" height="238" rx="20" fill="url(#cntCard)" stroke="#74825C" stroke-width="0.8" opacity="0.95"/>
     <rect x="6" y="6" width="426" height="226" rx="16" fill="none" stroke="#D8C5B2" stroke-width="0.4" opacity="0.35"/>
@@ -171,50 +156,43 @@
       <text x="44" y="21" class="instrument-serif-regular-italic" font-size="16" fill="#EADBCE" letter-spacing="2">ALL-TIME CONTRIBUTIONS</text>
     </g>
 
-    <!-- DIGIT 1 (Hundreds -> 5) centered in clip box x=36..92, center=64 -->
-    <g clip-path="url(#clipCommitC1)">
-      <g class="reel roll-c100 instrument-serif-regular" font-size="78" font-weight="700" fill="url(#cntNumeral)" text-anchor="middle">
-        <text x="64" y="166">0</text>
-        <text x="64" y="246">1</text>
-        <text x="64" y="326">2</text>
-        <text x="64" y="406">3</text>
-        <text x="64" y="486">4</text>
-        <text x="64" y="566">5</text>
+    <!-- DIGIT 1 (5) centered at x=63 -->
+    <g clip-path="url(#clip_CommitC1)">
+      <g class="reel roll_CommitC1 instrument-serif-regular" font-size="78" font-weight="700" fill="url(#cntNumeral)" text-anchor="middle">
+        <text x="63" y="166">0</text>
+        <text x="63" y="246">1</text>
+        <text x="63" y="326">2</text>
+        <text x="63" y="406">3</text>
+        <text x="63" y="486">4</text>
+        <text x="63" y="566">5</text>
+      </g>
+    </g>
+    <!-- DIGIT 2 (7) centered at x=121 -->
+    <g clip-path="url(#clip_CommitC2)">
+      <g class="reel roll_CommitC2 instrument-serif-regular" font-size="78" font-weight="700" fill="url(#cntNumeral)" text-anchor="middle">
+        <text x="121" y="166">0</text>
+        <text x="121" y="246">1</text>
+        <text x="121" y="326">2</text>
+        <text x="121" y="406">3</text>
+        <text x="121" y="486">4</text>
+        <text x="121" y="566">5</text>
+        <text x="121" y="646">6</text>
+        <text x="121" y="726">7</text>
+      </g>
+    </g>
+    <!-- DIGIT 3 (4) centered at x=179 -->
+    <g clip-path="url(#clip_CommitC3)">
+      <g class="reel roll_CommitC3 instrument-serif-regular" font-size="78" font-weight="700" fill="url(#cntNumeral)" text-anchor="middle">
+        <text x="179" y="166">0</text>
+        <text x="179" y="246">1</text>
+        <text x="179" y="326">2</text>
+        <text x="179" y="406">3</text>
+        <text x="179" y="486">4</text>
       </g>
     </g>
 
-    <!-- DIGIT 2 (Tens -> 0) centered in clip box x=94..150, center=122 -->
-    <g clip-path="url(#clipCommitC2)">
-      <g class="reel roll-c010 instrument-serif-regular" font-size="78" font-weight="700" fill="url(#cntNumeral)" text-anchor="middle">
-        <text x="122" y="166">9</text>
-        <text x="122" y="246">8</text>
-        <text x="122" y="326">7</text>
-        <text x="122" y="406">6</text>
-        <text x="122" y="486">5</text>
-        <text x="122" y="566">4</text>
-        <text x="122" y="646">3</text>
-        <text x="122" y="726">2</text>
-        <text x="122" y="806">1</text>
-        <text x="122" y="886">0</text>
-        <text x="122" y="966">0</text>
-      </g>
-    </g>
-
-    <!-- DIGIT 3 (Ones -> 6) centered in clip box x=152..208, center=180 -->
-    <g clip-path="url(#clipCommitC3)">
-      <g class="reel roll-c001 instrument-serif-regular" font-size="78" font-weight="700" fill="url(#cntNumeral)" text-anchor="middle">
-        <text x="180" y="166">0</text>
-        <text x="180" y="246">1</text>
-        <text x="180" y="326">2</text>
-        <text x="180" y="406">3</text>
-        <text x="180" y="486">4</text>
-        <text x="180" y="566">5</text>
-        <text x="180" y="646">6</text>
-      </g>
-    </g>
-
-    <!-- Plus Sign Badge: perfectly positioned next to digits -->
-    <text x="216" y="148" class="instrument-serif-regular-italic" font-weight="700" font-size="44" fill="#8E9F70">+</text>
+    <!-- Plus Sign Badge: positioned next to digits -->
+    <text x="214" y="148" class="instrument-serif-regular-italic" font-weight="700" font-size="44" fill="#8E9F70">+</text>
 
     <!-- Metric Pill on the right -->
     <g transform="translate(280, 126)">
@@ -225,14 +203,14 @@
       <text x="72" y="4" text-anchor="middle" class="host-grotesk" font-size="10.5" font-weight="600" fill="#EADBCE">ALL-TIME CRAFT</text>
     </g>
 
-    <!-- Hairline progress bar & footer (symmetrically padded at 28px) -->
+    <!-- Hairline progress bar & footer -->
     <rect x="28" y="194" width="382" height="2" rx="1" fill="#260b19"/>
     <rect class="bar-grow" x="28" y="194" width="382" height="2" rx="1" fill="url(#cntGold)"/>
     <text x="28" y="216" class="host-grotesk" font-size="11.5" fill="#8E9F70">Cumulative commits, pull requests &amp; code reviews</text>
-    <text x="410" y="216" text-anchor="end" class="host-grotesk" font-size="11.5" font-weight="600" fill="#D8C5B2">506+ Logged</text>
+    <text x="410" y="216" text-anchor="end" class="host-grotesk" font-size="11.5" font-weight="600" fill="#D8C5B2">574+ Logged</text>
   </g>
 
-  <!-- RIGHT CARD: REPOSITORIES (31) · Position at X=514, Y=78, Width=438, Height=238 -->
+  <!-- RIGHT CARD: REPOSITORIES · Position at X=514, Y=78, Width=438, Height=238 -->
   <g transform="translate(514, 78)">
     <rect width="438" height="238" rx="20" fill="url(#cntCard)" stroke="#74825C" stroke-width="0.8" opacity="0.95"/>
     <rect x="6" y="6" width="426" height="226" rx="16" fill="none" stroke="#D8C5B2" stroke-width="0.4" opacity="0.35"/>
@@ -250,21 +228,24 @@
       <text x="44" y="21" class="instrument-serif-regular-italic" font-size="16" fill="#EADBCE" letter-spacing="2">PUBLIC REPOSITORIES</text>
     </g>
 
-    <!-- DIGIT 1 (Tens -> 3) centered in clip box x=36..92, center=64 -->
-    <g clip-path="url(#clipRepoR1)">
-      <g class="reel roll-r10 instrument-serif-regular" font-size="78" font-weight="700" fill="url(#cntNumeral)" text-anchor="middle">
-        <text x="64" y="166">0</text>
-        <text x="64" y="246">1</text>
-        <text x="64" y="326">2</text>
-        <text x="64" y="406">3</text>
+    <!-- DIGIT 1 (3) centered at x=63 -->
+    <g clip-path="url(#clip_RepoR1)">
+      <g class="reel roll_RepoR1 instrument-serif-regular" font-size="78" font-weight="700" fill="url(#cntNumeral)" text-anchor="middle">
+        <text x="63" y="166">0</text>
+        <text x="63" y="246">1</text>
+        <text x="63" y="326">2</text>
+        <text x="63" y="406">3</text>
       </g>
     </g>
-
-    <!-- DIGIT 2 (Ones -> 1) centered in clip box x=94..150, center=122 -->
-    <g clip-path="url(#clipRepoR2)">
-      <g class="reel roll-r01 instrument-serif-regular" font-size="78" font-weight="700" fill="url(#cntNumeral)" text-anchor="middle">
-        <text x="122" y="166">0</text>
-        <text x="122" y="246">1</text>
+    <!-- DIGIT 2 (5) centered at x=121 -->
+    <g clip-path="url(#clip_RepoR2)">
+      <g class="reel roll_RepoR2 instrument-serif-regular" font-size="78" font-weight="700" fill="url(#cntNumeral)" text-anchor="middle">
+        <text x="121" y="166">0</text>
+        <text x="121" y="246">1</text>
+        <text x="121" y="326">2</text>
+        <text x="121" y="406">3</text>
+        <text x="121" y="486">4</text>
+        <text x="121" y="566">5</text>
       </g>
     </g>
 
@@ -277,10 +258,10 @@
       <text x="82" y="4" text-anchor="middle" class="host-grotesk" font-size="10.5" font-weight="600" fill="#EADBCE">FLAGSHIP BUILDS</text>
     </g>
 
-    <!-- Hairline progress bar & footer (symmetrically padded at 28px) -->
+    <!-- Hairline progress bar & footer -->
     <rect x="28" y="194" width="382" height="2" rx="1" fill="#260b19"/>
     <rect class="bar-grow" x="28" y="194" width="382" height="2" rx="1" fill="url(#cntOlive)" style="animation-delay: 0.2s;"/>
     <text x="28" y="216" class="host-grotesk" font-size="11.5" fill="#8E9F70">AI agents, vision models, &amp; motion canvases</text>
-    <text x="410" y="216" text-anchor="end" class="host-grotesk" font-size="11.5" font-weight="600" fill="#D8C5B2">31 Active Builds</text>
+    <text x="410" y="216" text-anchor="end" class="host-grotesk" font-size="11.5" font-weight="600" fill="#D8C5B2">35 Active Builds</text>
   </g>
 </svg>
