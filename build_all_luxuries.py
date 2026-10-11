@@ -100,6 +100,27 @@ def make_cell(x, y, w, h, icon_col, title, desc1, desc2, stroke_col="#74825C", f
         {desc2_markup}
       </g>'''
 
+def make_compact_cell(x, y, w, h, icon_col, title, desc1, desc2="", stroke_col="#74825C", fill_col="#1b0813"):
+    max_w = w - 28 - 10
+    check_string(title, max_w, font_host_semibold12)
+    check_string(desc1, max_w, font_host_regular11)
+    if desc2:
+        check_string(desc2, max_w, font_host_regular11)
+    
+    t_xml = title.replace("&", "&amp;")
+    d1_xml = desc1.replace("&", "&amp;")
+    d2_xml = desc2.replace("&", "&amp;") if desc2 else ""
+
+    desc2_markup = f'<text x="28" y="47" class="host-grotesk" font-size="9.5" fill="#8E9F70">{d2_xml}</text>' if desc2 else ''
+
+    return f'''<g transform="translate({x}, {y})">
+        <rect width="{w}" height="{h}" rx="12" fill="{fill_col}" stroke="{stroke_col}" stroke-width="0.7"/>
+        <circle cx="16" cy="18" r="2.8" fill="{icon_col}"/>
+        <text x="28" y="20" class="host-grotesk" font-weight="600" font-size="11" fill="#F6F0E6" letter-spacing="0.5">{t_xml}</text>
+        <text x="28" y="34" class="host-grotesk" font-size="9.5" fill="#D8C5B2">{d1_xml}</text>
+        {desc2_markup}
+      </g>'''
+
 def build_hero_banner():
     b64_damnn = get_b64("assets/damnn-opt.png")
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="100%" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Saswat Mohanty — Where Classical Intellect Meets Autonomous Systems">
