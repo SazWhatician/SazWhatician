@@ -199,146 +199,11 @@ const saswat = {
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- 04 / CHRONICLE · CONTRIBUTION GRID SNAKE RUNNER                     -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-
-## `04` · Chronicle
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/SazWhatician/SazWhatician/output/github-contribution-grid-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SazWhatician/SazWhatician/output/github-contribution-grid-snake.svg"/>
-    <img alt="github-snake" src="https://raw.githubusercontent.com/SazWhatician/SazWhatician/output/github-contribution-grid-snake.svg" width="100%"/>
-  </picture>
-</div>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- 05 / ARCHIVE · FEATURED REPOSITORIES & FLAGSHIP BUILDS             -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-
-## `05` · Archive
-
-<div align="center">
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🌌 [`Polaris`](https://github.com/SazWhatician/Polaris)
-<sub>***a research canvas that reads like paper***</sub><br/>
-<sub>Grounded answers with citations, quiet typography, and a chat that thinks before it speaks.</sub>
-
-<br/><br/>
-
-<a href="https://github.com/SazWhatician/Polaris">
-  <img src="https://img.shields.io/github/stars/SazWhatician/Polaris?style=flat-square&logo=github&color=74825C&labelColor=16040B"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square"/>
-</a>
-
-</td>
-<td width="50%" valign="top">
-
-### 🔬 [`MedScan-AI`](https://github.com/SazWhatician/MedScan-AI)
-<sub>***vision models for the clinic***</sub><br/>
-<sub>Reading scans for lesions, mapping heat, second-opinion signal for doctors — a careful reader of pixels.</sub>
-
-<br/><br/>
-
-<a href="https://github.com/SazWhatician/MedScan-AI">
-  <img src="https://img.shields.io/github/stars/SazWhatician/MedScan-AI?style=flat-square&logo=github&color=9E2D4C&labelColor=16040B"/>
-  <img src="https://img.shields.io/badge/AI_Vision-8E44AD?style=flat-square&logo=google&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Deep_Learning-FF6F00?style=flat-square&logo=tensorflow&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Medical_AI-009688?style=flat-square"/>
-</a>
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### 🩺 [`Dr.Debug`](https://github.com/SazWhatician/Dr.Debug)
-<sub>***the debugger that debugs itself***</sub><br/>
-<sub>Traces the error, reads the codebase, writes the root cause, opens the pull request. Then sleeps.</sub>
-
-<br/><br/>
-
-<a href="https://github.com/SazWhatician/Dr.Debug">
-  <img src="https://img.shields.io/github/stars/SazWhatician/Dr.Debug?style=flat-square&logo=github&color=74825C&labelColor=16040B"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Agent_RCA-9E2D4C?style=flat-square"/>
-</a>
-
-</td>
-<td width="50%" valign="top">
-
-### 🛰️ [`Polarassist`](https://github.com/SazWhatician/Polarassist)
-<sub>***the copilot that stays quiet***</sub><br/>
-<sub>Context-aware, vector-grounded, opinionated. Waits for the question. Answers in one line if it can.</sub>
-
-<br/><br/>
-
-<a href="https://github.com/SazWhatician/Polarassist">
-  <img src="https://img.shields.io/github/stars/SazWhatician/Polarassist?style=flat-square&logo=github&color=9E2D4C&labelColor=16040B"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AI_Copilot-0A66C2?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Vector_RAG-74825C?style=flat-square"/>
-</a>
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
-### ⚡ [`ENIGMA-WEBSITE`](https://github.com/SazWhatician/ENIGMA-WEBSITE)
-<sub>***a symposium as a moving painting***</sub><br/>
-<sub>Choreographed transitions, careful typography, registration that feels like a good invitation card.</sub>
-
-<br/><br/>
-
-<a href="https://github.com/SazWhatician/ENIGMA-WEBSITE">
-  <img src="https://img.shields.io/github/stars/SazWhatician/ENIGMA-WEBSITE?style=flat-square&logo=github&color=74825C&labelColor=16040B"/>
-  <img src="https://img.shields.io/badge/Interactive_UI-E34F26?style=flat-square&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GSAP_Motion-88CE02?style=flat-square&logo=greensock&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Fluid_UX-9E2D4C?style=flat-square"/>
-</a>
-
-</td>
-<td width="50%" valign="top">
-
-### 🫁 [`PNUE-RECOG`](https://github.com/SazWhatician/PNUE-RECOG)
-<sub>***a small model, a serious job***</sub><br/>
-<sub>Classifies chest scans with feature-map explanations so the model earns its trust one image at a time.</sub>
-
-<br/><br/>
-
-<a href="https://github.com/SazWhatician/PNUE-RECOG">
-  <img src="https://img.shields.io/github/stars/SazWhatician/PNUE-RECOG?style=flat-square&logo=github&color=9E2D4C&labelColor=16040B"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
-  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white"/>
-</a>
-
-</td>
-</tr>
-</table>
-
-</div>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- 06 / ARENA · COMPETITIVE ALGORITHMS                                -->
+<!-- 04 / ARENA · COMPETITIVE ALGORITHMS                                -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
 <details open>
-<summary><h2 style="display:inline"><code>06</code> · Arena</h2></summary>
+<summary><h2 style="display:inline"><code>04</code> · Arena</h2></summary>
 
 <br/>
 
@@ -355,22 +220,10 @@ const saswat = {
 <br/>
 
 <!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- 07 / ETHOS · PHILOSOPHY & MANIFESTO                                -->
+<!-- 05 / INQUIRIES · CHANNELS & SPONSORSHIP                            -->
 <!-- ═══════════════════════════════════════════════════════════════════ -->
 
-## `07` · Ethos
-
-<p align="center">
-  <img src="./assets/ethos-card.svg" alt="The Engineering Manifesto &amp; Ethos — Saswat Mohanty" width="100%"/>
-</p>
-
-<br/>
-
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-<!-- 08 / INQUIRIES · CHANNELS & SPONSORSHIP                            -->
-<!-- ═══════════════════════════════════════════════════════════════════ -->
-
-## `08` · Inquiries
+## `05` · Inquiries
 
 <div align="center">
 
