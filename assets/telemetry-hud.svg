@@ -111,7 +111,7 @@
     .roll_CommitC2 { animation-name: kf_CommitC2; animation-duration: 2.3s; animation-delay: 0.18s; }
     @keyframes kf_CommitC2 { from { transform: translateY(0); } to { transform: translateY(-640px); } }
     .roll_CommitC3 { animation-name: kf_CommitC3; animation-duration: 2.6s; animation-delay: 0.26s; }
-    @keyframes kf_CommitC3 { from { transform: translateY(0); } to { transform: translateY(-80px); } }
+    @keyframes kf_CommitC3 { from { transform: translateY(0); } to { transform: translateY(-640px); } }
     .roll_RepoR1 { animation-name: kf_RepoR1; animation-duration: 2.0s; animation-delay: 0.10s; }
     @keyframes kf_RepoR1 { from { transform: translateY(0); } to { transform: translateY(-240px); } }
     .roll_RepoR2 { animation-name: kf_RepoR2; animation-duration: 2.3s; animation-delay: 0.18s; }
@@ -181,11 +181,18 @@
         <text x="121" y="806">8</text>
       </g>
     </g>
-    <!-- DIGIT 3 (1) centered at x=179 -->
+    <!-- DIGIT 3 (8) centered at x=179 -->
     <g clip-path="url(#clip_CommitC3)">
       <g class="reel roll_CommitC3 instrument-serif-regular" font-size="78" font-weight="700" fill="url(#cntNumeral)" text-anchor="middle">
         <text x="179" y="166">0</text>
         <text x="179" y="246">1</text>
+        <text x="179" y="326">2</text>
+        <text x="179" y="406">3</text>
+        <text x="179" y="486">4</text>
+        <text x="179" y="566">5</text>
+        <text x="179" y="646">6</text>
+        <text x="179" y="726">7</text>
+        <text x="179" y="806">8</text>
       </g>
     </g>
 
@@ -205,7 +212,7 @@
     <rect x="28" y="194" width="382" height="2" rx="1" fill="#260b19"/>
     <rect class="bar-grow" x="28" y="194" width="382" height="2" rx="1" fill="url(#cntGold)"/>
     <text x="28" y="216" class="host-grotesk" font-size="11.5" fill="#8E9F70">Cumulative commits, pull requests &amp; code reviews</text>
-    <text x="410" y="216" text-anchor="end" class="host-grotesk" font-size="11.5" font-weight="600" fill="#D8C5B2">581+ Logged</text>
+    <text x="410" y="216" text-anchor="end" class="host-grotesk" font-size="11.5" font-weight="600" fill="#D8C5B2">588+ Logged</text>
   </g>
 
   <!-- RIGHT CARD: REPOSITORIES · Position at X=514, Y=78, Width=438, Height=238 -->
